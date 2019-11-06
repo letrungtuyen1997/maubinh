@@ -1,0 +1,4 @@
+#Tue Nov 05 16:33:20 ICT 2019
+base.0=/Users/dungle/Desktop/libgdx/maubinh/android/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex

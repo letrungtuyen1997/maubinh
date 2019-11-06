@@ -1,0 +1,89 @@
+
+ui.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+avtBot1
+  rotate: false
+  xy: 1284, 1529
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+avtBot2
+  rotate: false
+  xy: 1486, 1731
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+avtBot3
+  rotate: false
+  xy: 2, 2
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+avtBot4
+  rotate: false
+  xy: 154, 154
+  size: 108, 108
+  orig: 108, 108
+  offset: 0, 0
+  index: -1
+avtMe
+  rotate: false
+  xy: 2, 112
+  size: 150, 150
+  orig: 150, 150
+  offset: 0, 0
+  index: -1
+bg
+  rotate: false
+  xy: 2, 986
+  size: 1280, 853
+  orig: 1280, 853
+  offset: 0, 0
+  index: -1
+btnXepbai
+  rotate: false
+  xy: 1284, 1639
+  size: 200, 200
+  orig: 200, 200
+  offset: 0, 0
+  index: -1
+nameBot
+  rotate: false
+  xy: 264, 232
+  size: 120, 30
+  orig: 120, 30
+  offset: 0, 0
+  index: -1
+namePlayer
+  rotate: false
+  xy: 1596, 1802
+  size: 153, 37
+  orig: 153, 37
+  offset: 0, 0
+  index: -1
+table1
+  rotate: false
+  xy: 2, 264
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
+
+ui2.png
+size: 2048,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+table2
+  rotate: false
+  xy: 2, 2
+  size: 1280, 720
+  orig: 1280, 720
+  offset: 0, 0
+  index: -1
