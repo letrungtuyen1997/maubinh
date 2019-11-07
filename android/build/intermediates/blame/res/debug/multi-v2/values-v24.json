@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/dungle/Desktop/libgdx/maubinh/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "outputFile": "D:\\Documents_GameZen\\MauBinh\\Source\\maubinhv1\\maubinh\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6605ef18a56233bc40ee95bd549f3ac6/res/values-v24/values-v24.xml",
+                    "source": "C:\\Users\\duong\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\e58c64a7ed2285bb87cda987fff790df\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

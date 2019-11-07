@@ -104,6 +104,7 @@ public class BinhPlayer {
       Vector2 p = new Vector2(cardsPlayerSrc.get(index1).card.getX(),cardsPlayerSrc.get(index1).card.getY());
       swapCard(cardsPlayerSrc, cardsPlayerSrc.get(index1), cardsPlayerSrc.get(indexResult), p);
       swapCard(cardsPlayerDes, cardC, cardsPlayerDes.get(indexResult), p1);
+      checkBinh();
 
       return indexResult;
     }
@@ -171,6 +172,46 @@ public class BinhPlayer {
     for(Card card : cardsPlayerDes){
       card.card.setTouchable(touchable);
     }
+  }
+  void checkBinh(){
+
+    System.out.println("binh top");
+    for(int i = 0; i < 5; i++) {
+      System.out.println(" " + CheckCard.nameMap.get(BinhTop().get(i)));
+    }
+
+    //// binh top
+    int typetop =CheckCard.check5(BinhTop())>>13;
+    int typeMid =CheckCard.check5(BinhMid())>>13;
+    int typeLow =CheckCard.check3(BinhLow())>>13;
+    System.out.println("binh top: "+typetop);
+    System.out.println("binh Mid: "+typeMid);
+    System.out.println("binh Low: "+typeLow);
+
+
+
+  }
+  Array<Integer> BinhTop(){
+    Array<Integer> CardBinh= new Array<>();
+    for (int i=0;i<5;i++){
+      CardBinh.add(cardsPlayerSrc.get(i).Key);
+      System.out.println("okok: "+cardsPlayerSrc.get(i).Key);
+    }
+    return CardBinh;
+  }
+  Array<Integer> BinhMid(){
+    Array<Integer> CardBinh= new Array<>();
+    for (int i=5;i<10;i++){
+      CardBinh.add(cardsPlayerSrc.get(i).Key);
+    }
+    return CardBinh;
+  }
+  Array<Integer> BinhLow(){
+    Array<Integer> CardBinh= new Array<>();
+    for (int i=10;i<13;i++){
+      CardBinh.add(cardsPlayerSrc.get(i).Key);
+    }
+    return CardBinh;
   }
 
 }
