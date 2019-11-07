@@ -48,6 +48,7 @@ public class gamePlay extends GScreen {
         showBg();
         loadAvtPlayer();
         loadAvtBot();
+        //showbtnXepBai();
 
     }
     @Override
@@ -84,7 +85,7 @@ public class gamePlay extends GScreen {
             case 4: {
                 Vector2 position1 = new Vector2(GMain.screenWidth/2+100, GMain.screenHeight*3/4+100);
                 Vector2 position2 = new Vector2(170,GMain.screenHeight/2 +50);
-                Vector2 position3 = new Vector2(GMain.screenWidth/2-70,delta2-80);
+                Vector2 position3 = new Vector2(GMain.screenWidth/2-70,delta2-50);
                 Vector2 position4 = new Vector2(GMain.screenWidth- delta2+80, GMain.screenHeight/2-50);
                 positionCards.add(position1, position2, position3, position4);
                 break;
@@ -151,6 +152,31 @@ public class gamePlay extends GScreen {
             LabelNameBotArr.add(name);
 
         }
+    }
+    void showbtnXepBai(){
+        Image btnXepbai = GUI.createImage(atlas,"btnXepbai");
+        btnXepbai.setOrigin(Align.center);
+        btnXepbai.setPosition(GMain.screenWidth-100, GMain.screenHeight-100,Align.center);
+        group.addActor(btnXepbai);
+        btnXepbai.addListener(new ClickListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                btnXepbai.setTouchable(Touchable.disabled);
+                btnXepbai.addAction(Actions.sequence(
+                        Actions.scaleTo(0.8f,0.8f,0.1f),
+                        Actions.scaleTo(1f,1f,0.1f)
+                ));
+                Tweens.setTimeout(group,0.2f,()->{
+                    btnXepbai.setTouchable(Touchable.enabled);
+                    groupBoard.remove();
+                    groupBoard.clear();
+                    new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard);
+
+
+                });
+                return super.touchDown(event, x, y, pointer, button);
+            }
+        });
     }
 
     void initFont(){

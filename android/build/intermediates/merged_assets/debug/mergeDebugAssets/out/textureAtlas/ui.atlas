@@ -6,14 +6,14 @@ filter: Nearest,Nearest
 repeat: none
 avtBot1
   rotate: false
-  xy: 1284, 1529
+  xy: 1334, 1715
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot2
   rotate: false
-  xy: 1486, 1731
+  xy: 1635, 1831
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
@@ -41,45 +41,59 @@ avtMe
   index: -1
 bg
   rotate: false
-  xy: 2, 986
+  xy: 2, 264
   size: 1280, 853
   orig: 1280, 853
   offset: 0, 0
   index: -1
+bgStart
+  rotate: false
+  xy: 2, 1119
+  size: 1330, 820
+  orig: 1330, 820
+  offset: 0, 0
+  index: -1
+btnStart
+  rotate: false
+  xy: 1334, 1825
+  size: 299, 114
+  orig: 299, 114
+  offset: 0, 0
+  index: -1
 btnXepbai
   rotate: false
-  xy: 1284, 1639
-  size: 200, 200
-  orig: 200, 200
+  xy: 1334, 1613
+  size: 100, 100
+  orig: 100, 100
   offset: 0, 0
   index: -1
 nameBot
   rotate: false
-  xy: 264, 232
+  xy: 1745, 1909
   size: 120, 30
   orig: 120, 30
   offset: 0, 0
   index: -1
 namePlayer
   rotate: false
-  xy: 1596, 1802
+  xy: 1444, 1786
   size: 153, 37
   orig: 153, 37
   offset: 0, 0
   index: -1
+
+ui2.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
 table1
   rotate: false
-  xy: 2, 264
+  xy: 2, 724
   size: 1280, 720
   orig: 1280, 720
   offset: 0, 0
   index: -1
-
-ui2.png
-size: 2048,1024
-format: RGBA8888
-filter: Nearest,Nearest
-repeat: none
 table2
   rotate: false
   xy: 2, 2
