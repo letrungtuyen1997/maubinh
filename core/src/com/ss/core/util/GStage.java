@@ -175,6 +175,8 @@ public final class GStage {
       var4.end();
       return var2;
    }
+   public static float getWorldWidth(){return stage.getViewport().getWorldWidth();}
+   public static float getWorldHeight(){return stage.getViewport().getWorldHeight();}
 
    public static float getStageHeight() {
       return stage.getHeight();
@@ -238,7 +240,7 @@ public final class GStage {
       border = var4;
       batch = new SpriteBatch(3000, shader);
       Viewport viewport = new FitViewport(width, height);
-      //viewport = new ExtendViewport(width, height);
+      viewport = new ExtendViewport(width, height);
       //viewport = new View(width, height);
       stage = new Stage( viewport, batch);
       getCamera().setToOrtho(true, width, height);

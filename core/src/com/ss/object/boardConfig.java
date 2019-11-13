@@ -1,6 +1,8 @@
 package com.ss.object;
 
 
+import com.badlogic.gdx.scenes.scene2d.Group;
+
 public class boardConfig {
     public static int modePlay = 4;
     public static float durationDistrbute = 0.8f;
@@ -8,5 +10,6 @@ public class boardConfig {
     public static float widthCard= 169;
     public static long monneyStart= 0;
     public static String[] arrName =  {"Châu Tinh Trì","Tả Tụng Tinh","Ling Ling Chình","Tiểu Cường","Doãn Thiên Sầu","Châu Tinh Tinh"};
+    public static Group Group = new Group();
 }
 

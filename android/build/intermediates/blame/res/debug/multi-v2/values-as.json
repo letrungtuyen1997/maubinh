@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\Documents_GameZen\\MauBinh\\Source\\maubinhv1\\maubinh\\android\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-as\\values-as.xml",
+            "outputFile": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-as/values-as.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\duong\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-16.0.1.aar\\d8fba9c008b4987c9647b156753d3759\\res\\values-as\\values.xml",
+                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/d950489a1f9deeea92d949873212aa45/res/values-as/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\duong\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\e6cab3e361ee58286959b6e1ec7c7a7d\\res\\values-as\\values.xml",
+                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/246424ca1ca4534ef0e706f91c9e4075/res/values-as/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\duong\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-ads-17.1.1.aar\\2a208b4ef94f2b59a1c988891bbc3034\\res\\values-as\\values.xml",
+                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-ads-17.1.1.aar/a8bfe043be5587e194d02706af626af4/res/values-as/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10",
                         "startColumns": "0,0,0,0,0,0,0",

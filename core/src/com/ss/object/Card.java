@@ -15,6 +15,7 @@ import com.badlogic.gdx.utils.Align;
 import com.ss.GMain;
 import com.ss.commons.Tweens;
 import com.ss.core.action.exAction.GSimpleAction;
+import com.ss.core.util.GStage;
 import com.ss.core.util.GUI;
 
 public class Card {
@@ -34,7 +35,7 @@ public class Card {
         card.setWidth(card.getWidth()*0.7f);
         card.setHeight(card.getHeight()*0.7f);
         card.setOrigin(Align.center);
-        card.setPosition(GMain.screenWidth/2,GMain.screenHeight/2,Align.center);
+        card.setPosition(GStage.getWorldWidth()/2, GStage.getWorldHeight()/2,Align.center);
         this.group.addActor(card);
         //////// tileDown////////
         tileDown = GUI.createImage(cardAtlas,"tileDown1");
@@ -42,7 +43,7 @@ public class Card {
         tileDown.setHeight(tileDown.getHeight()*0.7f);
         tileDown.setOrigin(Align.center);
         tileDown.setAlign(Align.center);
-        tileDown.setPosition(GMain.screenWidth/2,GMain.screenHeight/2,Align.center);
+        tileDown.setPosition(GStage.getWorldWidth()/2,GStage.getWorldHeight()/2,Align.center);
         this.group.addActor(tileDown);
         //////// over lay ////////
         overlay = GUI.createImage(cardAtlas,"overLay");
@@ -50,7 +51,7 @@ public class Card {
         overlay.setHeight(overlay.getHeight()*0.7f);
         overlay.setOrigin(Align.center);
         overlay.setAlign(Align.center);
-        overlay.setPosition(GMain.screenWidth/2,GMain.screenHeight/2-2,Align.center);
+        overlay.setPosition(GStage.getWorldWidth()/2,GStage.getWorldHeight()/2-2,Align.center);
         this.group.addActor(overlay);
         overlay.setVisible(false);
     }

@@ -19,8 +19,8 @@ public class GMain
   public static final boolean isTest = false;
   public static GScreen mapEditorScreen;
   public static GMain me;
-  public static int screenHeight = 0;
-  public static int screenWidth = 0;
+  private static int screenHeight = 0;
+  private static int screenWidth = 0;
   public static int screenId = -1;
   public static GScreen shooterTestScreen;
   public static final int testType = 2;
@@ -52,7 +52,7 @@ public class GMain
     }
     else if ((b && n4 < 0.0f) || (!b && n4 > 0.0f)) {
       final float max = Math.max(800.0f, n / n4);
-      GMain.screenHeight = (int)(0.5f + max);
+      screenHeight = (int)(0.5f + max);
       n6 = max;
       n5 = 0.0f;
     }

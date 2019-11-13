@@ -1,36 +1,54 @@
 package com.ss.object;
 
+import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.math.Vector2;
 import com.badlogic.gdx.scenes.scene2d.Group;
+import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
+import com.badlogic.gdx.scenes.scene2d.ui.Image;
+import com.badlogic.gdx.scenes.scene2d.ui.Label;
+import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
+import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
 import com.ss.GMain;
+import com.ss.commons.Tweens;
+import com.ss.core.action.exAction.GSimpleAction;
 import com.ss.core.exSprite.GShapeSprite;
+import com.ss.core.util.GAssetsManager;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GStage;
+import com.ss.core.util.GUI;
 
 public class BinhPlayer {
-  private TextureAtlas cardAtlas;
-  private Group groupOverLay;
+  private TextureAtlas cardAtlas, uiAtlas;
+  private Group groupOverLay, groupLabel;
   private Array<Card> cardsPlayerSrc;
   private Array<Card> cardsPlayerDes;
   private float maxRange;
+  private BitmapFont font;
+  private Array<Array<Integer>> arrayBinh = new Array<>();
 
-  public BinhPlayer(TextureAtlas cardAtlas, Array<Card> cardsPlayer){
+  public BinhPlayer(TextureAtlas cardAtlas,TextureAtlas uiAtlas, Array<Card> cardsPlayer,Runnable runnable){
+    this.uiAtlas = uiAtlas;
     this.cardAtlas = cardAtlas;
     groupOverLay = new Group();
+    groupLabel = new Group();
     GStage.addToLayer(GLayer.top, groupOverLay);
+    GStage.addToLayer(GLayer.top, groupLabel);
     this.cardsPlayerSrc = cardsPlayer;
 
     float rX = (float)Math.pow(cardsPlayer.get(0).card.getWidth(),2);
     float rY = (float)Math.pow(cardsPlayer.get(0).card.getHeight(),2);
     maxRange = (float)Math.sqrt(rX + rY);
-
+    initFont();
     darkScreen();
     cloneCards();
+    checkBinh();
+    showBtnDone(runnable);
   }
 
   private void cloneCards(){
@@ -48,8 +66,8 @@ public class BinhPlayer {
   private void setPositionCards(){
     float paddingCardX = cardsPlayerDes.get(0).card.getWidth();
     float paddingCardY = cardsPlayerDes.get(0).card.getHeight() + 10;
-    float paddingX = GMain.screenWidth/2 - (2f*cardsPlayerDes.get(0).card.getWidth() + 20);
-    float paddingY = GMain.screenHeight/2 + (1.5f*cardsPlayerDes.get(0).card.getHeight() + 10);
+    float paddingX = GStage.getWorldWidth()/2 - (2f*cardsPlayerDes.get(0).card.getWidth() + 20);
+    float paddingY = GStage.getWorldHeight()/2 + (1.5f*cardsPlayerDes.get(0).card.getHeight() + 10);
     for (int i = 0; i<5;i++){
       cardsPlayerDes.get(i).setPosition(paddingX + (10 + paddingCardX)*i, paddingY - 0.5f*paddingCardY);
       cardsPlayerDes.get(i).setVisibleTiledown();
@@ -68,7 +86,7 @@ public class BinhPlayer {
 
   private void darkScreen(){
     final GShapeSprite blackOverlay = new GShapeSprite();
-    blackOverlay.createRectangle(true, -GMain.screenWidth/2,-GMain.screenHeight/2, GMain.screenWidth*2, GMain.screenHeight*2);
+    blackOverlay.createRectangle(true, -GStage.getWorldWidth()/2,-GStage.getWorldHeight()/2, GStage.getWorldWidth()*2, GStage.getWorldHeight()*2);
     blackOverlay.setColor(0,0,0,1f);
     groupOverLay.addActor(blackOverlay);
   }
@@ -104,6 +122,7 @@ public class BinhPlayer {
       Vector2 p = new Vector2(cardsPlayerSrc.get(index1).card.getX(),cardsPlayerSrc.get(index1).card.getY());
       swapCard(cardsPlayerSrc, cardsPlayerSrc.get(index1), cardsPlayerSrc.get(indexResult), p);
       swapCard(cardsPlayerDes, cardC, cardsPlayerDes.get(indexResult), p1);
+      groupLabel.clear();
       checkBinh();
 
       return indexResult;
@@ -147,25 +166,31 @@ public class BinhPlayer {
     int index1 = cards.indexOf(card1, true);
     int index2 = cards.indexOf(card2, true);
 
-    int indexEx1 = index1 < index2 ? 1 : 0;
-    Card cardTemp1 = cards.removeIndex(index1);
-    Card cardTemp2 = cards.removeIndex(index2 - indexEx1);
+    int zIndexTemp = card1.card.getZIndex();
+    int zIndexTemp1 = card1.tileDown.getZIndex();
 
-    int indexEx2 = index1 > cards.size ? 1 : 0;
-    cards.insert(index1 - indexEx2, cardTemp2);
-    cards.insert(index2, cardTemp1);
+    cards.swap(index1, index2);
+    setTouchCards(Touchable.disabled);
 
-    int zIndexTemp = cardTemp1.card.getZIndex();
-    cardTemp1.card.setZIndex(cardTemp2.card.getZIndex());
-    cardTemp2.card.setZIndex(zIndexTemp);
+    card1.tileDown.setPosition(card2.tileDown.getX(), card2.tileDown.getY());
+    card2.tileDown.setPosition(p1.x, p1.y);
+    card1.tileDown.setZIndex(card2.tileDown.getZIndex());
+    card2.tileDown.setZIndex(zIndexTemp1);
 
-    cardTemp1.card.addAction(Actions.sequence(
-      Actions.moveTo(cardTemp2.card.getX(),cardTemp2.card.getY(), 0.2f, Interpolation.fastSlow)
+    card1.card.addAction(Actions.sequence(
+      Actions.moveTo(card2.card.getX(), card2.card.getY(), 0.25f, Interpolation.fastSlow)
     ));
 
-    cardTemp2.card.addAction(Actions.sequence(
-      Actions.moveTo(p1.x, p1.y, 0.1f, Interpolation.fastSlow)
+    card2.card.addAction(Actions.sequence(
+      Actions.moveTo(p1.x, p1.y, 0.25f, Interpolation.fastSlow),
+      GSimpleAction.simpleAction((d, a)->{
+        setTouchCards(Touchable.enabled);
+        return true;
+      })
     ));
+
+    card1.card.setZIndex(card2.card.getZIndex());
+    card2.card.setZIndex(zIndexTemp);
   }
 
   public void setTouchCards(Touchable touchable){
@@ -174,28 +199,95 @@ public class BinhPlayer {
     }
   }
   void checkBinh(){
+    arrayBinh.clear();
+//    System.out.println("======binh top======");
+//    for(int i = 0; i < 5; i++) {
+//      System.out.print(" " + CheckCard.nameMap.get(BinhTop().get(i)));
+//    }
+//    System.out.println();
+//    System.out.println("======binh Mid========");
+//    for(int i = 0; i < 5; i++) {
+//      System.out.print(" " + CheckCard.nameMap.get(BinhMid().get(i)));
+//    }
+//    System.out.println();
+//    System.out.println("======binh Mid=========");
+//    for(int i = 0; i < 3; i++) {
+//      System.out.print(" " + CheckCard.nameMap.get(BinhLow().get(i)));
+//    }
+//    System.out.println();
 
-    System.out.println("binh top");
-    for(int i = 0; i < 5; i++) {
-      System.out.println(" " + CheckCard.nameMap.get(BinhTop().get(i)));
-    }
+
+
 
     //// binh top
-    int typetop =CheckCard.check5(BinhTop())>>13;
-    int typeMid =CheckCard.check5(BinhMid())>>13;
-    int typeLow =CheckCard.check3(BinhLow())>>13;
+    int typetop =CheckCard.check(BinhTop())>>13;
+    int typeMid =CheckCard.check(BinhMid())>>13;
+    int typeLow =CheckCard.check(BinhLow())>>13;
     System.out.println("binh top: "+typetop);
     System.out.println("binh Mid: "+typeMid);
     System.out.println("binh Low: "+typeLow);
 
+    Label binhTop = new Label(CheckType(typetop),new Label.LabelStyle(font, Color.SKY));
+    binhTop.setFontScale(0.8f);
+    binhTop.setPosition(50,500);
+    binhTop.setAlignment(Align.center);
+    groupLabel.addActor(binhTop);
+    Label binhMid= new Label(CheckType(typeMid),new Label.LabelStyle(font,Color.SKY));
+    binhMid.setFontScale(0.8f);
+    binhMid.setPosition(50,320);
+    binhMid.setAlignment(Align.center);
+    groupLabel.addActor(binhMid);
+    Label binhLow = new Label(CheckType(typeLow),new Label.LabelStyle(font,Color.SKY));
+    binhLow.setFontScale(0.8f);
+    binhLow.setPosition(50,150);
+    binhLow.setAlignment(Align.center);
+    groupLabel.addActor(binhLow);
 
+    /////////////
+    arrayBinh.add(BinhLow());
+    arrayBinh.add(BinhMid());
+    arrayBinh.add(BinhTop());
+    System.out.println("array binh: "+CheckCard.validate(arrayBinh));
 
   }
+  String CheckType(int type){
+    String name= "";
+    if(type==0) {
+      name = "mậu thầu";
+    }else if(type==1){
+      name = "đôi";
+    }else if(type==2){
+      name = "thú";
+
+    }else if(type==3){
+      name = "xám";
+
+    }else if(type==4){
+      name = "sảnh";
+
+    }else if(type==5){
+      name = "thùng";
+
+    }else if(type==6){
+      name = "cù lũ";
+
+    }else if(type==7){
+      name = "tứ quý";
+
+    }else if(type==8){
+      name = "lỗi";
+
+    }else if(type==9){
+      name = "thùng phá sảnh";
+
+    }
+    return name;
+  }
+
   Array<Integer> BinhTop(){
     Array<Integer> CardBinh= new Array<>();
     for (int i=0;i<5;i++){
       CardBinh.add(cardsPlayerSrc.get(i).Key);
-      System.out.println("okok: "+cardsPlayerSrc.get(i).Key);
     }
     return CardBinh;
   }
@@ -212,6 +304,37 @@ public class BinhPlayer {
       CardBinh.add(cardsPlayerSrc.get(i).Key);
     }
     return CardBinh;
+  }
+
+
+  void showBtnDone(Runnable runnable){
+    Image btnXong = GUI.createImage(uiAtlas,"btnXong");
+    btnXong.setOrigin(Align.center);
+    btnXong.setPosition(GStage.getWorldWidth()-100,GStage.getWorldHeight()-100,Align.center);
+    groupOverLay.addActor(btnXong);
+    btnXong.addListener(new ClickListener(){
+      @Override
+      public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+        btnXong.setTouchable(Touchable.disabled);
+          btnXong.addAction(Actions.sequence(
+                  Actions.scaleTo(0.8f,0.8f,0.1f),
+                  Actions.scaleTo(1f,1f,0.1f),
+                  GSimpleAction.simpleAction((d,a)->{
+                    groupLabel.clear();
+                    groupOverLay.clear();
+                    groupLabel.addAction(Actions.run(runnable));
+                    return true;
+                  })
+          ));
+        Tweens.setTimeout(groupLabel,0.2f,()->{
+
+        });
+        return super.touchDown(event, x, y, pointer, button);
+      }
+    });
+  }
+  void initFont(){
+    font = GAssetsManager.getBitmapFont("font_white.fnt");
   }
 
 }

@@ -19,6 +19,7 @@ import com.ss.core.util.GLayer;
 import com.ss.core.util.GScreen;
 import com.ss.core.util.GStage;
 import com.ss.core.util.GUI;
+import com.ss.object.PaticleSuper;
 import com.ss.object.boardConfig;
 import com.ss.object.boardGame;
 
@@ -28,10 +29,13 @@ public class gamePlay extends GScreen {
     Group group = new Group();
     Group groupAvt = new Group();
     Group groupBoard = new Group();
+    Group groupMonney = new Group();
     public Array<Vector2> positionCards;
     Array<Image> AvtBotArr = new Array<>();
     Array<Image> frameNameBotArr = new Array<>();
     Array<Label> LabelNameBotArr = new Array<>();
+    Array<Long> arrMonney = new Array<>();
+    Array<Label> arrLabel = new Array<>();
 
 
     @Override
@@ -42,13 +46,16 @@ public class gamePlay extends GScreen {
         GStage.addToLayer(GLayer.ui,group);
         GStage.addToLayer(GLayer.ui,groupBoard);
         GStage.addToLayer(GLayer.ui,groupAvt);
+        GStage.addToLayer(GLayer.ui,groupMonney);
         initAtlas();
         initFont();
         initPositionCards();
         showBg();
         loadAvtPlayer();
         loadAvtBot();
+        loadmoney();
         //showbtnXepBai();
+
 
     }
     @Override
@@ -56,46 +63,48 @@ public class gamePlay extends GScreen {
     }
     void showBg(){
         Image bg = GUI.createImage(atlas,"table2");
+        bg.setWidth(GStage.getWorldWidth());
+        bg.setHeight(GStage.getWorldHeight());
         group.addActor(bg);
         ////// new boardgame//////
-        new boardGame(cardAtlas,atlas,this,groupBoard);
+        new boardGame(cardAtlas,atlas,this,groupBoard,font_white);
 
     }
     private void initPositionCards(){
         positionCards = new Array<>();
         int numberPlayer = boardConfig.modePlay;
-        float delta2 = (GMain.screenHeight*16/9)/5;
-        float delta3 = (GMain.screenHeight*16/9)/15;
-        float deltaY = GMain.screenHeight/20;
-        float delta = (GMain.screenWidth - (float)GMain.screenHeight*16/9)/2;
+        float delta2 = (GStage.getWorldHeight()*16/9)/5;
+        float delta3 = (GStage.getWorldHeight()*16/9)/15;
+        float deltaY = GStage.getWorldHeight()/20;
+        float delta = (GStage.getWorldWidth() - (float)GStage.getWorldHeight()*16/9)/2;
         switch (numberPlayer){
             case 2: {
-                Vector2 position1 = new Vector2(delta + delta2 + delta3, GMain.screenHeight*3/4+100);
-                Vector2 position2 = new Vector2((float)GMain.screenHeight*16/9 - (delta + delta2 + delta3 + boardConfig.widthCard*0.4f), GMain.screenHeight/3 - deltaY);
+                Vector2 position1 = new Vector2(delta + delta2 + delta3, GStage.getWorldHeight()*3/4+100);
+                Vector2 position2 = new Vector2((float)GStage.getWorldHeight()*16/9 - (delta + delta2 + delta3 + boardConfig.widthCard*0.4f), GStage.getWorldHeight()/3 - deltaY);
                 positionCards.add(position1, position2);
                 break;
             }
             case 3: {
-                Vector2 position1 = new Vector2(GMain.screenWidth/2, GMain.screenHeight*3/4+100);
-                Vector2 position2 = new Vector2(delta + delta2+200,GMain.screenHeight/3);
-                Vector2 position3 = new Vector2((float)GMain.screenHeight*16/9 - delta - delta2-150, GMain.screenHeight/3);
+                Vector2 position1 = new Vector2(GStage.getWorldWidth()/2, GStage.getWorldHeight()*3/4+100);
+                Vector2 position2 = new Vector2(delta + delta2+200,GStage.getWorldHeight()/3);
+                Vector2 position3 = new Vector2((float)GStage.getWorldHeight()*16/9 - delta - delta2-150, GStage.getWorldHeight()/3);
                 positionCards.add(position1, position2, position3);
                 break;
             }
             case 4: {
-                Vector2 position1 = new Vector2(GMain.screenWidth/2+100, GMain.screenHeight*3/4+100);
-                Vector2 position2 = new Vector2(170,GMain.screenHeight/2 +50);
-                Vector2 position3 = new Vector2(GMain.screenWidth/2-70,delta2-50);
-                Vector2 position4 = new Vector2(GMain.screenWidth- delta2+80, GMain.screenHeight/2-50);
+                Vector2 position1 = new Vector2(GStage.getWorldWidth()/2+100, GStage.getWorldHeight()*3/4+50);
+                Vector2 position2 = new Vector2(170,GStage.getWorldHeight()/2 +50);
+                Vector2 position3 = new Vector2(GStage.getWorldWidth()/2-70,delta2-50);
+                Vector2 position4 = new Vector2(GStage.getWorldWidth()- delta2+80, GStage.getWorldHeight()/2-50);
                 positionCards.add(position1, position2, position3, position4);
                 break;
             }
             case 5: {
-                Vector2 position1 = new Vector2(GMain.screenWidth/2, GMain.screenHeight*3/4+100);
-                Vector2 position2 = new Vector2(delta + delta2,GMain.screenHeight*2/3-40);
-                Vector2 position3 = new Vector2(delta + delta2+200,GMain.screenHeight/3);
-                Vector2 position4 = new Vector2((float)GMain.screenHeight*16/9 - delta - delta2-150, GMain.screenHeight/3);
-                Vector2 position5 = new Vector2((float)GMain.screenHeight*16/9+50 - delta - delta2, GMain.screenHeight*2/3-40);
+                Vector2 position1 = new Vector2(GStage.getWorldWidth()/2, GStage.getWorldHeight()*3/4+100);
+                Vector2 position2 = new Vector2(delta + delta2,GStage.getWorldHeight()*2/3-40);
+                Vector2 position3 = new Vector2(delta + delta2+200,GStage.getWorldHeight()/3);
+                Vector2 position4 = new Vector2((float)GStage.getWorldHeight()*16/9 - delta - delta2-150, GStage.getWorldHeight()/3);
+                Vector2 position5 = new Vector2((float)GStage.getWorldHeight()*16/9+50 - delta - delta2, GStage.getWorldHeight()*2/3-40);
                 positionCards.add(position1, position2, position3, position4);
                 positionCards.add(position5);
                 break;
@@ -123,11 +132,11 @@ public class gamePlay extends GScreen {
         for(int i=1;i<boardConfig.modePlay;i++){
             if(i==1){
                 x = positionCards.get(i).x-70;
-                y = positionCards.get(i).y-220;
+                y = positionCards.get(i).y-250;
                 paddingX=20;
             }else if(i==2){
-                x = positionCards.get(i).x+220;
-                y = positionCards.get(i).y-70;
+                x = positionCards.get(i).x+230;
+                y = positionCards.get(i).y-120;
                 paddingX=15;
 
             }else if(i==3){
@@ -153,10 +162,28 @@ public class gamePlay extends GScreen {
 
         }
     }
+    void  loadmoney(){
+        float x = 0;
+        float y = 0;
+        for(int i=0;i<boardConfig.modePlay;i++){
+            Label monney = new Label("2000",new Label.LabelStyle(fontmonney,null));
+            if(i==0){x=positionCards.get(i).x; y=positionCards.get(i).y+100;}
+            else if(i==1){x=positionCards.get(i).x+100; y=positionCards.get(i).y-260; monney.setFontScale(0.5f);
+            }
+            else if(i==2){x=positionCards.get(i).x+240; y=positionCards.get(i).y-20; monney.setFontScale(0.5f);
+            }
+            else if(i==3){x=positionCards.get(i).x-70; y=positionCards.get(i).y+120; monney.setFontScale(0.5f);
+            }
+            monney.setOrigin(Align.center);
+            monney.setPosition(x,y,Align.center);
+            groupMonney.addActor(monney);
+        }
+
+    }
     void showbtnXepBai(){
         Image btnXepbai = GUI.createImage(atlas,"btnXepbai");
         btnXepbai.setOrigin(Align.center);
-        btnXepbai.setPosition(GMain.screenWidth-100, GMain.screenHeight-100,Align.center);
+        btnXepbai.setPosition(GStage.getWorldWidth()-100, GStage.getWorldHeight()-100,Align.center);
         group.addActor(btnXepbai);
         btnXepbai.addListener(new ClickListener(){
             @Override
@@ -168,11 +195,10 @@ public class gamePlay extends GScreen {
                 ));
                 Tweens.setTimeout(group,0.2f,()->{
                     btnXepbai.setTouchable(Touchable.enabled);
-                    groupBoard.remove();
-                    groupBoard.clear();
-                    new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard);
-
-
+//                    groupBoard.remove();
+//                    groupBoard.clear();
+                    new PaticleSuper(14);
+//                    new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard,font_white);
                 });
                 return super.touchDown(event, x, y, pointer, button);
             }

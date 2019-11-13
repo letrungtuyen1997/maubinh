@@ -222,54 +222,122 @@ import java.util.TreeMap;
 //  Array<Integer> b = P.findBiggest(a1,a2,a3,a4,a5);
 public class CheckCard {
     public static final ArrayMap<Integer, String> nameMap = new ArrayMap<>();
-    private static int valueMask = Integer.parseInt("00001111111111111", 2);
-    private static int typeMask = Integer.parseInt( "11110000000000000", 2);
+    public static final int valueMask = 0b00001111111111111;
+    public static final int typeMask = 0b11110000000000000;
     private static TreeMap<Integer, Array<Integer>> simMap;
     private static TreeMap<Integer, Array<Integer>> rsimMap = new TreeMap<>(Collections.reverseOrder());
     private static Array<Array<Integer>> color = new Array<>();
     private static ArrayMap<Integer, Integer> dupMap = new ArrayMap<>();
+    private static CheckInterface[] checkInterfaces;
 
     static {
         for (int i = 0; i < 4; i++) color.add(new Array<>());
         simMap = new TreeMap<>();
+
+        checkInterfaces = new CheckInterface[6];
+        checkInterfaces[3] = (Array<Integer> cards) -> {
+            if (cards.size != 3) throw new InvalidParameterException("not enough card");
+            int value = cards.get(0);
+            for (int i = 1; i < cards.size; i++)
+                value |= cards.get(i);
+
+            value &= valueMask;
+            int type = 0;
+            switch (Integer.bitCount(value)){
+                case 1: //xam
+                    type = 3;
+                    break;
+                case 2: //doi
+                    type  = 1;
+                    break;
+//        case 3:
+//          if ((value>>12) == 1 && (value & 3) == 3) {
+//            type = 4;
+//            value = 3;
+//            break;
+//          }
+//          while(value%2 == 0) value >>= 1;
+//          type += value == 7 ? 4 : 0;
+//          break;
+                default:
+                    break;
+            }
+            return (type<<13) + value;
+        };
+        checkInterfaces[5] = (Array<Integer> cards) -> {
+            if (cards.size != 5) throw new InvalidParameterException("not enough card");
+
+            dupMap.clear();
+            int color = cards.get(0);
+            int value = cards.get(0);
+            int maxDup = 0;
+
+            Integer d = dupMap.get(cards.get(0)&valueMask);
+            dupMap.put(cards.get(0)&valueMask, (d == null) ? 0 : d + 1);
+
+            for (int i = 1; i < cards.size; i++) {
+                color &= cards.get(i);
+                value |= cards.get(i);
+
+                Integer _d = dupMap.get(cards.get(i)&valueMask);
+                dupMap.put(cards.get(i)&valueMask, (_d == null) ? 0 : _d + 1);
+                _d = dupMap.get(cards.get(i)&valueMask);
+                maxDup = maxDup < _d ? _d : maxDup;
+            }
+            int type = Integer.bitCount(color&typeMask)*5;
+            value &= valueMask;
+            switch (Integer.bitCount(value)){
+                case 2://aaabb, aaaab
+                    type += maxDup == 3 ? 7 : 6;
+                    break;
+                case 3://aaabc aabbc
+                    type += type == 5 ? 0 : maxDup == 2 ? 3 : 2;
+                    break;
+                case 4://abcdd
+                    type += type == 5 ? 0 : 1;
+                    break;
+                case 5:
+                    if ((value>>12) == 1 && (value & 15) == 15){
+                        type += 4;
+                        value = 15;
+                        break;
+                    }
+                    while(value%2 == 0) value >>= 1;
+                    type += value == 31 ? 4 : 0;
+                    break;
+                default:
+                    type += 0;
+                    break;
+            }
+            return (type<<13) + value;
+        };
     }
 
-    static Array<Array<Integer>> move(Array<Integer> pattern) {
-        Array<Integer> low = pairMove(pattern);
-        pattern.removeAll(low, false);
-        Array<Integer> mid = pairMove(pattern);
-        pattern.removeAll(mid, false);
-        Array<Array<Integer>> res = new Array<>();
-
-        res.add(pattern);
-        res.add(mid);
-        res.add(low);
-        return res;
-    }
-
-    private static Array<Integer> pairMove(Array<Integer> pattern) {
-        Map.Entry<Integer, Array<Integer>> max = simplify(pattern, simMap);
-        if (max.getValue().size == 3) {
-            Array<Integer> pair = getPair(max);
-            if (pair != null) {
-                max.getValue().addAll(pair);
-                return max.getValue();
+    private static Array<Integer> pairMove(Array<Integer> pattern, Array<Boolean> mask) {
+        Map.Entry<Integer, Array<Integer>> max = simplify(pattern, simMap, false);
+        if (max.getValue().size == 3) { //cù xám
+            if (mask.get(0)) {
+                Array<Integer> pair = getPair(max);
+                if (pair != null) {
+                    max.getValue().addAll(pair);
+                    return max.getValue();
+                }
             }
 
-            Array<Integer> cMove = cMove(pattern);
+            Array<Integer> cMove = cMove(pattern, mask);
             if (cMove != null) return cMove;
 
             Array<Integer> two = getCustom(max, 2);
             max.getValue().addAll(two);
             return max.getValue();
         }
-        if (max.getValue().size == 4) {
+        if (max.getValue().size == 4) { //tứ quý
             Array<Integer> one = getCustom(max, 1);
             max.getValue().addAll(one);
             return max.getValue();
         }
-        if (max.getValue().size == 2) {
-            Array<Integer> cMove = cMove(pattern);
+        if (max.getValue().size == 2) { //chỉ có đôi, check sảnh thùng trước
+            Array<Integer> cMove = cMove(pattern, mask);
             if (cMove != null) return cMove;
 
             Array<Integer> pair = getPair(max);
@@ -284,8 +352,8 @@ public class CheckCard {
             max.getValue().addAll(three);
             return max.getValue();
         }
-        if (max.getValue().size == 1) {
-            Array<Integer> cMove = cMove(pattern);
+        if (max.getValue().size == 1) { //bài không có một đôi nào, (chi giữa, chi trên)
+            Array<Integer> cMove = cMove(pattern, mask);
             if (cMove != null) return cMove;
 
             Array<Integer> four = getCustom(max, 4);
@@ -309,15 +377,7 @@ public class CheckCard {
     }
 
     private static Array<Integer> colorMove(Array<Integer> pattern) {
-        simplify(pattern, simMap);
-        for (Array<Integer> a : color) a.clear();
-        for (Map.Entry<Integer, Array<Integer>> entry : simMap.entrySet())
-            for (Integer i : entry.getValue()) {
-                if ((i>>13) == 8) color.get(3).add(i);
-                if ((i>>13) == 4) color.get(2).add(i);
-                if ((i>>13) == 2) color.get(1).add(i);
-                if ((i>>13) == 1) color.get(0).add(i);
-            }
+        simplify(pattern, simMap, true);
         Array<Integer> max = null;
         int maxV = 0;
         for (Array<Integer> a : color)
@@ -334,7 +394,7 @@ public class CheckCard {
     }
 
     private static Array<Integer> consecutiveMove(Array<Integer> pattern) {
-        simplify(pattern, rsimMap);
+        simplify(pattern, rsimMap, false);
         int[] frame = new int[] {4096, 2048, 1024, 512, 256, 128, 64, 32, 16, 8, 4, 2, 1, 4096};
         Array<Integer> res = new Array<>();
         Array<Map.Entry<Integer, Array<Integer>>> base = new Array<>();
@@ -343,7 +403,7 @@ public class CheckCard {
         base.add(base.get(0));
         for (int i = 0; i < base.size - 5; i++) {
             boolean isConsecutive = true;
-            for (int j = i; j < 5; j++) {
+            for (int j = 0; j < 5; j++) {
                 if (base.get(i + j).getValue() == null) {
                     isConsecutive = false;
                     break;
@@ -357,16 +417,19 @@ public class CheckCard {
         return null;
     }
 
-    private static Array<Integer> cMove(Array<Integer> pattern) {
-        Array<Integer> colorM = colorMove(pattern);
-        if (colorM != null) return colorM;
+    private static Array<Integer> cMove(Array<Integer> pattern, Array<Boolean> mask) {
+        if (mask.get(1)) {
+            Array<Integer> colorM = colorMove(pattern);
+            if (colorM != null) return colorM;
+        }
+
         Array<Integer> conseM = consecutiveMove((pattern));
         if (conseM != null) return  conseM;
         return null;
     }
 
     @SuppressWarnings("unchecked")
-    private static Map.Entry<Integer, Array<Integer>> simplify(Array<Integer> pattern, TreeMap<Integer, Array<Integer>> base) {
+    private static Map.Entry<Integer, Array<Integer>> simplify(Array<Integer> pattern, TreeMap<Integer, Array<Integer>> base, boolean isColorize) {
         base.clear();
         for (int i : pattern)
             if (base.containsKey(i&valueMask))
@@ -381,7 +444,19 @@ public class CheckCard {
         for (Map.Entry<Integer, Array<Integer>> entry : simMap.entrySet())
             if (entry.getValue().size >= r.getValue().size)
                 r = entry;
+        if (isColorize) colorize();
         return r;
+    }
+
+    private static void colorize() {
+        for (Array<Integer> a : color) a.clear();
+        for (Map.Entry<Integer, Array<Integer>> entry : simMap.entrySet())
+            for (Integer i : entry.getValue()) {
+                if ((i>>13) == 8) color.get(3).add(i);
+                if ((i>>13) == 4) color.get(2).add(i);
+                if ((i>>13) == 2) color.get(1).add(i);
+                if ((i>>13) == 1) color.get(0).add(i);
+            }
     }
 
     private static Array<Integer> getCustom(Map.Entry<Integer, Array<Integer>> exc, int count) {
@@ -403,6 +478,121 @@ public class CheckCard {
             if (r.size == count) return r;
         }
         throw  new RuntimeException("cant get " + count + " remain");
+    }
+
+    private static boolean isTripleConsecutive(Array<Integer> pattern) {
+        Array<Integer> cpy = new Array<>();
+        for (Integer c : pattern) cpy.add(c);
+        Array<Integer> m = consecutiveMove(cpy);
+        if (m != null){
+            //for (Integer r : m) System.out.print(nameMap.get(r) + " ");
+            cpy.removeAll(m, false);
+            m = consecutiveMove(cpy);
+            if (m != null) {
+                //for (Integer r : m) System.out.print(nameMap.get(r) + " ");
+                cpy.removeAll(m, false);
+                //for (Integer r : cpy) System.out.print(nameMap.get(r) + " ");
+                return (check(cpy) >> 13) == 4;
+            }
+        }
+        return false;
+    }
+
+    private static Array<Array<Integer>> platify(Array<Integer> pattern) {
+        simplify(pattern, simMap, false);
+        Array<Array<Integer>> value = new Array<>();
+        for (Map.Entry<Integer, Array<Integer>> v : simMap.entrySet()) value.add(v.getValue());
+
+        for (Array<Integer> a : value) a.sort(CheckCard::compareCard);
+
+        value.sort((a1, a2) -> {
+            if (a2.size > a1.size) return 1;
+            if (a2.size < a1.size) return -1;
+            int c1 = a1.get(0), c2 = a2.get(0);
+            return compareCard(c1, c2);
+        });
+
+        return value;
+    }
+
+    private static int compareCard(Integer c1, Integer c2) {
+        int color1 = c1>>13;
+        int color2 = c2>>13;
+        int value1 = (c1&valueMask)<<4;
+        int value2 = (c2&valueMask)<<4;
+        int final1 = value1|color1;
+        int final2 = value2|color2;
+        return Integer.compare(final2, final1);
+    }
+
+    private static boolean validateHeadMid(Array<Array<Integer>> move) {
+        int rH = check(move.get(0))>>13;
+        int rM = check(move.get(1))>>13;
+
+        Array<Array<Integer>> simH = platify(move.get(0));
+        Array<Array<Integer>> simM = platify(move.get(1));
+
+        if (rH < rM) return true;
+        if (rH > rM) return false;
+        return compareCard(simH.get(0).get(0), simM.get(0).get(0)) > 0;
+    }
+
+    @FunctionalInterface
+    private interface CheckInterface {
+        int check(Array<Integer> cards);
+    }
+
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------
+    //-----------------------------------------------------------------------------------------------------------------------------------------------------
+
+    public static int checkSuper(Array<Integer> pattern) {
+        simplify(pattern, simMap, true);
+        int zColor = pattern.get(0)&typeMask, zValue = pattern.get(0)&valueMask;
+        for (int i = 1; i < pattern.size; i++) {
+            zColor &= pattern.get(i)&typeMask;
+            zValue |= pattern.get(i)&valueMask;
+        }
+
+        color.sort((a, b) -> Integer.compare(a.size, b.size));
+
+        Array<Array<Integer>> value = new Array<>();
+        for (Map.Entry<Integer, Array<Integer>> v : simMap.entrySet()) value.add(v.getValue());
+        value.sort((a, b) -> Integer.compare(a.size, b.size));
+
+        if (zValue == 0x1FFF && zColor != 0)//sanh cuon
+            return 15;
+        if (zValue == 0x1FFF)//sanh rong
+            return 14;
+
+        int c = 0;
+        for (int i = 0; i < value.size; i++)
+            c = c*10 + value.get(i).size;
+        if (c == 2222223 || c == 22234 || c == 2344)
+            return 13;
+
+        c = 0;
+        for (int i = 0; i < value.size; i++)
+            c = c*10 + value.get(i).size;
+        if (c == 1222222 || c == 122224 || c == 12244 || c == 1444)
+            return 12;
+
+        c = 0;//3 thung
+        for (int i = 0; i < color.size; i++)
+            c = c*10 + color.get(i).size;
+        if (c == 355 || c == 58 || c == 40)
+            return 11;
+
+        if (isTripleConsecutive(pattern)) //3 sanh
+            return 10;
+        return 0;
+    }
+
+    public static boolean validate(Array<Array<Integer>> move) {
+        Array<Integer> mid = move.get(1);
+        Array<Integer> low = move.get(2);
+        if (compare(mid, low) <= 0)
+            return validateHeadMid(move);
+        return false;
     }
 
     public static Array<Integer> makeCards() {
@@ -441,75 +631,55 @@ public class CheckCard {
         return res;
     }
 
-    public static int check3(Array<Integer> cards) {
-        if (cards.size != 3) throw new InvalidParameterException("not enough card");
-        int value = cards.get(0);
-        for (int i = 1; i < cards.size; i++)
-            value |= cards.get(i);
+    public static Array<Array<Integer>> move(Array<Integer> pattern) {
+        Array<Boolean> skipMask = new Array<>();
+        skipMask.add(true);skipMask.add(true);
+        Array<Integer> cpy = new Array<>();
+        for (Integer i : pattern) cpy.add(i);
 
-        value &= valueMask;
-        switch (Integer.bitCount(value)){
-            case 1:
-                return 3;
-            case 2:
-                return 1;
-            case 3:
-                if ((value>>12) == 1 && (value & 3) == 3){
-                    return 4;
-                }
-                while(value%2 == 0) value >>= 1;
-                return value == 7 ? 4 : 0;
-            default:
-                return 0;
+        Array<Integer> low = pairMove(pattern, skipMask);
+        pattern.removeAll(low, false);
+        Array<Integer> mid = pairMove(pattern, skipMask);
+        pattern.removeAll(mid, false);
+        Array<Array<Integer>> res = new Array<>();
+
+        res.add(pattern);
+        res.add(mid);
+        res.add(low);
+
+        if (check(mid)>>13 == 0) {
+            skipMask.clear();
+            skipMask.add(true);skipMask.add(false);
+            low = pairMove(cpy, skipMask);
+            cpy.removeAll(low, false);
+            skipMask.clear();skipMask.add(true);skipMask.add(true);
+            mid = pairMove(cpy, skipMask);
+            cpy.removeAll(mid, false);
+            res.clear();
+            res.add(cpy);
+            res.add(mid);
+            res.add(low);
         }
+
+        return res;
     }
 
-    public static int check5(Array<Integer> cards) {
-        if (cards.size != 5) throw new InvalidParameterException("not enough card");
+    public static int check(Array<Integer> cards) {
+        return checkInterfaces[cards.size].check(cards);
+    }
 
-        dupMap.clear();
-        int color = cards.get(0);
-        int value = cards.get(0);
-        int maxDup = 0;
+    public static int compare(Array<Integer> patternA, Array<Integer> patternB) {
+        int rA = check(patternA);
+        int rB = check(patternB);
 
-        Integer d = dupMap.get(cards.get(0)&valueMask);
-        dupMap.put(cards.get(0)&valueMask, (d == null) ? 0 : d + 1);
+        int tA = rA&typeMask;
+        int tB = rB&typeMask;
+        if (tA > tB) return 1;
+        if (tA < tB) return -1;
 
-        for (int i = 1; i < cards.size; i++) {
-            color &= cards.get(i);
-            value |= cards.get(i);
-
-            Integer _d = dupMap.get(cards.get(i)&valueMask);
-            dupMap.put(cards.get(i)&valueMask, (_d == null) ? 0 : _d + 1);
-            _d = dupMap.get(cards.get(i)&valueMask);
-            maxDup = maxDup < _d ? _d : maxDup;
-        }
-        int type = Integer.bitCount(color&typeMask)*5;
-        value &= valueMask;
-        switch (Integer.bitCount(value)){
-            case 2:
-                type += maxDup == 3 ? 7 : 6;
-                break;
-            case 3:
-                type += maxDup == 2 ? 3 : 2;
-                break;
-            case 4:
-                type += 1;
-                break;
-            case 5:
-                if ((value>>12) == 1 && (value & 15) == 15){
-                    type += 4;
-                    value = 15;
-                    break;
-                }
-                while(value%2 == 0) value >>= 1;
-                type += value == 31 ? 4 : 0;
-                break;
-            default:
-                type += 0;
-                break;
-        }
-        return (type<<13) + value;
+        Array<Array<Integer>> simA = platify(patternA);
+        Array<Array<Integer>> simB = platify(patternB);
+        return compareCard(simB.get(0).get(0), simA.get(0).get(0));
     }
 }
 
