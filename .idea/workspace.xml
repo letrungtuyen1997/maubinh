@@ -5,74 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2408af64-1196-4c01-85e6-09de2c6e47a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/014.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/028.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/034.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/043.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/208.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/23403080.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/3Sanh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/3sanh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/3thung" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/3thung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/5doi1sam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/5doi1sam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/Anbeijing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/ITEM_Sp_04_Howl_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/NPC_MimiD_skill.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/RongCuon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/SL_XiangZ_00_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/SanhRong" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/UI_baidi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/UI_outbreak2_o.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/ZJ14_BZ1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/cdj05_baozou.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/cu-lu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/cu-lu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/doi" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/doi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/image 74.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/image 75.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/itemlight2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/jiazai_baoshi1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/liaoji21_BZ2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/lightFrame" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/light_purple.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/lucphebon" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/lucphebon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/mau-thau" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/mau-thau.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/particleWin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/powerup1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/powerup3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/rongcuon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/sam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/sam.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/sanh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/sanh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/sanhrong.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/shandian01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/spark-alt2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/thu" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/thu.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/thung" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/thung-pha-sanh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/thung-pha-sanh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/thung.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/tu-quy" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/tu-quy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/ui005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/win" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/winVi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/wsparticle37.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/xian04.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/zhuji43_BZ2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/zhuji54_BZ03b.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/effect/SoundEffect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/effect/effectWin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontBlue.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResult.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultGray.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultGray.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultYellow.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultYellow.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/222.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/SL_XiangZ_00_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/chibang.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/ls010.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/paricleWin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/particleLose" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/r01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/3sanh1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/3thung1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/5doi1sam1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/ITEM_Sp_04_Howl_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/LucPheBon1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/RongCuon1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/particle/SanhRong1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/core/src/com/ss/object/GameOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
@@ -81,574 +34,109 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/classAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__android_arch_lifecycle_runtime_1_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_customtabs_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_compat_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_ui_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_core_utils_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_fragment_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_media_compat_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_support_v4_26_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_17_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_17_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_17_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_base_17_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_17_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_lite_17_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_17_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_gass_17_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_base_16_0_4_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_sdk_api_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_16_0_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_abt_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_abt_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ads_17_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_ads_17_1_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_16_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_config_16_1_0_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_core_16_0_5_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_3_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_3_aar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/android.iml" beforeDir="false" afterPath="$PROJECT_DIR$/android/android.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/GPoolInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/GPoolInfo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/maubinhatlas.tpproj" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/maubinhatlas.tpproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/ui.atlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/ui.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/ui2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/ui2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-af.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-af.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-am.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-am.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ar.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ar.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-as.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-as.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-az.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-az.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-b+sr+Latn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-be.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-be.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-bg.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-bg.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-bn.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-bn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-bs.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-bs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ca.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ca.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-cs.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-cs.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-da.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-da.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-de.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-de.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-el.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-el.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-en-rAU.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-en-rGB.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-en-rIN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-es-rUS.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-es.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-es.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-et.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-et.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-eu.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-eu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fa.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fr-rCA.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fr.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-fr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-gl.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-gl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-gu.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-gu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hr.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hu.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hy.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-hy.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-in.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-in.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-is.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-is.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-it.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-it.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-iw.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-iw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ja.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ja.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ka.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ka.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-kk.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-kk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-km.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-km.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-kn.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-kn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ko.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ko.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ky.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ky.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-lo.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-lo.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-lt.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-lt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-lv.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-lv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-mk.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-mk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ml.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ml.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-mn.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-mn.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-mr.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-mr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ms.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ms.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-my.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-my.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-nb.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-nb.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ne.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ne.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-nl.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-nl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-or.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-or.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pa.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pa.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pl.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-port.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-port.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pt-rBR.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pt-rPT.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pt.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-pt.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ro.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ro.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ru.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ru.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-si.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-si.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sk.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sl.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sq.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sq.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sr.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sv.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sv.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sw.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-sw.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ta.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ta.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-te.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-te.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-th.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-th.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-tl.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-tl.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-tr.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-tr.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-uk.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-uk.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ur.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-ur.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-uz.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-uz.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-v16.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-v16.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-v21.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-v21.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-v24.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-v24.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-vi.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-vi.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zh-rCN.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zh-rHK.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zh-rTW.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zu.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values-zu.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/multi-v2/values.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/blame/res/debug/single/debug.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/BHIp+1QiKvD9Jtw5ZvT8Ogpmbdc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/merge-state" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/merge-state" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/BHIp+1QiKvD9Jtw5ZvT8Ogpmbdc=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/effect/effectWin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/CheckCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_5/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_7/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugAssets/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugJniLibFolders/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugResources/merger.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/mergeDebugShaders/merger.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/dex-renamer-state.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/file-input-save-data.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/2YRDxNHNVHCmYBanXKavAG+Y1Dc=" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/packageDebug/tmp/debug/zip-cache/h_Z0GTvqEUUhVbWmZ5tEqIclvPs=" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/processInstantRunDebugResourcesApk/package_resources-debug/dex-renamer-state.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/instant-run-apk/debug/android-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/instant-run-apk/debug/android-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/GPoolInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/GPoolInfo.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/maubinhatlas.tpproj" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/maubinhatlas.tpproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.atlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_manifests/debug/processDebugManifest/merged/AndroidManifest.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_dark.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_full_open_on_phone.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-hdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-v21_notification_action_background.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_full_open_on_phone.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_dark_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable-xxxhdpi_ic_launcher.png.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_normal.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_focused.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_light_normal.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_focused.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_dark_normal.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_disabled.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_focused.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/drawable_notification_tile_bg.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v16_notification_template_custom_big.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_action.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_action_tombstone.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_template_custom_big.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout-v21_notification_template_icon_group.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_action.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_action.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_action_tombstone.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_media_action.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_media_cancel_action.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_big_media_narrow_custom.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_custom_big.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_custom_big.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_icon_group.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_lines_media.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_media.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_media_custom.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_part_chronometer.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/layout_notification_template_part_time.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-af_values-af.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-am_values-am.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ar_values-ar.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-as_values-as.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-az_values-az.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-b+sr+Latn_values-b+sr+Latn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-be_values-be.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-bg_values-bg.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-bn_values-bn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-bs_values-bs.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ca_values-ca.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-cs_values-cs.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-da_values-da.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-de_values-de.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-el_values-el.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-en-rAU_values-en-rAU.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-en-rGB_values-en-rGB.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-en-rIN_values-en-rIN.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-es-rUS_values-es-rUS.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-es_values-es.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-et_values-et.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-eu_values-eu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fa_values-fa.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fi_values-fi.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fr-rCA_values-fr-rCA.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-fr_values-fr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-gl_values-gl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-gu_values-gu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hi_values-hi.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hr_values-hr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hu_values-hu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-hy_values-hy.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-in_values-in.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-is_values-is.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-it_values-it.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-iw_values-iw.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ja_values-ja.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ka_values-ka.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-kk_values-kk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-km_values-km.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-kn_values-kn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ko_values-ko.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ky_values-ky.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-lo_values-lo.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-lt_values-lt.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-lv_values-lv.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-mk_values-mk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ml_values-ml.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-mn_values-mn.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-mr_values-mr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ms_values-ms.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-my_values-my.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-nb_values-nb.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ne_values-ne.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-nl_values-nl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-or_values-or.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pa_values-pa.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pl_values-pl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-port_values-port.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pt-rBR_values-pt-rBR.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pt-rPT_values-pt-rPT.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-pt_values-pt.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ro_values-ro.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ru_values-ru.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-si_values-si.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sk_values-sk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sl_values-sl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sq_values-sq.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sr_values-sr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sv_values-sv.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-sw_values-sw.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ta_values-ta.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-te_values-te.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-th_values-th.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-tl_values-tl.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-tr_values-tr.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-uk_values-uk.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-ur_values-ur.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-uz_values-uz.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-v16_values-v16.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-v21_values-v21.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-v24_values-v24.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-vi_values-vi.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zh-rCN_values-zh-rCN.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zh-rHK_values-zh-rHK.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zh-rTW_values-zh-rTW.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values-zu_values-zu.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/values_values.arsc.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/xml_remote_config_defaults.xml.flat" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/res/merged/debug/xml_remote_config_defaults.xml.flat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/10.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/11.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/13.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/14.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/15.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/16.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/17.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/18.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/19.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/2.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/2.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/20.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/21.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/22.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/23.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/24.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/25.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/26.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/28.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/29.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/3.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/3.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/30.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/30.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/31.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/31.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/32.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/32.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/33.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/33.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/34.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/34.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/35.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/35.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/36.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/36.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/37.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/37.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/38.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/38.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/arch/lifecycle/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/compat/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreui/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/coreutils/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/customtabs/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/fragment/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/mediacompat/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/android/support/v4/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads/impl/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads/impl/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads_base/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/ads_identifier/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/base/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/common/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/common/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/common/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/gass/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/measurement/api/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/measurement/sdk/api/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/measurement_base/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/phenotype/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/stats/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/android/gms/tasks/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/abt/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/analytics/connector/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/analytics/connector/impl/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/firebase_ads/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/firebase_core/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/iid/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/iid/internal/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/measurement/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/measurement_impl/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/google/firebase/remoteconfig/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$1$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$1$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$1.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$2.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$3.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$4.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$5.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$6.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$7.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$8.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher$9.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/AndroidLauncher.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/BuildConfig.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$attr.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$bool.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$color.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$dimen.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$drawable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$id.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$integer.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$layout.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$string.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$style.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$styleable.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R$xml.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/39/com/jkstudiogroup/template/R.dex" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/4.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/4.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/5.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/5.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/6.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/6.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/7.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/7.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/8.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/8.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/9.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/9.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/__content__.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/externalLibsDexMerger/debug/0/classes.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/outputs/logs/manifest-merger-debug-report.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/GMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/GMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/core/util/GStage.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/core/util/GStage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/resources/instant-run/debug/resources-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/CheckCard.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/CheckCard.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/PaticleSuper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/PaticleSuper.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/375/com/effect/effectWin.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/375/com/effect/effectWin.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay$1.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/effect/effectWin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/CheckCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/effect/effectWin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/CheckCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/effect/effectWin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/Card$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/Card$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/Card$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/Card$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/Card.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/Card.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/CheckCard.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/PaticleSuper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gameStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gameStart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/core.iml" beforeDir="false" afterPath="$PROJECT_DIR$/core/core.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/GMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/GMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/core/util/GStage.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/core/util/GStage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/effect/effectWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/effect/effectWin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/desktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/desktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/jkstudiogroup/template/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/jkstudiogroup/template/desktop/DesktopLauncher.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/maubinh$DesktopLauncher.ic" NAME="DesktopLauncher Coverage Results" MODIFIED="1573811590545" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="203" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -671,8 +159,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2553">
-              <caret line="347" column="3" selection-start-line="347" selection-start-column="3" selection-end-line="347" selection-end-column="3" />
+            <state relative-caret-position="437">
+              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -680,22 +168,15 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="581" column="24" lean-forward="true" selection-start-line="581" selection-start-column="24" selection-end-line="581" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
+            <state relative-caret-position="467">
+              <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1670#1671#0" expanded="true" />
+                <element signature="e#1735#1736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -704,26 +185,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/effect/effectWin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2085">
-              <caret line="145" column="69" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
+            <state relative-caret-position="407">
+              <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
+            <state relative-caret-position="4635">
+              <caret line="315" column="42" selection-start-line="315" selection-start-column="38" selection-end-line="315" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="3090">
+              <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="59" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -732,19 +213,40 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/GMain.java">
+        <entry file="file://$PROJECT_DIR$/android/assets/font/fontResult.fnt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+            <state relative-caret-position="150">
+              <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+            <state relative-caret-position="330">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -755,17 +257,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2985">
-              <caret line="220" selection-start-line="220" selection-end-line="220" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/Card.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
+            <state relative-caret-position="1515">
+              <caret line="122" selection-start-line="116" selection-start-column="2" selection-end-line="122" />
             </state>
           </provider>
         </entry>
@@ -792,6 +285,12 @@
       <find>GMain.screenHeight</find>
       <find>GMain.screenWidth</find>
       <find>check</find>
+      <find>log</find>
+      <find>https</find>
+      <find>comp</find>
+      <find>GM</find>
+      <find>move</find>
+      <find>life</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -811,23 +310,27 @@
       <list>
         <option value="$PROJECT_DIR$/core/src/com/ss/commons/_ToggleButton.java" />
         <option value="$PROJECT_DIR$/core/src/com/effect/SoundEffect.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/object/CardTest.java" />
-        <option value="$PROJECT_DIR$/core/src/com/effect/effectWin.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/core/util/GStage.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/object/Card.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/GMain.java" />
-        <option value="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" />
+        <option value="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" />
+        <option value="$PROJECT_DIR$/android/assets/font/fontResult1.fnt" />
+        <option value="$PROJECT_DIR$/android/assets/font/fontResult.fnt" />
+        <option value="$PROJECT_DIR$/android/assets/font/fontResultYellow.fnt" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" />
+        <option value="$PROJECT_DIR$/core/src/com/effect/effectWin.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/GameOver.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
@@ -837,9 +340,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -851,6 +351,24 @@
               <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
               <item name="android" type="feadf853:AndroidModuleNode" />
               <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="font" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="font" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="particleOver" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
+              <item name="android" type="feadf853:AndroidModuleNode" />
+              <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
             <path>
               <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
@@ -931,16 +449,19 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="ZSSSGQBUB6VK4LSC" />
+    <property name="device.picker.selection" value="Nexus_5X_API_28" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1573612932387" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1573786795009" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -948,11 +469,11 @@
       <recent name="com.platform" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/assets/font/particleOver" />
+      <recent name="$PROJECT_DIR$/android/assets/font" />
       <recent name="$PROJECT_DIR$/android/assets/particle" />
-      <recent name="$PROJECT_DIR$/android/assets" />
-      <recent name="$PROJECT_DIR$/core/src/com" />
       <recent name="$PROJECT_DIR$/core/src/com/ss/object" />
-      <recent name="$PROJECT_DIR$/core/src/com/ss" />
+      <recent name="$PROJECT_DIR$/android/assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -1064,7 +585,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
@@ -1082,15 +603,16 @@
       <window_info anchor="bottom" id="Terminal" order="3" />
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="6" visible="true" weight="0.13305898" />
-      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="8" weight="0.3251029" />
+      <window_info anchor="bottom" id="Build" order="6" weight="0.1989026" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.32921812" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.14403293" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
       <window_info anchor="right" id="Theme Preview" order="2" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Device File Explorer" order="4" side_tool="true" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.3297568" />
     </layout>
   </component>
   <component name="editorHistoryManager">
@@ -1151,17 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="75" column="16" selection-start-line="75" selection-start-column="16" selection-end-line="75" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/utils/Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="384" column="78" selection-start-line="384" selection-start-column="78" selection-end-line="384" selection-end-column="78" />
-          <folding>
-            <element signature="e#13877#13878#0" expanded="true" />
-            <element signature="e#13920#13921#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1229,98 +740,165 @@
     <entry file="file://$PROJECT_DIR$/android/assets/particle/3Sanh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/textureAtlas/ui.atlas">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="128" column="16" lean-forward="true" selection-start-line="128" selection-start-column="16" selection-end-line="128" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/textureAtlas/ui.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/particle/3sanh1">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/core/util/GStage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="178" column="85" selection-start-line="178" selection-start-column="85" selection-end-line="178" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardGame.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2553">
-          <caret line="347" column="3" selection-start-line="347" selection-start-column="3" selection-end-line="347" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="56" column="10" selection-start-line="56" selection-start-column="10" selection-end-line="56" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/effect/effectWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="145" column="69" selection-start-line="145" selection-start-column="69" selection-end-line="145" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="578">
+          <caret line="336" lean-forward="true" selection-start-line="336" selection-end-line="336" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/GMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
+        <state relative-caret-position="337">
+          <caret line="90" column="14" selection-start-line="90" selection-start-column="14" selection-end-line="90" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java">
+    <entry file="file://$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2985">
-          <caret line="220" selection-start-line="220" selection-end-line="220" />
+        <state relative-caret-position="225">
+          <caret line="18" column="21" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/Card.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="-1196">
           <caret line="37" column="55" selection-start-line="37" selection-start-column="55" selection-end-line="37" selection-end-column="55" />
         </state>
       </provider>
     </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.badlogicgames.gdx/gdx/1.9.9/1409aca6a4293a7ca8dbd60281c3211a195dd39a/gdx-1.9.9-sources.jar!/com/badlogic/gdx/utils/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <folding>
+            <element signature="e#13877#13878#0" expanded="true" />
+            <element signature="e#13920#13921#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontBlue.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontResultYellow.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="110" lean-forward="true" selection-start-line="13" selection-start-column="110" selection-end-line="13" selection-end-column="110" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontResultGray.fnt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1691">
-          <caret line="581" column="24" lean-forward="true" selection-start-line="581" selection-start-column="24" selection-end-line="581" selection-end-column="24" />
+        <state relative-caret-position="4635">
+          <caret line="315" column="42" selection-start-line="315" selection-start-column="38" selection-end-line="315" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3090">
+          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontResult.fnt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        <state relative-caret-position="330">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1515">
+          <caret line="122" selection-start-line="116" selection-start-column="2" selection-end-line="122" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/font_white.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontVn.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/particleOver/particleLose">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2029" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/effect/effectWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardGame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/GameOver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1670#1671#0" expanded="true" />
+            <element signature="e#1735#1736#0" expanded="true" />
           </folding>
         </state>
       </provider>

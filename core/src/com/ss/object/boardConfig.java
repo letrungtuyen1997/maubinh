@@ -8,7 +8,8 @@ public class boardConfig {
     public static float durationDistrbute = 0.8f;
     public static float scaleBot = 0.7f;
     public static float widthCard= 169;
-    public static long monneyStart= 0;
+    public static long monneyStart= 100000;
+    public static long Mymonney= 5000000;
     public static String[] arrName =  {"Châu Tinh Trì","Tả Tụng Tinh","Ling Ling Chình","Tiểu Cường","Doãn Thiên Sầu","Châu Tinh Tinh"};
     public static Group Group = new Group();
 }

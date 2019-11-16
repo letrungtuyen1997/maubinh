@@ -1,5 +1,6 @@
 package com.ss.scene;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Vector2;
@@ -23,12 +24,15 @@ import com.ss.object.PaticleSuper;
 import com.ss.object.boardConfig;
 import com.ss.object.boardGame;
 
+import java.text.DecimalFormat;
+
 public class gamePlay extends GScreen {
     TextureAtlas atlas, cardAtlas;
-    BitmapFont font, fontmonney, fontName,font_white;
+    BitmapFont font, fontmonney, fontName,font_white,fontResult,fontResult1;
     Group group = new Group();
     Group groupAvt = new Group();
     Group groupBoard = new Group();
+    Group groupParticle = new Group();
     Group groupMonney = new Group();
     public Array<Vector2> positionCards;
     Array<Image> AvtBotArr = new Array<>();
@@ -45,6 +49,7 @@ public class gamePlay extends GScreen {
     public void init() {
         GStage.addToLayer(GLayer.ui,group);
         GStage.addToLayer(GLayer.ui,groupBoard);
+        GStage.addToLayer(GLayer.ui,groupParticle);
         GStage.addToLayer(GLayer.ui,groupAvt);
         GStage.addToLayer(GLayer.ui,groupMonney);
         initAtlas();
@@ -53,8 +58,8 @@ public class gamePlay extends GScreen {
         showBg();
         loadAvtPlayer();
         loadAvtBot();
-        loadmoney();
-        //showbtnXepBai();
+        loadLabelMoney();
+        showbtnXepBai();
 
 
     }
@@ -67,7 +72,7 @@ public class gamePlay extends GScreen {
         bg.setHeight(GStage.getWorldHeight());
         group.addActor(bg);
         ////// new boardgame//////
-        new boardGame(cardAtlas,atlas,this,groupBoard,font_white);
+        new boardGame(cardAtlas,atlas,this,groupBoard,groupParticle,fontResult,fontResult1,arrMonney,arrLabel);
 
     }
     private void initPositionCards(){
@@ -131,16 +136,16 @@ public class gamePlay extends GScreen {
         float x=0,y=0,paddingX=0;
         for(int i=1;i<boardConfig.modePlay;i++){
             if(i==1){
-                x = positionCards.get(i).x-70;
-                y = positionCards.get(i).y-250;
+                x = positionCards.get(i).x-50;
+                y = positionCards.get(i).y-300;
                 paddingX=20;
             }else if(i==2){
-                x = positionCards.get(i).x+230;
+                x = positionCards.get(i).x+260;
                 y = positionCards.get(i).y-120;
                 paddingX=15;
 
             }else if(i==3){
-                x = positionCards.get(i).x+70;
+                x = positionCards.get(i).x;
                 y = positionCards.get(i).y+120;
                 paddingX=25;
             }
@@ -162,28 +167,35 @@ public class gamePlay extends GScreen {
 
         }
     }
-    void  loadmoney(){
+    void  loadLabelMoney(){
+        arrMonney.add(boardConfig.Mymonney);
+        for(int i=0;i<3;i++){
+            long monney = boardConfig.monneyStart*(long)(Math.random()*50+10);
+            arrMonney.add(monney);
+        }
         float x = 0;
         float y = 0;
         for(int i=0;i<boardConfig.modePlay;i++){
-            Label monney = new Label("2000",new Label.LabelStyle(fontmonney,null));
-            if(i==0){x=positionCards.get(i).x; y=positionCards.get(i).y+100;}
-            else if(i==1){x=positionCards.get(i).x+100; y=positionCards.get(i).y-260; monney.setFontScale(0.5f);
+            Label monney = new Label("$ "+FortmartPrice(arrMonney.get(i)),new Label.LabelStyle(fontmonney,null));
+            if(i==0){x=positionCards.get(i).x; y=positionCards.get(i).y+90;}
+            else if(i==1){x=positionCards.get(i).x-60; y=positionCards.get(i).y-220; monney.setFontScale(0.5f);
             }
-            else if(i==2){x=positionCards.get(i).x+240; y=positionCards.get(i).y-20; monney.setFontScale(0.5f);
+            else if(i==2){x=positionCards.get(i).x+255; y=positionCards.get(i).y-40; monney.setFontScale(0.5f);
             }
-            else if(i==3){x=positionCards.get(i).x-70; y=positionCards.get(i).y+120; monney.setFontScale(0.5f);
+            else if(i==3){x=positionCards.get(i).x-5; y=positionCards.get(i).y+200; monney.setFontScale(0.5f);
             }
             monney.setOrigin(Align.center);
-            monney.setPosition(x,y,Align.center);
+            monney.setPosition(x+10,y,Align.center);
+            monney.setAlignment(Align.center);
             groupMonney.addActor(monney);
+            arrLabel.add(monney);
         }
-
     }
     void showbtnXepBai(){
         Image btnXepbai = GUI.createImage(atlas,"btnXepbai");
+        btnXepbai.setColor(Color.BLUE);
         btnXepbai.setOrigin(Align.center);
-        btnXepbai.setPosition(GStage.getWorldWidth()-100, GStage.getWorldHeight()-100,Align.center);
+        btnXepbai.setPosition(GStage.getWorldWidth()-200, GStage.getWorldHeight()-100,Align.center);
         group.addActor(btnXepbai);
         btnXepbai.addListener(new ClickListener(){
             @Override
@@ -195,10 +207,12 @@ public class gamePlay extends GScreen {
                 ));
                 Tweens.setTimeout(group,0.2f,()->{
                     btnXepbai.setTouchable(Touchable.enabled);
-//                    groupBoard.remove();
-//                    groupBoard.clear();
-                    new PaticleSuper(14);
-//                    new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard,font_white);
+                    groupBoard.remove();
+                    groupBoard.clear();
+                    groupParticle.remove();
+                    groupParticle.clear();
+//                    new PaticleSuper(14);
+                    new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard,groupParticle,fontResult,fontResult1,arrMonney,arrLabel);
                 });
                 return super.touchDown(event, x, y, pointer, button);
             }
@@ -210,11 +224,18 @@ public class gamePlay extends GScreen {
         fontName = GAssetsManager.getBitmapFont("fontVn.fnt");
         fontmonney = GAssetsManager.getBitmapFont("gold.fnt");
         font_white = GAssetsManager.getBitmapFont("font_white.fnt");
+        fontResult = GAssetsManager.getBitmapFont("fontResultYellow.fnt");
+        fontResult1 = GAssetsManager.getBitmapFont("fontResultGray.fnt");
     }
-
-
     void initAtlas(){
         atlas = GAssetsManager.getTextureAtlas("ui.atlas");
         cardAtlas = GAssetsManager.getTextureAtlas("card.atlas");
+    }
+    private String FortmartPrice(Long Price) {
+
+        DecimalFormat mDecimalFormat = new DecimalFormat("###,###,###,###");
+        String mPrice = mDecimalFormat.format(Price);
+
+        return mPrice;
     }
 }

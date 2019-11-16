@@ -31,6 +31,7 @@ public class BinhPlayer {
   private float maxRange;
   private BitmapFont font;
   private Array<Array<Integer>> arrayBinh = new Array<>();
+  private Image swapBtn;
 
   public BinhPlayer(TextureAtlas cardAtlas,TextureAtlas uiAtlas, Array<Card> cardsPlayer,Runnable runnable){
     this.uiAtlas = uiAtlas;
@@ -48,7 +49,36 @@ public class BinhPlayer {
     darkScreen();
     cloneCards();
     checkBinh();
+    initSwapBtn();
     showBtnDone(runnable);
+  }
+
+  private void initSwapBtn(){
+    swapBtn = GUI.createImage(uiAtlas, "swap");
+    swapBtn.setAlign(Align.center);
+    swapBtn.setOrigin(Align.center);
+    swapBtn.setPosition(1280*2/3 + 120, 720*2/3 - 70);
+    groupOverLay.addActor(swapBtn);
+
+    swapBtn.addListener(new ClickListener(){
+      @Override
+      public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+        swapBtn.setTouchable(Touchable.disabled);
+        swapcds();
+        Tweens.setTimeout(groupOverLay, 0.3f, ()->{
+          checkBinh();
+          swapBtn.setTouchable(Touchable.enabled);
+        });
+        return super.touchDown(event, x, y, pointer, button);
+      }
+    });
+  }
+
+  private void swapcds(){
+    for(int i = 0; i < 5; i++) {
+      swapCard(cardsPlayerDes, cardsPlayerDes.get(i), cardsPlayerDes.get(i+5), new Vector2(cardsPlayerDes.get(i).card.getX(), cardsPlayerDes.get(i).card.getY()));
+      swapCard(cardsPlayerSrc, cardsPlayerSrc.get(i), cardsPlayerSrc.get(i+5), new Vector2(cardsPlayerSrc.get(i).card.getX(), cardsPlayerSrc.get(i).card.getY()));
+    }
   }
 
   private void cloneCards(){
@@ -122,7 +152,6 @@ public class BinhPlayer {
       Vector2 p = new Vector2(cardsPlayerSrc.get(index1).card.getX(),cardsPlayerSrc.get(index1).card.getY());
       swapCard(cardsPlayerSrc, cardsPlayerSrc.get(index1), cardsPlayerSrc.get(indexResult), p);
       swapCard(cardsPlayerDes, cardC, cardsPlayerDes.get(indexResult), p1);
-      groupLabel.clear();
       checkBinh();
 
       return indexResult;
@@ -199,6 +228,7 @@ public class BinhPlayer {
     }
   }
   void checkBinh(){
+    groupLabel.clear();
     arrayBinh.clear();
 //    System.out.println("======binh top======");
 //    for(int i = 0; i < 5; i++) {
@@ -218,36 +248,45 @@ public class BinhPlayer {
 
 
 
-
-    //// binh top
-    int typetop =CheckCard.check(BinhTop())>>13;
-    int typeMid =CheckCard.check(BinhMid())>>13;
-    int typeLow =CheckCard.check(BinhLow())>>13;
-    System.out.println("binh top: "+typetop);
-    System.out.println("binh Mid: "+typeMid);
-    System.out.println("binh Low: "+typeLow);
-
-    Label binhTop = new Label(CheckType(typetop),new Label.LabelStyle(font, Color.SKY));
-    binhTop.setFontScale(0.8f);
-    binhTop.setPosition(50,500);
-    binhTop.setAlignment(Align.center);
-    groupLabel.addActor(binhTop);
-    Label binhMid= new Label(CheckType(typeMid),new Label.LabelStyle(font,Color.SKY));
-    binhMid.setFontScale(0.8f);
-    binhMid.setPosition(50,320);
-    binhMid.setAlignment(Align.center);
-    groupLabel.addActor(binhMid);
-    Label binhLow = new Label(CheckType(typeLow),new Label.LabelStyle(font,Color.SKY));
-    binhLow.setFontScale(0.8f);
-    binhLow.setPosition(50,150);
-    binhLow.setAlignment(Align.center);
-    groupLabel.addActor(binhLow);
-
-    /////////////
+    ///////////// check binh lung///////
     arrayBinh.add(BinhLow());
     arrayBinh.add(BinhMid());
     arrayBinh.add(BinhTop());
-    System.out.println("array binh: "+CheckCard.validate(arrayBinh));
+    if(CheckCard.validate(arrayBinh)) {
+//    System.out.println("array binh: "+CheckCard.validate(arrayBinh));
+      //// binh top
+      int typetop =CheckCard.check(BinhTop())>>13;
+      int typeMid =CheckCard.check(BinhMid())>>13;
+      int typeLow =CheckCard.check(BinhLow())>>13;
+      System.out.println("binh top: "+typetop);
+      System.out.println("binh Mid: "+typeMid);
+      System.out.println("binh Low: "+typeLow);
+
+      Label binhTop = new Label(CheckType(typetop),new Label.LabelStyle(font, Color.GREEN));
+      binhTop.setFontScale(0.8f);
+      binhTop.setPosition(50,500);
+      binhTop.setAlignment(Align.center);
+      groupLabel.addActor(binhTop);
+      Label binhMid= new Label(CheckType(typeMid),new Label.LabelStyle(font,Color.GREEN));
+      binhMid.setFontScale(0.8f);
+      binhMid.setPosition(50,320);
+      binhMid.setAlignment(Align.center);
+      groupLabel.addActor(binhMid);
+      Label binhLow = new Label(CheckType(typeLow),new Label.LabelStyle(font,Color.GREEN));
+      binhLow.setFontScale(0.8f);
+      binhLow.setPosition(50,150);
+      binhLow.setAlignment(Align.center);
+      groupLabel.addActor(binhLow);
+    }else {
+      Label binhMid= new Label("Binh Lủng",new Label.LabelStyle(font,Color.RED));
+      binhMid.setFontScale(0.8f);
+      binhMid.setPosition(50,320);
+      binhMid.setAlignment(Align.center);
+      groupLabel.addActor(binhMid);
+    }
+
+
+
 
   }
   String CheckType(int type){
@@ -315,21 +354,21 @@ public class BinhPlayer {
     btnXong.addListener(new ClickListener(){
       @Override
       public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-        btnXong.setTouchable(Touchable.disabled);
-          btnXong.addAction(Actions.sequence(
-                  Actions.scaleTo(0.8f,0.8f,0.1f),
-                  Actions.scaleTo(1f,1f,0.1f),
-                  GSimpleAction.simpleAction((d,a)->{
-                    groupLabel.clear();
-                    groupOverLay.clear();
-                    groupLabel.addAction(Actions.run(runnable));
-                    return true;
-                  })
-          ));
-        Tweens.setTimeout(groupLabel,0.2f,()->{
+      btnXong.setTouchable(Touchable.disabled);
+        btnXong.addAction(Actions.sequence(
+          Actions.scaleTo(0.8f,0.8f,0.1f),
+          Actions.scaleTo(1f,1f,0.1f),
+          GSimpleAction.simpleAction((d,a)->{
+            groupLabel.clear();
+            groupOverLay.clear();
+            groupLabel.addAction(Actions.run(runnable));
+            return true;
+          })
+        ));
+      Tweens.setTimeout(groupLabel,0.2f,()->{
 
-        });
-        return super.touchDown(event, x, y, pointer, button);
+      });
+      return super.touchDown(event, x, y, pointer, button);
       }
     });
   }

@@ -26,6 +26,14 @@ public class effectWin extends Actor {
   private static FileHandle namdoi1sam = Gdx.files.internal("particle/5doi1sam");
   private static FileHandle sanhrong = Gdx.files.internal("particle/SanhRong");
   private static FileHandle rongcuon = Gdx.files.internal("particle/RongCuon");
+  private static FileHandle bathung1 = Gdx.files.internal("particle/3thung1");
+  private static FileHandle basanh1 = Gdx.files.internal("particle/3sanh1");
+  private static FileHandle lucphebon1 = Gdx.files.internal("particle/lucphebon1");
+  private static FileHandle namdoi1sam1 = Gdx.files.internal("particle/5doi1sam1");
+  private static FileHandle sanhrong1 = Gdx.files.internal("particle/SanhRong1");
+  private static FileHandle rongcuon1 = Gdx.files.internal("particle/RongCuon1");
+  private static FileHandle winner = Gdx.files.internal("particleOver/paricleWin");
+  private static FileHandle loser = Gdx.files.internal("particleOver/particleLose");
 
 
   public ParticleEffect effect;
@@ -72,7 +80,7 @@ public class effectWin extends Actor {
     }
     else if(id==5){
       this.effect.load(thung, Gdx.files.internal("particle"));
-      this.effect.scaleEffect(1f);
+      this.effect.scaleEffect(1.2f);
       for (int i = 0; i < this.effect.getEmitters().size; i++) {
         ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
       }
@@ -142,6 +150,54 @@ public class effectWin extends Actor {
     } else if(id==17){
       this.effect.load(rongcuon, Gdx.files.internal("particle"));
       this.effect.scaleEffect(2.0f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==18){
+        this.effect.load(basanh1, Gdx.files.internal("particle"));
+        this.effect.scaleEffect(0.7f);
+        for (int i = 0; i < this.effect.getEmitters().size; i++) {
+            ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+        }
+    }else if(id==19){
+        this.effect.load(bathung1, Gdx.files.internal("particle"));
+        this.effect.scaleEffect(0.7f);
+        for (int i = 0; i < this.effect.getEmitters().size; i++) {
+            ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+        }
+    }else if(id==20){
+        this.effect.load(lucphebon1, Gdx.files.internal("particle"));
+        this.effect.scaleEffect(0.7f);
+        for (int i = 0; i < this.effect.getEmitters().size; i++) {
+            ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+        }
+    }else if(id==21){
+        this.effect.load(namdoi1sam1, Gdx.files.internal("particle"));
+        this.effect.scaleEffect(0.7f);
+        for (int i = 0; i < this.effect.getEmitters().size; i++) {
+            ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+        }
+    } else if(id==22){
+        this.effect.load(sanhrong1, Gdx.files.internal("particle"));
+        this.effect.scaleEffect(0.7f);
+        for (int i = 0; i < this.effect.getEmitters().size; i++) {
+            ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+        }
+    } else if(id==23){
+        this.effect.load(rongcuon1, Gdx.files.internal("particle"));
+        this.effect.scaleEffect(0.7f);
+        for (int i = 0; i < this.effect.getEmitters().size; i++) {
+            ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+        }
+    }else if(id==24){
+      this.effect.load(winner, Gdx.files.internal("particleOver"));
+      this.effect.scaleEffect(1f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==25){
+      this.effect.load(loser, Gdx.files.internal("particleOver"));
+      this.effect.scaleEffect(1f);
       for (int i = 0; i < this.effect.getEmitters().size; i++) {
         ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
       }

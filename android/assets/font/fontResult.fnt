@@ -1,0 +1,25 @@
+info face="/Users/dungle/Desktop/sound\Group 102-export" size=32 bold=0 italic=0 charset="" unicode=0 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1
+common lineHeight=91 base=26 scaleW=512 scaleH=256 pages=1 packed=0 alphaChnl=1 redChnl=0 greenChnl=0 blueChnl=0
+page id=0 file="fontBlue.png"
+chars count=19
+char id=49 x=0 y=129 width=56 height=62 xoffset=0 yoffset=29 xadvance=62 page=0 chnl=0 letter="1"
+char id=50 x=213 y=53 width=41 height=63 xoffset=0 yoffset=28 xadvance=47 page=0 chnl=0 letter="2"
+char id=51 x=0 y=192 width=54 height=63 xoffset=0 yoffset=28 xadvance=60 page=0 chnl=0 letter="3"
+char id=52 x=113 y=0 width=52 height=63 xoffset=0 yoffset=28 xadvance=58 page=0 chnl=0 letter="4"
+char id=53 x=0 y=0 width=57 height=63 xoffset=0 yoffset=28 xadvance=63 page=0 chnl=0 letter="5"
+char id=54 x=57 y=129 width=54 height=64 xoffset=0 yoffset=28 xadvance=60 page=0 chnl=0 letter="6"
+char id=55 x=112 y=129 width=53 height=64 xoffset=0 yoffset=28 xadvance=59 page=0 chnl=0 letter="7"
+char id=56 x=58 y=0 width=54 height=63 xoffset=0 yoffset=28 xadvance=60 page=0 chnl=0 letter="8"
+char id=57 x=0 y=64 width=56 height=64 xoffset=0 yoffset=28 xadvance=62 page=0 chnl=0 letter="9"
+char id=259 x=57 y=64 width=54 height=64 xoffset=0 yoffset=28 xadvance=60 page=0 chnl=0 letter="ă"
+char id=110 x=112 y=64 width=54 height=64 xoffset=0 yoffset=27 xadvance=60 page=0 chnl=0 letter="n"
+char id=99 x=108 y=194 width=52 height=53 xoffset=0 yoffset=39 xadvance=58 page=0 chnl=0 letter="c"
+char id=104 x=161 y=200 width=51 height=52 xoffset=0 yoffset=39 xadvance=57 page=0 chnl=0 letter="h"
+char id=105 x=166 y=129 width=52 height=70 xoffset=0 yoffset=22 xadvance=58 page=0 chnl=0 letter="i"
+char id=116 x=219 y=117 width=38 height=62 xoffset=0 yoffset=28 xadvance=44 page=0 chnl=0 letter="t"
+char id=117 x=167 y=53 width=45 height=63 xoffset=0 yoffset=29 xadvance=51 page=0 chnl=0 letter="u"
+char id=97 x=55 y=194 width=52 height=52 xoffset=0 yoffset=39 xadvance=58 page=0 chnl=0 letter="a"
+char id=32 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=35 page=0 chnl=0 letter=" "
+char id=9 x=0 y=0 width=0 height=0 xoffset=0 yoffset=0 xadvance=280 page=0 chnl=0 letter="	"
+
+kernings count=0

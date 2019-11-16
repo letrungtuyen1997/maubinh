@@ -23,8 +23,6 @@ public class gameStart extends GScreen {
         GStage.addToLayer(GLayer.ui,group);
         initAtlas();
         showBg();
-
-
     }
 
     @Override

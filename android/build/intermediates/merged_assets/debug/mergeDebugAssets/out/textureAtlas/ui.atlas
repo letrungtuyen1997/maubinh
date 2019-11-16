@@ -6,128 +6,142 @@ filter: Nearest,Nearest
 repeat: none
 CAIDAT 1
   rotate: false
-  xy: 2, 947
+  xy: 2, 991
   size: 1565, 1044
   orig: 1565, 1044
   offset: 0, 0
   index: 3
 CAIDAT 1
   rotate: false
-  xy: 1569, 1858
+  xy: 1569, 1902
   size: 475, 133
   orig: 475, 133
   offset: 0, 0
   index: 5
 CAIDAT 1
   rotate: false
-  xy: 1569, 1723
+  xy: 1569, 1767
   size: 475, 133
   orig: 475, 133
   offset: 0, 0
   index: 6
 CAIDAT 1
   rotate: false
-  xy: 1569, 1588
+  xy: 1569, 1632
   size: 333, 133
   orig: 333, 133
   offset: 0, 0
   index: 4
 avtBot1
   rotate: false
-  xy: 1904, 1613
+  xy: 1904, 1657
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot2
   rotate: false
-  xy: 1569, 1048
+  xy: 1569, 1092
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot3
   rotate: false
-  xy: 1334, 685
+  xy: 1334, 729
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot4
   rotate: false
-  xy: 1679, 1048
+  xy: 1679, 1092
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtMe
   rotate: false
-  xy: 1334, 795
+  xy: 1334, 839
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 bgStart
   rotate: false
-  xy: 2, 125
+  xy: 2, 169
   size: 1330, 820
   orig: 1330, 820
   offset: 0, 0
   index: -1
 btnStart
   rotate: false
-  xy: 1569, 1158
+  xy: 1569, 1202
   size: 299, 114
   orig: 299, 114
   offset: 0, 0
   index: -1
 btnXepbai
   rotate: false
-  xy: 1334, 583
+  xy: 1334, 627
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 btnXong
   rotate: false
-  xy: 1334, 481
+  xy: 1334, 525
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+frameMonney
+  rotate: false
+  xy: 2, 34
+  size: 200, 49
+  orig: 200, 49
+  offset: 0, 0
+  index: -1
 frameResult
   rotate: false
-  xy: 2, 41
+  xy: 2, 85
   size: 597, 82
   orig: 597, 82
   offset: 0, 0
   index: -1
 nameBot
   rotate: false
-  xy: 601, 93
+  xy: 2, 2
   size: 120, 30
   orig: 120, 30
   offset: 0, 0
   index: -1
 namePlayer
   rotate: false
-  xy: 2, 2
+  xy: 601, 130
   size: 153, 37
   orig: 153, 37
   offset: 0, 0
   index: -1
 playOff
   rotate: false
-  xy: 1569, 1431
+  xy: 1569, 1475
   size: 300, 155
   orig: 300, 155
   offset: 0, 0
   index: -1
 playOn
   rotate: false
-  xy: 1569, 1274
+  xy: 1569, 1318
   size: 300, 155
   orig: 300, 155
+  offset: 0, 0
+  index: -1
+swap
+  rotate: false
+  xy: 1486, 928
+  size: 80, 61
+  orig: 80, 61
   offset: 0, 0
   index: -1
 

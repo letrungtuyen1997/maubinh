@@ -6,128 +6,149 @@ filter: Nearest,Nearest
 repeat: none
 CAIDAT 1
   rotate: false
-  xy: 2, 947
+  xy: 2, 975
   size: 1565, 1044
   orig: 1565, 1044
   offset: 0, 0
   index: 3
 CAIDAT 1
   rotate: false
-  xy: 1569, 1858
+  xy: 1569, 1886
   size: 475, 133
   orig: 475, 133
   offset: 0, 0
   index: 5
 CAIDAT 1
   rotate: false
-  xy: 1569, 1723
+  xy: 1334, 185
   size: 475, 133
   orig: 475, 133
   offset: 0, 0
   index: 6
 CAIDAT 1
   rotate: false
-  xy: 1569, 1588
+  xy: 1569, 1751
   size: 333, 133
   orig: 333, 133
   offset: 0, 0
   index: 4
 avtBot1
   rotate: false
-  xy: 1904, 1613
+  xy: 1811, 210
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot2
   rotate: false
-  xy: 1569, 1048
+  xy: 1904, 1776
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot3
   rotate: false
-  xy: 1334, 685
+  xy: 1569, 1059
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot4
   rotate: false
-  xy: 1679, 1048
+  xy: 1721, 1211
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtMe
   rotate: false
-  xy: 1334, 795
+  xy: 1569, 1169
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 bgStart
   rotate: false
-  xy: 2, 125
+  xy: 2, 153
   size: 1330, 820
   orig: 1330, 820
   offset: 0, 0
   index: -1
+btnClose
+  rotate: false
+  xy: 2, 2
+  size: 200, 65
+  orig: 200, 65
+  offset: 0, 0
+  index: -1
 btnStart
   rotate: false
-  xy: 1569, 1158
+  xy: 1569, 1321
   size: 299, 114
   orig: 299, 114
   offset: 0, 0
   index: -1
 btnXepbai
   rotate: false
-  xy: 1334, 583
-  size: 100, 100
-  orig: 100, 100
+  xy: 1921, 203
+  size: 100, 115
+  orig: 100, 115
   offset: 0, 0
   index: -1
 btnXong
   rotate: false
-  xy: 1334, 481
-  size: 100, 100
-  orig: 100, 100
+  xy: 1679, 1059
+  size: 100, 108
+  orig: 100, 108
+  offset: 0, 0
+  index: -1
+frameLose
+  rotate: false
+  xy: 1334, 320
+  size: 700, 653
+  orig: 700, 653
   offset: 0, 0
   index: -1
 frameResult
   rotate: false
-  xy: 2, 41
+  xy: 2, 69
   size: 597, 82
   orig: 597, 82
   offset: 0, 0
   index: -1
 nameBot
   rotate: false
-  xy: 601, 93
+  xy: 1334, 153
   size: 120, 30
   orig: 120, 30
   offset: 0, 0
   index: -1
 namePlayer
   rotate: false
-  xy: 2, 2
+  xy: 601, 114
   size: 153, 37
   orig: 153, 37
   offset: 0, 0
   index: -1
 playOff
   rotate: false
-  xy: 1569, 1431
+  xy: 1569, 1594
   size: 300, 155
   orig: 300, 155
   offset: 0, 0
   index: -1
 playOn
   rotate: false
-  xy: 1569, 1274
+  xy: 1569, 1437
   size: 300, 155
   orig: 300, 155
+  offset: 0, 0
+  index: -1
+swap
+  rotate: false
+  xy: 1569, 981
+  size: 100, 76
+  orig: 100, 76
   offset: 0, 0
   index: -1
 
@@ -150,6 +171,13 @@ CAIDAT 1
   orig: 811, 300
   offset: 0, 0
   index: 1
+frameWin
+  rotate: false
+  xy: 1284, 1095
+  size: 700, 651
+  orig: 700, 651
+  offset: 0, 0
+  index: -1
 table1
   rotate: false
   xy: 2, 1026

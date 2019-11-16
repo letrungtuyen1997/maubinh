@@ -13,11 +13,11 @@ public class PaticleSuper {
     public PaticleSuper(int type){
         GStage.addToLayer(GLayer.top,group);
         darkScreen();
-        effectWin effect = new effectWin(type,GStage.getWorldWidth()/2,GStage.getWorldHeight()/2);
-        effect.effect.setDuration(5);
+        effectWin effect = new effectWin(type+2,GStage.getWorldWidth()/2,GStage.getWorldHeight()/2);
+        effect.effect.setDuration(3);
         group.addActor(effect);
         effect.start();
-        Tweens.setTimeout(group,5f,()->{
+        Tweens.setTimeout(group,3f,()->{
             group.clear();
             group.remove();
         });
@@ -26,7 +26,7 @@ public class PaticleSuper {
     private void darkScreen(){
         final GShapeSprite blackOverlay = new GShapeSprite();
         blackOverlay.createRectangle(true, -GStage.getWorldWidth()/2,-GStage.getWorldHeight()/2, GStage.getWorldWidth()*2, GStage.getWorldHeight()*2);
-        blackOverlay.setColor(0,0,0,0.7f);
+        blackOverlay.setColor(0,0,0,0.3f);
         group.addActor(blackOverlay);
     }
 }
