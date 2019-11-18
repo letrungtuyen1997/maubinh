@@ -57,7 +57,7 @@ public class BinhPlayer {
     swapBtn = GUI.createImage(uiAtlas, "swap");
     swapBtn.setAlign(Align.center);
     swapBtn.setOrigin(Align.center);
-    swapBtn.setPosition(1280*2/3 + 120, 720*2/3 - 70);
+    swapBtn.setPosition(GStage.getWorldWidth()*2/3 + 120, GStage.getWorldHeight()*2/3 - 70);
     groupOverLay.addActor(swapBtn);
 
     swapBtn.addListener(new ClickListener(){

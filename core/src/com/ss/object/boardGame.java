@@ -4,29 +4,24 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
-import com.badlogic.gdx.scenes.scene2d.actions.ParallelAction;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
 import com.effect.effectWin;
-import com.ss.GMain;
 import com.ss.commons.Tweens;
 import com.ss.core.action.exAction.GSimpleAction;
-import com.ss.core.util.GAssetsManager;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GStage;
 import com.ss.core.util.GUI;
 import com.ss.scene.gamePlay;
 
 import java.text.DecimalFormat;
-import java.util.Comparator;
 
 public class boardGame {
   gamePlay gamePlay;
@@ -47,6 +42,8 @@ public class boardGame {
   Array<Integer> arrayWinner= new Array<>();
   Array<Integer> arrSupper = new Array<>();
   Array<Integer> resultBranch = new Array<>();
+  Array<Integer> CheckLoseAll = new Array<>();
+  int branch =0;
 
 
   public boardGame(TextureAtlas cardAtlas,TextureAtlas uiAtlas,gamePlay gamePlay,Group group,Group groupParticle, BitmapFont font,BitmapFont font1,Array<Long> monney,Array<Label> labelmonney){
@@ -65,7 +62,6 @@ public class boardGame {
     innitPlayer();
     renderCard();
     distributeCardsOutSide();
-    showbtnXepBai();
 //    new GameOver(resultBranch);
 
   }
@@ -75,6 +71,7 @@ public class boardGame {
       CardPlay.add(card);
       arrayWinner.add(i);
       resultBranch.add(0);
+      CheckLoseAll.add(0);
     }
   }
   void renderCard(){
@@ -113,6 +110,16 @@ public class boardGame {
               }
             }
           }
+          if(ArrSpecial.size!=0){
+            if(ArrSpecial.get(0)==0){
+              lifeGame(0,"game");
+            }else {
+              showbtnXepBai();
+            }
+          }else {
+            showbtnXepBai();
+          }
+
         });
       });
 
@@ -131,7 +138,6 @@ public class boardGame {
       distributeCardInside(indexTemp);
     });
   }
-
 
   void setPositonCard(int index){
 
@@ -184,10 +190,12 @@ public class boardGame {
         Actions.scaleTo(1f,1f,0.1f)
       ));
       Tweens.setTimeout(group,0.2f,()->{
+        btnXepbai.remove();
+        btnXepbai.clear();
         btnXepbai.setTouchable(Touchable.enabled);
         new BinhPlayer(cardAtlas,uiAtlas,CardPlay.get(0),()->{
           setflipAllCard();
-          lifeGame(0);
+          lifeGame(0,"game");
         });
       });
       return super.touchDown(event, x, y, pointer, button);
@@ -229,7 +237,6 @@ public class boardGame {
         if(CardPlay.get(index).get(i).Key==BotBinhFinish.get(0).get(j)){
           SwapArrCard(CardPlay.get(index), i,10+ j);
         }
-
       }
     }
   }
@@ -237,19 +244,28 @@ public class boardGame {
   void SwapArrCard(Array<Card> A,int indexA , int indexB){
     A.swap(indexA,indexB);
   }
-  void lifeGame(int index){
+  void lifeGame(int index,String mode){
     if(index>=3){
-//      groupParticle.clear();
+      groupParticle.clear();
       for (int i=0;i<allCard.size;i++){
         allCard.get(i).card.setColor(Color.WHITE);
       }
       for(int i=0;i<resultBranch.size;i++){
         System.out.println("resultBranch bot "+i+": "+resultBranch.get(i));
       }
-      new GameOver(resultBranch);
+      actionChi(index);
+      resultfinish();
+      Tweens.setTimeout(group,2f,()->{
+        if(mode=="game"){
+          new GameOver(resultBranch);
+        }
+          replay();
+      });
       return;
     }
-//    groupParticle.clear();
+    branch= index;
+    groupParticle.clear();
+    actionChi(index);
     if(index==0) {
       for (int i = 0; i < 5; i++) {
         int finalI = i;
@@ -288,18 +304,15 @@ public class boardGame {
     Tweens.setTimeout(group,2f,()->{
       setLableResult(finalIndex1);
       setZindexCard(finalIndex1);
-//      for (int i =0; i<arrayCheck.size;i++){
-//        System.out.println("ArrayCheck: "+arrayCheck.get(i));
-//      }
       Tweens.setTimeout(group,2f,()->{
-        CheckWin();
+        CheckWin(mode);
 
       });
     });
     index++;
     int finalIndex = index;
     Tweens.setTimeout(group,6f,()->{
-      lifeGame(finalIndex);
+      lifeGame(finalIndex,mode);
     });
 
   }
@@ -463,7 +476,7 @@ public class boardGame {
         }
     }
 
-    void CheckWin(){
+    void CheckWin(String mode){
 
       System.out.println("size array check: "+arrayCheck.size);
       System.out.println("size array special: "+ArrSpecial.size);
@@ -490,7 +503,6 @@ public class boardGame {
                   arrayWinner.removeIndex(i);
               }else {
                 System.out.println("checkWinner: " + arrayWinner.get(i));
-
               }
             }
           }else {
@@ -498,30 +510,54 @@ public class boardGame {
           }
 
         }
-        resultWin();
+        resultWin(mode);
         System.out.println("===================");
         setArrWinner();
 
     }
-    void resultWin(){
+    void resultWin(String mode){
         int result =0;
+        int rslSpcl =0;
         Label rlt;
         Label rltMonney;
           for (int i=0;i<ArrCompare.size;i++){
-            if(i==0){result=ArrCompare.size-1;}
-            if(i==1){result=ArrCompare.size-3;}
-            if(i==2){result=ArrCompare.size-(ArrCompare.size+1);}
-            if(i==3){result=1-ArrCompare.size;}
+            for(int j=0;j<ArrCompare.size;j++){
+              if(CheckCard.check(arrayCheck.get(i))>>13==7){
+                if(branch==0){
+                  rslSpcl =4;
+                }else if(branch==1) {
+                  rslSpcl =8;
+                }
+              }
+              if(CheckCard.check(arrayCheck.get(i))>>13==8){
+                if(branch==0){
+                  rslSpcl =5;
+                }else if(branch==1) {
+                  rslSpcl =10;
+                }
+              }
+              if(CheckCard.check(arrayCheck.get(i))>>13==6&&branch==1){
+                  rslSpcl =2;
+              }
+            }
+            if(i==0){result=(ArrCompare.size-1)+rslSpcl;}
+            if(i==1){result=(ArrCompare.size-3)-rslSpcl;}
+            if(i==2){result=(ArrCompare.size-(ArrCompare.size+1))-rslSpcl;}
+            if(i==3){result=(1-ArrCompare.size)-rslSpcl;}
             if(result>=0){
               rlt = new Label("ăn "+result+" chi",new Label.LabelStyle(font,null));
-              rltMonney = new Label("+"+FortmartPrice(result*boardConfig.monneyStart)+" $",new Label.LabelStyle(font,null));
-              ArrMonney.set(arrayWinner.get(i),(long)(ArrMonney.get(arrayWinner.get(i))+result*(boardConfig.monneyStart)));
-              LabelMonney.get(arrayWinner.get(i)).setText(FortmartPrice(ArrMonney.get(arrayWinner.get(i))));
+                rltMonney = new Label("+" + FortmartPrice(result * boardConfig.monneyStart) + " $", new Label.LabelStyle(font, null));
+              if(mode=="game") {
+                ArrMonney.set(arrayWinner.get(i), (long) (ArrMonney.get(arrayWinner.get(i)) + result * (boardConfig.monneyStart)));
+                LabelMonney.get(arrayWinner.get(i)).setText(FortmartPrice(ArrMonney.get(arrayWinner.get(i))));
+              }
             }else {
               rlt = new Label("thua "+result*(-1)+" chi",new Label.LabelStyle(font1,null));
               rltMonney = new Label(""+FortmartPrice(result*boardConfig.monneyStart)+" $",new Label.LabelStyle(font1,null));
-              ArrMonney.set(arrayWinner.get(i),(long)(ArrMonney.get(arrayWinner.get(i))+result*(boardConfig.monneyStart)));
-              LabelMonney.get(arrayWinner.get(i)).setText(FortmartPrice(ArrMonney.get(arrayWinner.get(i))));
+              if(mode=="game") {
+                ArrMonney.set(arrayWinner.get(i), (long) (ArrMonney.get(arrayWinner.get(i)) + result * (boardConfig.monneyStart)));
+                LabelMonney.get(arrayWinner.get(i)).setText(FortmartPrice(ArrMonney.get(arrayWinner.get(i))));
+              }
             }
             rlt.setFontScale(0.7f);
             rltMonney.setFontScale(0.7f);
@@ -550,13 +586,14 @@ public class boardGame {
                     })
             ));
             /////// result branch/////
-            resultBranch.set(arrayWinner.get(i),resultBranch.get(arrayWinner.get(i))+result);
+            if(mode=="game") {
+              resultBranch.set(arrayWinner.get(i), resultBranch.get(arrayWinner.get(i)) + result);
+            }
           }
+      setCheckLoseAll();
+
     }
     void resultSpecial(int type){
-//      for (int i=0;i<ArrMonney.size;i++){
-//        System.out.println("monneybot before inc  "+i+": "+ArrMonney.get(i));
-//      }
       int result =0;
       Label rlt;
       Label rltMonney;
@@ -627,10 +664,99 @@ public class boardGame {
             resultBranch.set(ArrSpecial.get(i),result*ArrCompare.size);
 
           }
-//      for (int i=0;i<ArrMonney.size;i++){
-//        System.out.println("monneybot after inc"+i+": "+ArrMonney.get(i));
-//      }
 
+    }
+    void setCheckLoseAll(){
+    for (int i=0;i<resultBranch.size;i++){
+      if(resultBranch.get(i)<0){
+        CheckLoseAll.set(i,CheckLoseAll.get(i)-1);
+      }else {
+        CheckLoseAll.set(i,CheckLoseAll.get(i)+1);
+      }
+    }
+    for (int i=0;i<CheckLoseAll.size;i++){
+      System.out.println("lose all bot "+i+": "+CheckLoseAll.get(i));
+    }
+    }
+    void resultfinish(){
+      Label rlt;
+      Label rltMonney;
+      for (int i=0;i<resultBranch.size;i++){
+        if(resultBranch.get(i)>=0){
+          rlt = new Label("ăn "+resultBranch.get(i)+" chi",new Label.LabelStyle(font,null));
+          rltMonney = new Label("+"+FortmartPrice(resultBranch.get(i)*boardConfig.monneyStart)+" $",new Label.LabelStyle(font,null));
+        }else {
+          rlt = new Label("thua "+resultBranch.get(i)*(-1)+" chi",new Label.LabelStyle(font1,null));
+          rltMonney = new Label(""+FortmartPrice(resultBranch.get(i)*boardConfig.monneyStart)+" $",new Label.LabelStyle(font1,null));
+        }
+        rlt.setFontScale(0.7f);
+        rltMonney.setFontScale(0.7f);
+        rlt.setOrigin(Align.center);
+        rltMonney.setOrigin(Align.center);
+        rlt.setAlignment(Align.center);
+        rltMonney.setAlignment(Align.center);
+        rlt.setPosition( gamePlay.positionCards.get(i).x,gamePlay.positionCards.get(i).y,Align.center);
+        rltMonney.setPosition( gamePlay.positionCards.get(i).x,gamePlay.positionCards.get(i).y-60,Align.center);
+        groupResult.addActor(rlt);
+        groupResult.addActor(rltMonney);
+        Label finalRlt = rlt;
+        rlt.addAction(Actions.sequence(
+                Actions.moveBy(0,-100,2f),
+                GSimpleAction.simpleAction((d,a)->{
+                  finalRlt.remove();
+                  return true;
+                })
+        ));
+        Label finalRltMonney = rltMonney;
+        rltMonney.addAction(Actions.sequence(
+                Actions.moveBy(0,-100,2f),
+                GSimpleAction.simpleAction((d,a)->{
+                  finalRltMonney.remove();
+                  return true;
+                })
+        ));
+      }
+
+
+    }
+    void replay(){
+        Image replay = GUI.createImage(uiAtlas,"btnReset");
+        replay.setPosition(GStage.getWorldWidth()-replay.getWidth()+40,replay.getHeight()-20,Align.center);
+        replay.setOrigin(Align.center);
+        group.addActor(replay);
+        replay.addListener(new ClickListener(){
+          @Override
+          public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+            replay.addAction(Actions.sequence(
+                    Actions.scaleTo(0.8f,0.8f,0.1f),
+                    Actions.scaleTo(1f,1f,0.1f),
+                    GSimpleAction.simpleAction((d,a)->{
+                      replay.remove();
+                      replay.clear();
+                      flipdownall();
+                      lifeGame(0,"replay");
+                      return true;
+                    })
+            ));
+            return super.touchDown(event, x, y, pointer, button);
+          }
+        });
+    }
+    void flipdownall(){
+      for(int i=0;i<ArrCompare.size;i++){
+        for (int j=0;j<13;j++){
+          CardPlay.get(ArrCompare.get(i)).get(j).flipAllCard(-boardConfig.scaleBot,0);
+          CardPlay.get(ArrCompare.get(i)).get(j).tileDown.setVisible(true);
+        }
+      }
+    }
+    void actionChi(int index){
+      Image chi = GUI.createImage(uiAtlas,"chi"+(index+1));
+      chi.setPosition(chi.getWidth()/2+20,GStage.getWorldHeight()-chi.getHeight(),Align.center);
+      chi.setOrigin(Align.center);
+      chi.setScale(0.4f);
+      chi.addAction(Actions.scaleTo(1,1,0.2f));
+      groupParticle.addActor(chi);
     }
 
   private String FortmartPrice(Long Price) {

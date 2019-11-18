@@ -5,27 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2408af64-1196-4c01-85e6-09de2c6e47a1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontBlue.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResult.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultGray.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultGray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultYellow.fnt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/fontResultYellow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/222.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/SL_XiangZ_00_02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/chibang.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/ls010.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/paricleWin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/particleLose" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/font/particleOver/r01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/3sanh1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/3thung1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/5doi1sam1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/ITEM_Sp_04_Howl_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/LucPheBon1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/RongCuon1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android/assets/particle/SanhRong1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/com/ss/object/GameOver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontBlue.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontBlue1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontBlue2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontGray.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontGray1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontGray2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontYellow.fnt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontYellow1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/android/assets/font/fontYellow2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/annotation-processors.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileContent/fileContent.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.6/fileHashes/fileHashes.bin" afterDir="false" />
@@ -40,20 +28,26 @@
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/GPoolInfo.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/GPoolInfo.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/222.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/222.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/SL_XiangZ_00_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/SL_XiangZ_00_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/chibang.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/chibang.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/ls010.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/ls010.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/paricleWin" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/paricleWin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/particleLose" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/particleLose" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/assets/font/particleOver/r01.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/particleOver/r01.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/maubinhatlas.tpproj" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/maubinhatlas.tpproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/ui.atlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/ui.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/assets/textureAtlas/ui2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/assets/textureAtlas/ui2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/build-info/debug/build-info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/build-info/debug/build-info.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/effect/effectWin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/BinhPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/CheckCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/object/boardGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gameStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental-verifier/debug/com/ss/scene/gameStart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJavaRes/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/debug-mergeJniLibs/zip-cache/fNomgnANVQXIkXnJ9BK0Pbh_dyk=" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/incremental/ir_slices/debug/package_slice_2/dex-renamer-state.txt" afterDir="false" />
@@ -68,63 +62,55 @@
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/maubinhatlas.tpproj" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/maubinhatlas.tpproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.atlas" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.atlas" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui2.png" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/merged_assets/debug/mergeDebugAssets/out/textureAtlas/ui2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/processed_res/debug/processDebugResources/out/resources-debug.ap_" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/resources/instant-run/debug/resources-debug.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/resources/instant-run/debug/resources-debug.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_2.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_5.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_5.apk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/split-apk/debug/slices/slice_7.apk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/BinhPlayer.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/CheckCard.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/CheckCard.dex" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/PaticleSuper.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/PaticleSuper.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardConfig.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardConfig.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/372/com/ss/object/boardGame.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/375/com/effect/effectWin.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/375/com/effect/effectWin.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay$1.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay$1.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gamePlay.dex" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gameStart.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexBuilder/debug/377/com/ss/scene/gameStart.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/2/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/2/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/5/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/5/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/7/classes.dex" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/dexMerger/debug/7/classes.dex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/effect/effectWin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/BinhPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/CheckCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/object/boardGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gameStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/extractJars/debug/0/com/ss/scene/gameStart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/effect/effectWin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/BinhPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/CheckCard.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/CheckCard.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/object/boardGame.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gamePlay.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gameStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/instantRun/debug/0/com/ss/scene/gameStart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJavaRes/debug/__content__.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" beforeDir="false" afterPath="$PROJECT_DIR$/android/build/intermediates/transforms/mergeJniLibs/debug/__content__.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/effect/effectWin.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/effect/effectWin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/BinhPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/PaticleSuper.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/PaticleSuper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/GameOver.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/GameOver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/object/boardGame.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gamePlay.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gameStart.class" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/classes/java/main/com/ss/scene/gameStart.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/core/build/libs/core-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/effect/effectWin.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/effect/effectWin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/GameOver.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/GameOver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/build/classes/java/main/com/jkstudiogroup/template/desktop/DesktopLauncher.class" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/build/classes/java/main/com/jkstudiogroup/template/desktop/DesktopLauncher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" beforeDir="false" afterPath="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -159,24 +145,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardGame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            <state relative-caret-position="2622">
+              <caret line="334" column="19" selection-start-line="334" selection-start-column="19" selection-end-line="334" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#6287#6962#0" expanded="true" />
+                <element signature="e#6961#6962#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/android/assets/font/fontBlue.fnt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/GameOver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
-              <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+            <state relative-caret-position="-464">
+              <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1670#1671#0" expanded="true" />
-                <element signature="e#1735#1736#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -185,8 +176,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/effect/effectWin.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
+            <state relative-caret-position="3030">
+              <caret line="208" column="56" selection-start-line="208" selection-start-column="56" selection-end-line="208" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -194,8 +185,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4635">
-              <caret line="315" column="42" selection-start-line="315" selection-start-column="38" selection-end-line="315" selection-end-column="42" />
+            <state relative-caret-position="3765">
+              <caret line="257" column="13" selection-start-line="257" selection-start-column="13" selection-end-line="257" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -203,8 +194,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3090">
-              <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="59" />
+            <state relative-caret-position="3015">
+              <caret line="225" column="68" selection-start-line="225" selection-start-column="68" selection-end-line="225" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -213,19 +204,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/android/assets/font/fontResult.fnt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="99" selection-start-line="10" selection-start-column="99" selection-end-line="10" selection-end-column="99" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="22" selection-start-column="22" selection-end-column="22" />
+            <state relative-caret-position="240">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
         </entry>
@@ -254,11 +236,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1515">
-              <caret line="122" selection-start-line="116" selection-start-column="2" selection-end-line="122" />
+            <state relative-caret-position="-1415">
+              <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
             </state>
           </provider>
         </entry>
@@ -318,19 +300,19 @@
         <option value="$PROJECT_DIR$/core/src/com/ss/object/PaticleSuper.java" />
         <option value="$PROJECT_DIR$/desktop/src/com/jkstudiogroup/template/desktop/DesktopLauncher.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/scene/gameStart.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" />
         <option value="$PROJECT_DIR$/android/assets/font/fontResult1.fnt" />
         <option value="$PROJECT_DIR$/android/assets/font/fontResult.fnt" />
         <option value="$PROJECT_DIR$/android/assets/font/fontResultYellow.fnt" />
         <option value="$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java" />
         <option value="$PROJECT_DIR$/core/src/com/effect/effectWin.java" />
-        <option value="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" />
         <option value="$PROJECT_DIR$/core/src/com/ss/object/GameOver.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/boardGame.java" />
+        <option value="$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="821" />
@@ -340,6 +322,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -362,13 +345,7 @@
               <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
               <item name="android" type="feadf853:AndroidModuleNode" />
               <item name="assets" type="edd41e36:AndroidSourceTypeNode" />
-              <item name="font" type="cbb59c9e:AndroidPsiDirectoryNode" />
-              <item name="particleOver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
-              <item name="android" type="feadf853:AndroidModuleNode" />
-              <item name="res" type="d4f16f75:AndroidResFolderNode" />
+              <item name="particleOver" type="cbb59c9e:AndroidPsiDirectoryNode" />
             </path>
             <path>
               <item name="maubinh" type="1abcf292:AndroidViewProjectNode" />
@@ -449,9 +426,8 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -461,19 +437,22 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="not.eligible.for.single.variant.sync" value="true" />
     <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
-    <property name="sync.plugin.last.upgrade.timestamp" value="1573786795009" />
+    <property name="sync.plugin.last.upgrade.timestamp" value="1574043867654" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/android/assets" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.ss.object" />
       <recent name="com.platform" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/android/assets/font/particleOver" />
+      <recent name="$PROJECT_DIR$/android/assets/particleOver" />
       <recent name="$PROJECT_DIR$/android/assets/font" />
-      <recent name="$PROJECT_DIR$/android/assets/particle" />
-      <recent name="$PROJECT_DIR$/core/src/com/ss/object" />
       <recent name="$PROJECT_DIR$/android/assets" />
+      <recent name="$PROJECT_DIR$/android/assets/font/particleOver" />
+      <recent name="$PROJECT_DIR$/android/assets/particle" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -585,7 +564,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="1" />
+    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" />
@@ -605,7 +584,7 @@
       <window_info anchor="bottom" id="Event Log" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="6" weight="0.1989026" />
       <window_info anchor="bottom" id="Android Profiler" order="7" show_stripe_button="false" weight="0.32921812" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.14403293" />
+      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.13580246" />
       <window_info anchor="bottom" id="Find" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="0" />
       <window_info anchor="right" id="Gradle" order="1" />
@@ -805,22 +784,11 @@
     <entry file="file://$PROJECT_DIR$/android/assets/font/fontResultGray.fnt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4635">
-          <caret line="315" column="42" selection-start-line="315" selection-start-column="38" selection-end-line="315" selection-end-column="42" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/font_white.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3090">
-          <caret line="230" column="16" selection-start-line="230" selection-start-column="16" selection-end-line="230" selection-end-column="59" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontVn.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/android/assets/font/fontResult.fnt">
       <provider selected="true" editor-type-id="text-editor">
@@ -829,10 +797,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/android/assets/particleOver/particleLose">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/effect/effectWin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3030">
+          <caret line="208" column="56" selection-start-line="208" selection-start-column="56" selection-end-line="208" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/CheckCard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3765">
+          <caret line="257" column="13" selection-start-line="257" selection-start-column="13" selection-end-line="257" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/scene/gamePlay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3015">
+          <caret line="225" column="68" selection-start-line="225" selection-start-column="68" selection-end-line="225" selection-end-column="68" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="22" selection-start-column="22" selection-end-column="22" />
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
@@ -856,50 +851,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1515">
-          <caret line="122" selection-start-line="116" selection-start-column="2" selection-end-line="122" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/font/font_white.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/font/fontVn.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/android/assets/font/particleOver/particleLose">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2029" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/src/com/effect/effectWin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/android/assets/font/fontBlue.fnt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/boardGame.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="85" column="5" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        <state relative-caret-position="2622">
+          <caret line="334" column="19" selection-start-line="334" selection-start-column="19" selection-end-line="334" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#6287#6962#0" expanded="true" />
+            <element signature="e#6961#6962#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/GameOver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
-          <caret line="60" column="67" selection-start-line="60" selection-start-column="67" selection-end-line="60" selection-end-column="67" />
+        <state relative-caret-position="-464">
+          <caret line="74" column="19" selection-start-line="74" selection-start-column="19" selection-end-line="74" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1670#1671#0" expanded="true" />
-            <element signature="e#1735#1736#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/core/src/com/ss/object/BinhPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1415">
+          <caret line="247" lean-forward="true" selection-start-line="247" selection-end-line="247" />
         </state>
       </provider>
     </entry>

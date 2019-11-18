@@ -224,8 +224,8 @@ public class gamePlay extends GScreen {
         fontName = GAssetsManager.getBitmapFont("fontVn.fnt");
         fontmonney = GAssetsManager.getBitmapFont("gold.fnt");
         font_white = GAssetsManager.getBitmapFont("font_white.fnt");
-        fontResult = GAssetsManager.getBitmapFont("fontResultYellow.fnt");
-        fontResult1 = GAssetsManager.getBitmapFont("fontResultGray.fnt");
+        fontResult = GAssetsManager.getBitmapFont("fontBlue.fnt");
+        fontResult1 = GAssetsManager.getBitmapFont("fontGray.fnt");
     }
     void initAtlas(){
         atlas = GAssetsManager.getTextureAtlas("ui.atlas");

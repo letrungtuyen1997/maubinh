@@ -6,147 +6,189 @@ filter: Nearest,Nearest
 repeat: none
 CAIDAT 1
   rotate: false
-  xy: 2, 975
+  xy: 2, 982
   size: 1565, 1044
   orig: 1565, 1044
   offset: 0, 0
   index: 3
 CAIDAT 1
   rotate: false
-  xy: 1569, 1886
+  xy: 1569, 1893
   size: 475, 133
   orig: 475, 133
   offset: 0, 0
   index: 5
 CAIDAT 1
   rotate: false
-  xy: 1334, 185
+  xy: 1569, 1758
   size: 475, 133
   orig: 475, 133
   offset: 0, 0
   index: 6
 CAIDAT 1
   rotate: false
-  xy: 1569, 1751
+  xy: 1569, 1623
   size: 333, 133
   orig: 333, 133
   offset: 0, 0
   index: 4
 avtBot1
   rotate: false
-  xy: 1811, 210
+  xy: 1904, 1648
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot2
   rotate: false
-  xy: 1904, 1776
+  xy: 1334, 418
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot3
   rotate: false
-  xy: 1569, 1059
+  xy: 1334, 308
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot4
   rotate: false
-  xy: 1721, 1211
+  xy: 1334, 198
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtMe
   rotate: false
-  xy: 1569, 1169
+  xy: 1334, 528
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 bgStart
   rotate: false
-  xy: 2, 153
+  xy: 2, 160
   size: 1330, 820
   orig: 1330, 820
   offset: 0, 0
   index: -1
-btnClose
+btnCloseG
   rotate: false
   xy: 2, 2
-  size: 200, 65
-  orig: 200, 65
+  size: 222, 72
+  orig: 222, 72
+  offset: 0, 0
+  index: -1
+btnCloseR
+  rotate: false
+  xy: 226, 3
+  size: 222, 71
+  orig: 222, 71
+  offset: 0, 0
+  index: -1
+btnReset
+  rotate: false
+  xy: 1334, 680
+  size: 238, 94
+  orig: 238, 94
   offset: 0, 0
   index: -1
 btnStart
   rotate: false
-  xy: 1569, 1321
+  xy: 1569, 1193
   size: 299, 114
   orig: 299, 114
   offset: 0, 0
   index: -1
 btnXepbai
   rotate: false
-  xy: 1921, 203
+  xy: 1486, 563
   size: 100, 115
   orig: 100, 115
   offset: 0, 0
   index: -1
 btnXong
   rotate: false
-  xy: 1679, 1059
+  xy: 1580, 883
   size: 100, 108
   orig: 100, 108
   offset: 0, 0
   index: -1
-frameLose
+chi1
   rotate: false
-  xy: 1334, 320
-  size: 700, 653
-  orig: 700, 653
+  xy: 1334, 879
+  size: 244, 101
+  orig: 244, 101
+  offset: 0, 0
+  index: -1
+chi2
+  rotate: false
+  xy: 1334, 776
+  size: 261, 101
+  orig: 261, 101
+  offset: 0, 0
+  index: -1
+chi3
+  rotate: false
+  xy: 1569, 993
+  size: 262, 101
+  orig: 262, 101
+  offset: 0, 0
+  index: -1
+chi4
+  rotate: false
+  xy: 1569, 1096
+  size: 326, 95
+  orig: 326, 95
   offset: 0, 0
   index: -1
 frameResult
   rotate: false
-  xy: 2, 69
+  xy: 2, 76
   size: 597, 82
   orig: 597, 82
   offset: 0, 0
   index: -1
 nameBot
   rotate: false
-  xy: 1334, 153
+  xy: 450, 5
   size: 120, 30
   orig: 120, 30
   offset: 0, 0
   index: -1
 namePlayer
   rotate: false
-  xy: 601, 114
+  xy: 450, 37
   size: 153, 37
   orig: 153, 37
   offset: 0, 0
   index: -1
 playOff
   rotate: false
-  xy: 1569, 1594
+  xy: 1569, 1466
   size: 300, 155
   orig: 300, 155
   offset: 0, 0
   index: -1
 playOn
   rotate: false
-  xy: 1569, 1437
+  xy: 1569, 1309
   size: 300, 155
   orig: 300, 155
   offset: 0, 0
   index: -1
+resultMe
+  rotate: false
+  xy: 601, 104
+  size: 616, 54
+  orig: 616, 54
+  offset: 0, 0
+  index: -1
 swap
   rotate: false
-  xy: 1569, 981
+  xy: 1682, 915
   size: 100, 76
   orig: 100, 76
   offset: 0, 0
@@ -159,35 +201,48 @@ filter: Nearest,Nearest
 repeat: none
 CAIDAT 1
   rotate: false
-  xy: 2, 3
+  xy: 2, 1427
   size: 812, 299
   orig: 812, 299
   offset: 0, 0
   index: 2
 CAIDAT 1
   rotate: false
-  xy: 816, 2
+  xy: 816, 1426
   size: 811, 300
   orig: 811, 300
   offset: 0, 0
   index: 1
+frameLose
+  rotate: false
+  xy: 2, 797
+  size: 777, 628
+  orig: 777, 628
+  offset: 0, 0
+  index: -1
 frameWin
   rotate: false
-  xy: 1284, 1095
-  size: 700, 651
-  orig: 700, 651
+  xy: 781, 724
+  size: 777, 700
+  orig: 777, 700
   offset: 0, 0
   index: -1
 table1
   rotate: false
-  xy: 2, 1026
+  xy: 2, 2
   size: 1280, 720
   orig: 1280, 720
   offset: 0, 0
   index: -1
+
+ui3.png
+size: 2048,1024
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
 table2
   rotate: false
-  xy: 2, 304
+  xy: 2, 2
   size: 1280, 720
   orig: 1280, 720
   offset: 0, 0

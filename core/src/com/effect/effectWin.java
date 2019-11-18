@@ -34,6 +34,7 @@ public class effectWin extends Actor {
   private static FileHandle rongcuon1 = Gdx.files.internal("particle/RongCuon1");
   private static FileHandle winner = Gdx.files.internal("particleOver/paricleWin");
   private static FileHandle loser = Gdx.files.internal("particleOver/particleLose");
+  private static FileHandle winner2 = Gdx.files.internal("particleOver/win");
 
 
   public ParticleEffect effect;
@@ -191,13 +192,19 @@ public class effectWin extends Actor {
         }
     }else if(id==24){
       this.effect.load(winner, Gdx.files.internal("particleOver"));
-      this.effect.scaleEffect(1f);
+      this.effect.scaleEffect(2f);
       for (int i = 0; i < this.effect.getEmitters().size; i++) {
         ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
       }
     }else if(id==25){
       this.effect.load(loser, Gdx.files.internal("particleOver"));
-      this.effect.scaleEffect(1f);
+      this.effect.scaleEffect(2f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==26){
+      this.effect.load(winner2, Gdx.files.internal("particleOver"));
+      this.effect.scaleEffect(2f);
       for (int i = 0; i < this.effect.getEmitters().size; i++) {
         ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
       }
