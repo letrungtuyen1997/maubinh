@@ -13,8 +13,10 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
+import com.effect.SoundEffect;
 import com.ss.GMain;
 import com.ss.commons.Tweens;
+import com.ss.core.action.exAction.GSimpleAction;
 import com.ss.core.util.GAssetsManager;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GScreen;
@@ -23,11 +25,12 @@ import com.ss.core.util.GUI;
 import com.ss.object.PaticleSuper;
 import com.ss.object.boardConfig;
 import com.ss.object.boardGame;
+import com.ss.object.setting;
 
 import java.text.DecimalFormat;
 
 public class gamePlay extends GScreen {
-    TextureAtlas atlas, cardAtlas;
+    TextureAtlas atlas, cardAtlas,adsAtlas;
     BitmapFont font, fontmonney, fontName,font_white,fontResult,fontResult1;
     Group group = new Group();
     Group groupAvt = new Group();
@@ -40,6 +43,8 @@ public class gamePlay extends GScreen {
     Array<Label> LabelNameBotArr = new Array<>();
     Array<Long> arrMonney = new Array<>();
     Array<Label> arrLabel = new Array<>();
+    Image btnNewgame;
+    int countAds =0;
 
 
     @Override
@@ -47,6 +52,7 @@ public class gamePlay extends GScreen {
     }
     @Override
     public void init() {
+        SoundEffect.Playmusic2();
         GStage.addToLayer(GLayer.ui,group);
         GStage.addToLayer(GLayer.ui,groupBoard);
         GStage.addToLayer(GLayer.ui,groupParticle);
@@ -59,7 +65,8 @@ public class gamePlay extends GScreen {
         loadAvtPlayer();
         loadAvtBot();
         loadLabelMoney();
-        showbtnXepBai();
+        showframeSetting();
+        showMuccuoc();
 
 
     }
@@ -72,7 +79,9 @@ public class gamePlay extends GScreen {
         bg.setHeight(GStage.getWorldHeight());
         group.addActor(bg);
         ////// new boardgame//////
-        new boardGame(cardAtlas,atlas,this,groupBoard,groupParticle,fontResult,fontResult1,arrMonney,arrLabel);
+        Tweens.setTimeout(group,1,()->{
+            new boardGame(cardAtlas,atlas,this,groupBoard,groupParticle,fontResult,fontResult1,arrMonney,arrLabel);
+        });
 
     }
     private void initPositionCards(){
@@ -170,7 +179,7 @@ public class gamePlay extends GScreen {
     void  loadLabelMoney(){
         arrMonney.add(boardConfig.Mymonney);
         for(int i=0;i<3;i++){
-            long monney = boardConfig.monneyStart*(long)(Math.random()*50+10);
+            long monney = boardConfig.monneyStart*(long)(Math.random()*100+24);
             arrMonney.add(monney);
         }
         float x = 0;
@@ -191,36 +200,201 @@ public class gamePlay extends GScreen {
             arrLabel.add(monney);
         }
     }
-    void showbtnXepBai(){
-        Image btnXepbai = GUI.createImage(atlas,"btnXepbai");
-        btnXepbai.setColor(Color.BLUE);
-        btnXepbai.setOrigin(Align.center);
-        btnXepbai.setPosition(GStage.getWorldWidth()-200, GStage.getWorldHeight()-100,Align.center);
-        group.addActor(btnXepbai);
-        btnXepbai.addListener(new ClickListener(){
+    public void showbtnNewGame(){
+        btnNewgame = GUI.createImage(atlas,"btnReset");
+        btnNewgame.setOrigin(Align.center);
+        btnNewgame.setPosition(GStage.getWorldWidth()/2, GStage.getWorldHeight()/2-30,Align.center);
+        group.addActor(btnNewgame);
+        btnNewgame.addListener(new ClickListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-                btnXepbai.setTouchable(Touchable.disabled);
-                btnXepbai.addAction(Actions.sequence(
+                countAds++;
+                if(countAds==3){
+                    GMain.platform.ShowFullscreen();
+                    countAds=0;
+                }
+                SoundEffect.Play(SoundEffect.click);
+                btnNewgame.setTouchable(Touchable.disabled);
+                btnNewgame.addAction(Actions.sequence(
                         Actions.scaleTo(0.8f,0.8f,0.1f),
                         Actions.scaleTo(1f,1f,0.1f)
                 ));
                 Tweens.setTimeout(group,0.2f,()->{
-                    btnXepbai.setTouchable(Touchable.enabled);
-                    groupBoard.remove();
-                    groupBoard.clear();
-                    groupParticle.remove();
-                    groupParticle.clear();
-//                    new PaticleSuper(14);
-                    new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard,groupParticle,fontResult,fontResult1,arrMonney,arrLabel);
+                    btnNewgame.setTouchable(Touchable.enabled);
+                    checkMonney();
+                    if(arrMonney.get(0)>(boardConfig.monneyStart*24)){
+                        removebtnNewgame();
+                        btnNewgame.setTouchable(Touchable.enabled);
+                        groupBoard.remove();
+                        groupBoard.clear();
+                        groupParticle.remove();
+                        groupParticle.clear();
+                        new boardGame(cardAtlas,atlas,gamePlay.this,groupBoard,groupParticle,fontResult,fontResult1,arrMonney,arrLabel);
+                    }
+
                 });
                 return super.touchDown(event, x, y, pointer, button);
             }
         });
     }
+    public void removebtnNewgame(){
+        btnNewgame.remove();
+        btnNewgame.clear();
+    }
+    void showframeSetting(){
+        Image btnSetting = GUI.createImage(atlas,"btnSetting");
+        btnSetting.setPosition(GStage.getWorldWidth()-btnSetting.getWidth()/2,btnSetting.getHeight()/2,Align.center);
+        group.addActor(btnSetting);
+        btnSetting.addListener(new ClickListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                boardConfig.TimePlay++;
+                GMain.platform.TrackCustomEvent("TimePlay: "+boardConfig.TimePlay);
+                SoundEffect.Play(SoundEffect.click);
+                btnSetting.setTouchable(Touchable.disabled);
+                btnSetting.addAction(Actions.sequence(
+                        Actions.scaleTo(0.8f,0.8f,0.1f),
+                        Actions.scaleTo(1f,1f,0.1f),
+                        GSimpleAction.simpleAction((d,a)->{
+                            new setting(atlas,btnSetting,gamePlay.this);
+                            return true;
+                        })
+                ));
+                return super.touchDown(event, x, y, pointer, button);
+            }
+        });
+    }
+    void showMuccuoc(){
+        Image frame = GUI.createImage(atlas,"frm");
+        frame.setWidth(frame.getWidth()*0.7f);
+        frame.setHeight(frame.getHeight()*0.7f);
+        frame.setOrigin(Align.center);
+        frame.setPosition(frame.getWidth()/2,frame.getHeight()/2,Align.center);
+        group.addActor(frame);
+        Label text = new Label("Mức cược: $ "+FortmartPrice(boardConfig.monneyStart),new Label.LabelStyle(font,null));
+        text.setFontScale(0.4f);
+        text.setOrigin(Align.center);
+        text.setAlignment(Align.center);
+        text.setPosition(frame.getX()+140,20,Align.center);
+        group.addActor(text);
+    }
+    void checkMonney(){
+        for (int i=0;i<arrMonney.size;i++){
+            if(arrMonney.get(i)<=0||arrMonney.get(i)<(boardConfig.monneyStart*24)){
+                if(i==0){
+                    WatchAds();
+                }else {
+                    long monney = boardConfig.monneyStart*(long)(Math.random()*100+24);
+                    arrMonney.set(i,monney);
+                    arrLabel.get(i).setText(FortmartPrice(arrMonney.get(i)));
+                }
+            }
+        }
+    }
+    void WatchAds(){
+        Group groupfrm = new Group();
+        GStage.addToLayer(GLayer.top,groupfrm);
+        groupfrm.setPosition(GStage.getWorldWidth()/2,GStage.getWorldHeight()/2,Align.center);
+        Image frmAds = GUI.createImage(adsAtlas,"frameAds");
+        frmAds.setPosition(0,0,Align.center);
+        groupfrm.addActor(frmAds);
+        groupfrm.setScale(0);
+        groupfrm.addAction(Actions.scaleTo(1,1,0.1f));
+        /////// btn close////////
+        Image btnClose = GUI.createImage(adsAtlas,"btnClose2");
+        btnClose.setPosition(-btnClose.getWidth(),btnClose.getHeight()+30,Align.center);
+        groupfrm.addActor(btnClose);
+        ///////// btn watch ///////
+        Image btnWatch = GUI.createImage(adsAtlas,"btnWatch");
+        btnWatch.setPosition(btnWatch.getWidth(),btnWatch.getHeight()+30,Align.center);
+        groupfrm.addActor(btnWatch);
+        /////// event btn//////
+        evenbtnclose(btnClose,groupfrm);
+        evenbtnwatch(btnWatch,groupfrm);
+    }
+    void evenbtnclose(Image btn, Group group){
+        btn.setOrigin(Align.center);
+        btn.addListener(new ClickListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                SoundEffect.Play(SoundEffect.click);
+                btn.setTouchable(Touchable.disabled);
+                btn.addAction(Actions.sequence(
+                        Actions.scaleTo(0.8f,0.8f,0.1f),
+                        Actions.scaleTo(1f,1f,0.1f),
+                        GSimpleAction.simpleAction((d,a)->{
+
+                            group.clear();
+                            group.remove();
+                            return true;
+                        })
+                ));
+                return super.touchDown(event, x, y, pointer, button);
+            }
+        });
+    }
+    void evenbtnwatch(Image btn, Group group){
+        btn.setOrigin(Align.center);
+        btn.addListener(new ClickListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                SoundEffect.Play(SoundEffect.click);
+                btn.setTouchable(Touchable.disabled);
+                btn.addAction(Actions.sequence(
+                        Actions.scaleTo(0.8f,0.8f,0.1f),
+                        Actions.scaleTo(1f,1f,0.1f),
+                        GSimpleAction.simpleAction((d,a)->{
+                            showAds(btn,group);
+                            return true;
+                        })
+                ));
+                return super.touchDown(event, x, y, pointer, button);
+            }
+        });
+    }
+    void showAds(Image btn,Group group){
+        if(GMain.platform.isVideoRewardReady()) {
+            GMain.platform.ShowVideoReward((boolean success) -> {
+                if (success) {
+                    long monney_donate = GMain.platform.GetConfigIntValue("money_donateAds",500000);
+                    boardConfig.Mymonney+=monney_donate;
+                    GMain.prefs.putLong("mymonney",boardConfig.Mymonney);
+                    GMain.prefs.flush();
+                    arrMonney.set(0,boardConfig.Mymonney);
+                    arrLabel.get(0).setText(FortmartPrice(arrMonney.get(0)));
+                    Label text = new Label("+"+FortmartPrice(monney_donate),new Label.LabelStyle(font,null));
+                    text.setPosition(0,0,Align.center);
+                    group.addActor(text);
+                    text.addAction(Actions.moveBy(0,-100,0.6f));
+                    Tweens.setTimeout(group,0.6f,()->{
+                        group.clear();
+                        group.remove();
+                    });
+                }else {
+                    btn.setTouchable(Touchable.enabled);
+
+                }
+            });
+        }else {
+            Label notice = new Label("Kiểm tra kết nối",new Label.LabelStyle(font, Color.RED));
+            notice.setPosition(0,0,Align.center);
+            group.addActor(notice);
+            notice.addAction(Actions.sequence(
+                    Actions.moveBy(0,-50,0.5f),
+                    GSimpleAction.simpleAction((d, a)->{
+                        notice.clear();
+                        notice.remove();
+                        btn.setTouchable(Touchable.enabled);
+                        return true;
+                    })
+            ));
+
+        }
+    }
+
 
     void initFont(){
-        font = GAssetsManager.getBitmapFont("silver.fnt");
+        font = GAssetsManager.getBitmapFont("font_white.fnt");
         fontName = GAssetsManager.getBitmapFont("fontVn.fnt");
         fontmonney = GAssetsManager.getBitmapFont("gold.fnt");
         font_white = GAssetsManager.getBitmapFont("font_white.fnt");
@@ -229,6 +403,7 @@ public class gamePlay extends GScreen {
     }
     void initAtlas(){
         atlas = GAssetsManager.getTextureAtlas("ui.atlas");
+        adsAtlas = GAssetsManager.getTextureAtlas("uiStart.atlas");
         cardAtlas = GAssetsManager.getTextureAtlas("card.atlas");
     }
     private String FortmartPrice(Long Price) {

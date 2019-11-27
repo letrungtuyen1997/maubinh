@@ -14,6 +14,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
+import com.effect.SoundEffect;
 import com.ss.GMain;
 import com.ss.commons.Tweens;
 import com.ss.core.action.exAction.GSimpleAction;
@@ -31,9 +32,11 @@ public class BinhPlayer {
   private float maxRange;
   private BitmapFont font;
   private Array<Array<Integer>> arrayBinh = new Array<>();
-  private Image swapBtn;
+  private Image swapBtn,btnXong;
+  boardGame boardGame;
 
-  public BinhPlayer(TextureAtlas cardAtlas,TextureAtlas uiAtlas, Array<Card> cardsPlayer,Runnable runnable){
+  public BinhPlayer(TextureAtlas cardAtlas,TextureAtlas uiAtlas, Array<Card> cardsPlayer,boardGame boardGame,Runnable runnable){
+    this.boardGame = boardGame;
     this.uiAtlas = uiAtlas;
     this.cardAtlas = cardAtlas;
     groupOverLay = new Group();
@@ -63,12 +66,14 @@ public class BinhPlayer {
     swapBtn.addListener(new ClickListener(){
       @Override
       public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-        swapBtn.setTouchable(Touchable.disabled);
-        swapcds();
-        Tweens.setTimeout(groupOverLay, 0.3f, ()->{
-          checkBinh();
-          swapBtn.setTouchable(Touchable.enabled);
-        });
+        if(!boardConfig.isDrag){
+          swapBtn.setTouchable(Touchable.disabled);
+          swapcds();
+          Tweens.setTimeout(groupOverLay, 0.3f, ()->{
+            checkBinh();
+            swapBtn.setTouchable(Touchable.enabled);
+          });
+        }
         return super.touchDown(event, x, y, pointer, button);
       }
     });
@@ -202,7 +207,7 @@ public class BinhPlayer {
     setTouchCards(Touchable.disabled);
 
     card1.tileDown.setPosition(card2.tileDown.getX(), card2.tileDown.getY());
-    card2.tileDown.setPosition(p1.x, p1.y);
+    card2.tileDown.setPosition(p1.x-2, p1.y-2);
     card1.tileDown.setZIndex(card2.tileDown.getZIndex());
     card2.tileDown.setZIndex(zIndexTemp1);
 
@@ -214,6 +219,7 @@ public class BinhPlayer {
       Actions.moveTo(p1.x, p1.y, 0.25f, Interpolation.fastSlow),
       GSimpleAction.simpleAction((d, a)->{
         setTouchCards(Touchable.enabled);
+
         return true;
       })
     ));
@@ -230,29 +236,12 @@ public class BinhPlayer {
   void checkBinh(){
     groupLabel.clear();
     arrayBinh.clear();
-//    System.out.println("======binh top======");
-//    for(int i = 0; i < 5; i++) {
-//      System.out.print(" " + CheckCard.nameMap.get(BinhTop().get(i)));
-//    }
-//    System.out.println();
-//    System.out.println("======binh Mid========");
-//    for(int i = 0; i < 5; i++) {
-//      System.out.print(" " + CheckCard.nameMap.get(BinhMid().get(i)));
-//    }
-//    System.out.println();
-//    System.out.println("======binh Mid=========");
-//    for(int i = 0; i < 3; i++) {
-//      System.out.print(" " + CheckCard.nameMap.get(BinhLow().get(i)));
-//    }
-//    System.out.println();
-
-
-
     ///////////// check binh lung///////
     arrayBinh.add(BinhLow());
     arrayBinh.add(BinhMid());
     arrayBinh.add(BinhTop());
     if(CheckCard.validate(arrayBinh)) {
+      boardGame.checkBinhLung = false;
 //    System.out.println("array binh: "+CheckCard.validate(arrayBinh));
       //// binh top
       int typetop =CheckCard.check(BinhTop())>>13;
@@ -278,12 +267,14 @@ public class BinhPlayer {
       binhLow.setAlignment(Align.center);
       groupLabel.addActor(binhLow);
     }else {
-      Label binhMid= new Label("Binh Lủng",new Label.LabelStyle(font,Color.RED));
-      binhMid.setFontScale(0.8f);
-      binhMid.setPosition(50,320);
-      binhMid.setAlignment(Align.center);
-      groupLabel.addActor(binhMid);
+      boardGame.checkBinhLung = true;
+      Label binhLung= new Label("Binh Lủng",new Label.LabelStyle(font,Color.RED));
+      binhLung.setFontScale(0.8f);
+      binhLung.setPosition(50,320);
+      binhLung.setAlignment(Align.center);
+      groupLabel.addActor(binhLung);
     }
+    System.out.println("check binh lung: "+boardGame.checkBinhLung);
 
 
 
@@ -344,33 +335,40 @@ public class BinhPlayer {
     }
     return CardBinh;
   }
-
-
   void showBtnDone(Runnable runnable){
-    Image btnXong = GUI.createImage(uiAtlas,"btnXong");
+    btnXong = GUI.createImage(uiAtlas,"btnXong");
     btnXong.setOrigin(Align.center);
     btnXong.setPosition(GStage.getWorldWidth()-100,GStage.getWorldHeight()-100,Align.center);
     groupOverLay.addActor(btnXong);
     btnXong.addListener(new ClickListener(){
       @Override
       public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
-      btnXong.setTouchable(Touchable.disabled);
-        btnXong.addAction(Actions.sequence(
-          Actions.scaleTo(0.8f,0.8f,0.1f),
-          Actions.scaleTo(1f,1f,0.1f),
-          GSimpleAction.simpleAction((d,a)->{
-            groupLabel.clear();
-            groupOverLay.clear();
-            groupLabel.addAction(Actions.run(runnable));
-            return true;
-          })
-        ));
-      Tweens.setTimeout(groupLabel,0.2f,()->{
+        SoundEffect.Play(SoundEffect.click);
+        if(!boardConfig.isDrag){
+          btnXong.setTouchable(Touchable.disabled);
+            btnXong.addAction(Actions.sequence(
+              Actions.scaleTo(0.8f,0.8f,0.1f),
+              Actions.scaleTo(1f,1f,0.1f),
+              GSimpleAction.simpleAction((d,a)->{
+                groupLabel.clear();
+                groupOverLay.clear();
+                groupLabel.addAction(Actions.run(runnable));
+                return true;
+              })
+            ));
+          Tweens.setTimeout(groupLabel,0.2f,()->{
 
-      });
+          });
+        }
       return super.touchDown(event, x, y, pointer, button);
       }
     });
+  }
+  void setTouch(boolean set){
+    if(set==true){
+      btnXong.setTouchable(Touchable.disabled);
+
+    }
   }
   void initFont(){
     font = GAssetsManager.getBitmapFont("font_white.fnt");

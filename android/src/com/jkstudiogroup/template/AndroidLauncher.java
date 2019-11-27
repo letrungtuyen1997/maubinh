@@ -1,7 +1,7 @@
 package com.jkstudiogroup.template;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
 import android.util.Log;
 import android.view.Gravity;
 import android.view.View;
@@ -11,6 +11,7 @@ import android.widget.LinearLayout;
 
 import com.badlogic.gdx.backends.android.AndroidApplication;
 import com.badlogic.gdx.backends.android.AndroidApplicationConfiguration;
+import com.crashlytics.android.Crashlytics;
 import com.google.android.gms.ads.AdListener;
 import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdSize;
@@ -20,7 +21,14 @@ import com.google.android.gms.ads.MobileAds;
 import com.google.android.gms.ads.reward.RewardItem;
 import com.google.android.gms.ads.reward.RewardedVideoAd;
 import com.google.android.gms.ads.reward.RewardedVideoAdListener;
+import com.google.android.gms.auth.api.signin.GoogleSignIn;
+import com.google.android.gms.auth.api.signin.GoogleSignInAccount;
+import com.google.android.gms.auth.api.signin.GoogleSignInClient;
+import com.google.android.gms.auth.api.signin.GoogleSignInOptions;
+import com.google.android.gms.games.Games;
+import com.google.android.gms.games.LeaderboardsClient;
 import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.analytics.FirebaseAnalytics;
 import com.google.firebase.iid.FirebaseInstanceId;
@@ -28,7 +36,6 @@ import com.google.firebase.iid.InstanceIdResult;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig;
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings;
 import com.platform.IPlatform;
-import com.platform.IPlatform.OnVideoRewardClosed;
 import com.ss.GMain;
 
 import java.util.Locale;
@@ -45,13 +52,21 @@ public class AndroidLauncher extends AndroidApplication {
 
 	private FirebaseAnalytics mFirebaseAnalytics;
 	private FirebaseRemoteConfig mFirebaseRemoteConfig;
-	private static final String ADMOB_APP_ID = "ca-app-pub-9108876944724815~8160462448";
+	private static final String ADMOB_APP_ID = "ca-app-pub-9108876944724815~9989725808";
 	private static final String ADMOB_BANNER_ID = "ca-app-pub-3940256099942544/6300978111";
-	private static final String ADMOB_FULLSCREEN_ID = "ca-app-pub-3940256099942544/1033173712";
-	private static final String ADMOB_VIDEO_ID = "ca-app-pub-3940256099942544/5224354917";
+	private static final String ADMOB_FULLSCREEN_ID = "ca-app-pub-9108876944724815/6050480795";
+	private static final String ADMOB_VIDEO_ID = "ca-app-pub-9108876944724815/3783410107";
 
 	private IPlatform.OnVideoRewardClosed videoRewardCallback = null;
 	boolean bannerVisible = false;
+	//--begin leaderboard
+	private static final String LEADERBOARD_ID = "CgkIm7CnlaEREAIQAA";
+	private GoogleSignInClient mGoogleSignInClient;
+	private LeaderboardsClient mLeaderboardsClient;
+	private static final int RC_LEADERBOARD_UI = 9004;
+	private static final int RC_UNUSED = 5001;
+	private static final int RC_SIGN_IN = 9001;
+	//--end leaderboard --
 
 	@Override
 	protected void onCreate (Bundle savedInstanceState) {
@@ -115,6 +130,27 @@ public class AndroidLauncher extends AndroidApplication {
 			public void ShowBanner(boolean visible) {
 				ShowGameBanner(visible);
 				bannerVisible = visible;
+			}
+			@Override
+			public void CrashKey(String key, String value) {
+				Crashlytics.setString(key,value);
+
+			}
+			@Override
+			public void Crashlog(String log) {
+				Crashlytics.log(log);
+
+			}
+
+			@Override
+			public void ReportScore(long score) {
+				ReportGameScore(LEADERBOARD_ID,score);
+
+			}
+
+			@Override
+			public void ShowLeaderboard() {
+				ShowGameLeaderBoard();
 			}
 
 			@Override
@@ -216,6 +252,7 @@ public class AndroidLauncher extends AndroidApplication {
 
 		InitAd();
 		InitGA();
+		InitLeaderboard();
 
 
 		this.runOnUiThread(new Runnable() {
@@ -238,7 +275,7 @@ public class AndroidLauncher extends AndroidApplication {
 			mFirebaseRemoteConfig.fetch(cacheExpiration)
 							.addOnCompleteListener(this, new OnCompleteListener<Void>() {
 								@Override
-								public void onComplete(@NonNull Task<Void> task) {
+								public void onComplete( Task<Void> task) {
 									if (task.isSuccessful()) {
 										Log.i("remoteconfig", "ok");
 										mFirebaseRemoteConfig.activateFetched();
@@ -423,7 +460,7 @@ public class AndroidLauncher extends AndroidApplication {
 			FirebaseInstanceId.getInstance().getInstanceId()
 							.addOnCompleteListener(new OnCompleteListener<InstanceIdResult>() {
 								@Override
-								public void onComplete(@NonNull Task<InstanceIdResult> task) {
+								public void onComplete( Task<InstanceIdResult> task) {
 									//Log.d("IID_TOKEN", task.getResult().getToken());
 								}
 							});
@@ -476,4 +513,113 @@ public class AndroidLauncher extends AndroidApplication {
 		}catch(Exception e){}
 		super.onDestroy();
 	}
+	//--begin leaderboard
+	void InitLeaderboard() {
+		GoogleSignInOptions gso = new GoogleSignInOptions.Builder(GoogleSignInOptions.DEFAULT_GAMES_SIGN_IN)
+				.build();
+
+		mGoogleSignInClient = GoogleSignIn.getClient(this, gso);
+	}
+
+
+	public void ReportGameScore(String leaderboardID, long score) {
+		try {
+			if (isSignedIn()) {
+				Games.getLeaderboardsClient(AndroidLauncher.this, GoogleSignIn.getLastSignedInAccount(AndroidLauncher.this))
+						.submitScore(LEADERBOARD_ID, score);
+			}
+		}
+		catch(Exception e){}
+	}
+
+	public void ShowGameLeaderBoard() {
+		try {
+			if (isSignedIn()) {
+				Games.getLeaderboardsClient(AndroidLauncher.this, GoogleSignIn.getLastSignedInAccount(AndroidLauncher.this))
+						.getLeaderboardIntent(LEADERBOARD_ID)
+						.addOnSuccessListener(new OnSuccessListener<Intent>() {
+							@Override
+							public void onSuccess(Intent intent) {
+								try {
+									AndroidLauncher.this.startActivityForResult(intent, RC_LEADERBOARD_UI);
+								}
+								catch (Exception e){
+
+								}
+							}
+						});
+			} else {
+				forceSignIn = true;
+				signInSilently(new Runnable() {
+					@Override
+					public void run() {
+						ShowGameLeaderBoard();
+					}
+				});
+			}
+		}
+		catch (Exception e){}
+	}
+
+	private boolean isSignedIn() {
+		return GoogleSignIn.getLastSignedInAccount(AndroidLauncher.this) != null;
+	}
+
+	boolean forceSignIn = false;
+
+	Runnable signinAction;
+
+	private void signInSilently(Runnable action) {
+		signinAction = action;
+		mGoogleSignInClient.silentSignIn().addOnCompleteListener(AndroidLauncher.this,
+				new OnCompleteListener<GoogleSignInAccount>() {
+					@Override
+					public void onComplete(Task<GoogleSignInAccount> task) {
+						if (task.isSuccessful()) {
+							Log.d("", "signInSilently(): success");
+							if (signinAction != null)
+								signinAction.run();
+
+							signinAction = null;
+							//onConnected(task.getResult());
+						} else {
+							Log.d("", "signInSilently(): failure", task.getException());
+							//onDisconnected();
+							if (forceSignIn) {
+								startSignInIntent();
+							}
+						}
+					}
+				});
+	}
+
+	private void startSignInIntent() {
+		try {
+			this.startActivityForResult(mGoogleSignInClient.getSignInIntent(), RC_SIGN_IN);
+		}catch (Exception e){
+
+		}
+
+	}
+
+	private void signOut() {
+		Log.d("", "signOut()");
+
+		if (!isSignedIn()) {
+			Log.w("", "signOut() called, but was not signed in!");
+			return;
+		}
+
+		mGoogleSignInClient.signOut().addOnCompleteListener(AndroidLauncher.this,
+				new OnCompleteListener<Void>() {
+					@Override
+					public void onComplete(Task<Void> task) {
+						boolean successful = task.isSuccessful();
+						Log.d("", "signOut(): " + (successful ? "success" : "failed"));
+
+
+					}
+				});
+	}
+	//--end leaderboard
 }

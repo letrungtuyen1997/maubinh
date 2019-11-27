@@ -20,7 +20,7 @@ public class effectWin extends Actor {
   private static FileHandle thungphasanh = Gdx.files.internal("particle/thung-pha-sanh");
   private static FileHandle win = Gdx.files.internal("particle/win");
   private static FileHandle lightFrame = Gdx.files.internal("particle/lightFrame");
-  private static FileHandle bathung = Gdx.files.internal("particle/3Thung");
+  private static FileHandle bathung = Gdx.files.internal("particle/3thung");
   private static FileHandle basanh = Gdx.files.internal("particle/3Sanh");
   private static FileHandle lucphebon = Gdx.files.internal("particle/lucphebon");
   private static FileHandle namdoi1sam = Gdx.files.internal("particle/5doi1sam");
@@ -28,13 +28,18 @@ public class effectWin extends Actor {
   private static FileHandle rongcuon = Gdx.files.internal("particle/RongCuon");
   private static FileHandle bathung1 = Gdx.files.internal("particle/3thung1");
   private static FileHandle basanh1 = Gdx.files.internal("particle/3sanh1");
-  private static FileHandle lucphebon1 = Gdx.files.internal("particle/lucphebon1");
+  private static FileHandle lucphebon1 = Gdx.files.internal("particle/LucPheBon1");
   private static FileHandle namdoi1sam1 = Gdx.files.internal("particle/5doi1sam1");
   private static FileHandle sanhrong1 = Gdx.files.internal("particle/SanhRong1");
   private static FileHandle rongcuon1 = Gdx.files.internal("particle/RongCuon1");
   private static FileHandle winner = Gdx.files.internal("particleOver/paricleWin");
   private static FileHandle loser = Gdx.files.internal("particleOver/particleLose");
   private static FileHandle winner2 = Gdx.files.internal("particleOver/win");
+  private static FileHandle binhlung = Gdx.files.internal("particleFail/binhlung");
+  private static FileHandle sap3chi = Gdx.files.internal("particleFail/sap3chi");
+  private static FileHandle an3chi = Gdx.files.internal("particle/anbachi");
+  private static FileHandle ancalang = Gdx.files.internal("particle/batsapcalang");
+  private static FileHandle lightButton = Gdx.files.internal("particleButton/lightButton");
 
 
   public ParticleEffect effect;
@@ -205,6 +210,36 @@ public class effectWin extends Actor {
     }else if(id==26){
       this.effect.load(winner2, Gdx.files.internal("particleOver"));
       this.effect.scaleEffect(2f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==27){
+      this.effect.load(binhlung, Gdx.files.internal("particleFail"));
+      this.effect.scaleEffect(1f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==28){
+      this.effect.load(sap3chi, Gdx.files.internal("particleFail"));
+      this.effect.scaleEffect(1f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==29){
+      this.effect.load(an3chi, Gdx.files.internal("particle"));
+      this.effect.scaleEffect(0.7f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==30){
+      this.effect.load(ancalang, Gdx.files.internal("particle"));
+      this.effect.scaleEffect(1f);
+      for (int i = 0; i < this.effect.getEmitters().size; i++) {
+        ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
+      }
+    }else if(id==31){
+      this.effect.load(lightButton, Gdx.files.internal("particleButton"));
+      this.effect.scaleEffect(1f);
       for (int i = 0; i < this.effect.getEmitters().size; i++) {
         ((ParticleEmitter) this.effect.getEmitters().get(i)).flipY();
       }

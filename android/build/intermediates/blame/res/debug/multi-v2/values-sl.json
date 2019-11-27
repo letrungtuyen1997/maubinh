@@ -4,7 +4,24 @@
             "outputFile": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sl/values-sl.xml",
             "map": [
                 {
-                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/44de03fb59406c340f79fae030d14387/res/values-sl/values-sl.xml",
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/10709132c9cb3cce58bde24e85ecce80/res/values-sl/values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10",
+                        "startColumns": "0,0,0,0,0,0,0",
+                        "startOffsets": "199,274,384,449,513,603,711",
+                        "endColumns": "74,109,64,63,89,107,73",
+                        "endOffsets": "273,383,448,512,602,710,784"
+                    },
+                    "to": {
+                        "startLines": "20,21,22,23,24,25,26",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "2818,2897,3011,3080,3148,3242,3354",
+                        "endColumns": "78,113,68,67,93,111,77",
+                        "endOffsets": "2892,3006,3075,3143,3237,3349,3427"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/values-sl/values-sl.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-base-16.0.1.aar/246424ca1ca4534ef0e706f91c9e4075/res/values-sl/values.xml",
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/values-sl/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
                         "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
@@ -38,24 +55,7 @@
                     }
                 },
                 {
-                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-ads-17.1.1.aar/a8bfe043be5587e194d02706af626af4/res/values-sl/values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10",
-                        "startColumns": "0,0,0,0,0,0,0",
-                        "startOffsets": "197,272,382,447,511,601,709",
-                        "endColumns": "74,109,64,63,89,107,73",
-                        "endOffsets": "271,381,446,510,600,708,782"
-                    },
-                    "to": {
-                        "startLines": "20,21,22,23,24,25,26",
-                        "startColumns": "4,4,4,4,4,4,4",
-                        "startOffsets": "2818,2897,3011,3080,3148,3242,3354",
-                        "endColumns": "78,113,68,67,93,111,77",
-                        "endOffsets": "2892,3006,3075,3143,3237,3349,3427"
-                    }
-                },
-                {
-                    "source": "/Users/dungle/.gradle/caches/transforms-1/files-1.1/play-services-basement-16.0.1.aar/d950489a1f9deeea92d949873212aa45/res/values-sl/values.xml",
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/53d3ce05d6aecb1a75131eb36c44372a/res/values-sl/values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",

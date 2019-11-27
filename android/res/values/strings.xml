@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Template</string>
+    <string name="app_name">Mậu Binh 2020</string>
+    <string name="app_id">2</string>
 
 </resources>

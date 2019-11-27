@@ -17,8 +17,8 @@ android {
         exclude 'META-INF/robovm/ios/robovm.xml'
     }
     defaultConfig {
-        applicationId "com.jkstudiogroup.template"
-        minSdkVersion 14
+        applicationId "jk.maubinh"
+        minSdkVersion 16
         targetSdkVersion 28
         versionCode 1
         versionName "1.0"

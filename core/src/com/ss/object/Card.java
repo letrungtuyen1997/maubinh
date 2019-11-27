@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.scenes.scene2d.utils.DragListener;
 import com.badlogic.gdx.utils.Align;
+import com.effect.SoundEffect;
 import com.ss.GMain;
 import com.ss.commons.Tweens;
 import com.ss.core.action.exAction.GSimpleAction;
@@ -156,6 +157,7 @@ public class Card {
         card.addListener(new ClickListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                SoundEffect.Play(SoundEffect.click);
                 binhPlayer.setTouchCards(Touchable.disabled);
                 return super.touchDown(event, x, y, pointer, button);
             }
@@ -173,6 +175,7 @@ public class Card {
             @Override
             public void dragStart(InputEvent event, float x, float y, int pointer) {
                 super.dragStart(event, x, y, pointer);
+                boardConfig.isDrag=true;
                 zIndex = card.getZIndex();
                 pX = card.getX();
                 pY = card.getY();
@@ -183,12 +186,13 @@ public class Card {
             public void drag(InputEvent event, float x, float y, int pointer) {
                 super.drag(event, x, y, pointer);
                 card.setX(card.getX() + x - card.getWidth()/2);
-                card.setY(card.getY() + y - card.getHeight()/2);
+                card.setY(card.getY() + y - card.getHeight());
             }
 
             @Override
             public void dragStop(InputEvent event, float x, float y, int pointer) {
                 super.dragStop(event, x, y, pointer);
+                boardConfig.isDrag=false;
                 if(binhPlayer.checkPosition(Card.this, new Vector2(pX, pY)) == -1){
                     backCard(pX, pY, zIndex);
                 }

@@ -1,0 +1,104 @@
+
+uiStart.png
+size: 2048,2048
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bg
+  rotate: false
+  xy: 2, 1021
+  size: 1600, 960
+  orig: 1600, 960
+  offset: 0, 0
+  index: -1
+btn1
+  rotate: false
+  xy: 2, 117
+  size: 417, 232
+  orig: 417, 232
+  offset: 0, 0
+  index: -1
+btn2
+  rotate: false
+  xy: 1604, 1747
+  size: 420, 234
+  orig: 420, 234
+  offset: 0, 0
+  index: -1
+btn3
+  rotate: false
+  xy: 1604, 1512
+  size: 420, 233
+  orig: 420, 233
+  offset: 0, 0
+  index: -1
+btn4
+  rotate: false
+  xy: 2, 351
+  size: 420, 234
+  orig: 420, 234
+  offset: 0, 0
+  index: -1
+btnClose2
+  rotate: false
+  xy: 1604, 1152
+  size: 276, 95
+  orig: 276, 95
+  offset: 0, 0
+  index: -1
+btnReturn
+  rotate: false
+  xy: 764, 458
+  size: 245, 127
+  orig: 245, 127
+  offset: 0, 0
+  index: -1
+btnStart
+  rotate: false
+  xy: 424, 411
+  size: 338, 174
+  orig: 338, 174
+  offset: 0, 0
+  index: -1
+btnTop
+  rotate: false
+  xy: 1604, 1346
+  size: 338, 164
+  orig: 338, 164
+  offset: 0, 0
+  index: -1
+btnWatch
+  rotate: false
+  xy: 1604, 1249
+  size: 276, 95
+  orig: 276, 95
+  offset: 0, 0
+  index: -1
+frameAds
+  rotate: false
+  xy: 2, 587
+  size: 1280, 432
+  orig: 1280, 432
+  offset: 0, 0
+  index: -1
+frameAvt
+  rotate: false
+  xy: 2, 2
+  size: 282, 113
+  orig: 282, 113
+  offset: 0, 0
+  index: -1
+frameMonney
+  rotate: false
+  xy: 424, 354
+  size: 304, 55
+  orig: 304, 55
+  offset: 0, 0
+  index: -1
+logo
+  rotate: false
+  xy: 1284, 849
+  size: 254, 170
+  orig: 254, 170
+  offset: 0, 0
+  index: -1

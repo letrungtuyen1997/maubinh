@@ -12,6 +12,7 @@ import com.badlogic.gdx.scenes.scene2d.ui.Label;
 import com.badlogic.gdx.scenes.scene2d.utils.ClickListener;
 import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
+import com.effect.SoundEffect;
 import com.effect.effectWin;
 import com.ss.core.action.exAction.GSimpleAction;
 import com.ss.core.exSprite.GShapeSprite;
@@ -19,6 +20,7 @@ import com.ss.core.util.GAssetsManager;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GStage;
 import com.ss.core.util.GUI;
+import com.ss.scene.gamePlay;
 
 import java.text.DecimalFormat;
 
@@ -30,8 +32,11 @@ public class GameOver {
     Group group = new Group();
     String NameBtn = "";
     Image frame;
+    gamePlay gamePlay;
     int id=0;
-    GameOver(Array<Integer> resultBranch){
+    GameOver(Array<Integer> resultBranch, gamePlay gamePlay){
+        SoundEffect.Stopmusic2();
+        this.gamePlay = gamePlay;
         GStage.addToLayer(GLayer.top,group);
         group.setScale(0);
         group.setOrigin(Align.center);
@@ -57,22 +62,29 @@ public class GameOver {
 
     void showFrame(){
         String nameFrame="";
-        float y=0,yy=0;
+        String nameRank="";
+        float y=0,yy=0,yyy;
         if((resultBranch.get(0)*boardConfig.monneyStart)>0){
+            SoundEffect.Play(SoundEffect.win);
             nameFrame = "frameWin";
             NameBtn = "btnCloseR";
+            nameRank = "nameRankR";
             y=-40;
             yy=-30;
+            yyy = 70;
             id=24;
             effectWin effect1 = new effectWin(26,0,-200);
             group.addActor(effect1);
             effect1.start();
 
         }else {
+            SoundEffect.Play(SoundEffect.lose);
             nameFrame = "frameLose";
             NameBtn = "btnCloseG";
-            y=-90;
-            yy=-80;
+            nameRank = "nameRankG";
+            y = -90;
+            yy = -80;
+            yyy = 30;
             id=25;
 
         }
@@ -106,14 +118,16 @@ public class GameOver {
 
                 }
             }
-
             label.setFontScale(0.6f);
             label2.setFontScale(0.4f);
-            label.setPosition(-30,y+((i-3)*(-1))*75,Align.topLeft);
-            label2.setPosition(0,y+30+((i-3)*(-1))*75,Align.topLeft);
+            label.setPosition(-30,y+((i-3)*(-1))*80,Align.topLeft);
+            label2.setPosition(0,y+30+((i-3)*(-1))*80,Align.topLeft);
             group.addActor(label);
             group.addActor(label2);
         }
+        Image nameRankimg = GUI.createImage(atlas,nameRank);
+        nameRankimg.setPosition(-200,yyy,Align.center);
+        group.addActor(nameRankimg);
 
 
     }
@@ -144,12 +158,15 @@ public class GameOver {
         btn.addListener(new ClickListener(){
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                SoundEffect.Play(SoundEffect.click);
                 btn.addAction(Actions.sequence(
                         Actions.scaleTo(0.8f,0.8f,0.1f),
                         Actions.scaleTo(1f,1f,0.1f),
                         GSimpleAction.simpleAction((d,a)->{
                             group.clear();
                             group.remove();
+                            gamePlay.showbtnNewGame();
+                            SoundEffect.Playmusic2();
                             return true;
                         })
                 ));
@@ -167,7 +184,6 @@ public class GameOver {
 
         DecimalFormat mDecimalFormat = new DecimalFormat("###,###,###,###");
         String mPrice = mDecimalFormat.format(Price);
-
         return mPrice;
     }
 

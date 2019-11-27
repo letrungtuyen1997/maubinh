@@ -1,5 +1,7 @@
 package com.ss;
 
+import com.badlogic.gdx.Preferences;
+import com.effect.SoundEffect;
 import com.platform.IPlatform;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Batch;
@@ -10,6 +12,7 @@ import com.ss.core.util.GStage;
 import com.ss.core.util.GStage.StageBorder;
 import com.ss.gameLogic.scene.GMenu;
 import com.ss.scene.gamePlay;
+import com.ss.scene.gameStart;
 
 public class GMain
   extends GDirectedGame
@@ -24,9 +27,10 @@ public class GMain
   public static int screenId = -1;
   public static GScreen shooterTestScreen;
   public static final int testType = 2;
-
-
+  public static Preferences prefs;
+  public static long mymonney = 0;
   public static IPlatform platform;
+  public static int checkFrist = 0;
   public GMain(IPlatform plat){
     platform = plat;
   }
@@ -87,8 +91,12 @@ public class GMain
 
   public void create()
   {
+    prefs = Gdx.app.getPreferences("MyData");
+    mymonney = prefs.getLong("mymonney");
+    checkFrist = prefs.getInteger("checkFirst");
+    SoundEffect.initSound();
     this.init();
-    this.setScreen(new gamePlay());
+    this.setScreen(new gameStart());
   }
   
   public void dispose()

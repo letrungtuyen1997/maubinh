@@ -19,6 +19,10 @@ public interface IPlatform {
     public void TrackPlaneInfo(String event, int planeid, int level);
     public void TrackVideoReward(String type);
     public void TrackPlayerDead(String event, int mode, int difficult, int level, int parentModel, int shooterModel, boolean isBoss);
+    public void CrashKey(String key, String value);
+    public void Crashlog(String log);
+    public void ReportScore(long score);
+    public void ShowLeaderboard();
 
     /*public void TrackLevelStart(String mode, int difficult, int level);
     public void TrackLevelFailed(String mode, int difficult, int level);
