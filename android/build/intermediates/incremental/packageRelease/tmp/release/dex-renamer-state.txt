@@ -1,0 +1,4 @@
+#Sat Dec 14 16:14:02 ICT 2019
+base.0=/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/transforms/r8/release/0
+path.0=classes.dex
+renamed.0=classes.dex

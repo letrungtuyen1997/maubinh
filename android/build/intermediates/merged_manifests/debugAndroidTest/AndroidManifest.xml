@@ -1,16 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="jk.maubinh.test">
+    package="jk.maubinh.test" >
 
-    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="28" />
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="28" />
+
+    <instrumentation
+        android:name="com.android.test.runner.MultiDexTestRunner"
+        android:functionalTest="false"
+        android:handleProfiling="false"
+        android:label="Tests for jk.maubinh"
+        android:targetPackage="jk.maubinh" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 
-    <instrumentation android:name="android.test.InstrumentationTestRunner"
-                     android:targetPackage="jk.maubinh"
-                     android:handleProfiling="false"
-                     android:functionalTest="false"
-                     android:label="Tests for jk.maubinh"/>
 </manifest>

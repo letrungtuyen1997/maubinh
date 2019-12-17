@@ -2,70 +2,38 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="28"
-    build-mode="FULL"
-    density="xhdpi"
+    build-mode="COLD"
+    density="420dpi"
     format="10"
+    ir-eligibility="FIELD_TYPE_CHANGE"
     plugin-version="3.4.2"
-    timestamp="1574846053712"
+    timestamp="1576302177758"
     token="-2147234837511255960"
-    verifier="FULL_BUILD_REQUESTED" >
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="935" />
+        duration="534" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="117" />
+        duration="34" />
     <task
         name="verifier"
-        duration="65" />
+        duration="23" />
 
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/dep/dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_3.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
     <artifact
         location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
     <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_9.apk"
+        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
         type="SPLIT" />
-    <artifact
-        location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/instant-run-apk/debug/android-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1574846053712"
+        timestamp="1576301797726"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/resources/instant-run/debug/resources-debug.apk"
@@ -74,31 +42,31 @@
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_9.apk"
@@ -106,6 +74,18 @@
         <artifact
             location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/instant-run-apk/debug/android-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_TYPE_CHANGE"
+        timestamp="1576302177758"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

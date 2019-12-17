@@ -4,6 +4,7 @@ ADDED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest
 INJECTED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest.xml:2:1-34:12
 INJECTED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest.xml:2:1-34:12
 INJECTED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest.xml:2:1-34:12
+MERGED from [com.android.support:multidex:1.0.2] /Users/dungle/.gradle/caches/transforms-2/files-2.1/ac79f82dfd30918699b936847d153bf9/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-ads:18.3.0] /Users/dungle/.gradle/caches/transforms-2/files-2.1/91811763d9534ba166ee595bb3d61a3d/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/dungle/.gradle/caches/transforms-2/files-2.1/cb02fb2abb1fa5ada07c4893df291714/AndroidManifest.xml:2:1-9:12
 MERGED from [com.google.firebase:firebase-config:19.0.3] /Users/dungle/.gradle/caches/transforms-2/files-2.1/08de384e8aa4ab8eae7153e04ea0597b/AndroidManifest.xml:17:1-38:12
@@ -286,6 +287,8 @@ uses-sdk
 INJECTED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest.xml
 INJECTED from /Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/AndroidManifest.xml
+MERGED from [com.android.support:multidex:1.0.2] /Users/dungle/.gradle/caches/transforms-2/files-2.1/ac79f82dfd30918699b936847d153bf9/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] /Users/dungle/.gradle/caches/transforms-2/files-2.1/ac79f82dfd30918699b936847d153bf9/AndroidManifest.xml:20:5-43
 MERGED from [com.google.firebase:firebase-ads:18.3.0] /Users/dungle/.gradle/caches/transforms-2/files-2.1/91811763d9534ba166ee595bb3d61a3d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-ads:18.3.0] /Users/dungle/.gradle/caches/transforms-2/files-2.1/91811763d9534ba166ee595bb3d61a3d/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:17.2.1] /Users/dungle/.gradle/caches/transforms-2/files-2.1/cb02fb2abb1fa5ada07c4893df291714/AndroidManifest.xml:5:5-44

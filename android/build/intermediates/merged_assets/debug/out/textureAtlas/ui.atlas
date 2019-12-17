@@ -6,259 +6,294 @@ filter: Nearest,Nearest
 repeat: none
 CAIDAT 1
   rotate: false
-  xy: 177, 382
+  xy: 2, 301
+  size: 812, 299
+  orig: 812, 299
+  offset: 0, 0
+  index: 2
+CAIDAT 1
+  rotate: false
+  xy: 2, 110
   size: 333, 133
   orig: 333, 133
   offset: 0, 0
   index: 4
 avtBot1
   rotate: false
-  xy: 1718, 1254
+  xy: 1024, 195
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot2
   rotate: false
-  xy: 1718, 1144
+  xy: 1134, 185
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot3
   rotate: false
-  xy: 1251, 525
+  xy: 1393, 507
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot4
   rotate: false
-  xy: 356, 59
+  xy: 1244, 185
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtMe
   rotate: false
-  xy: 2, 41
+  xy: 1560, 837
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
 binhLung
   rotate: false
-  xy: 803, 462
+  xy: 620, 260
   size: 179, 39
   orig: 179, 39
   offset: 0, 0
   index: -1
+btnClose
+  rotate: false
+  xy: 822, 213
+  size: 200, 65
+  orig: 200, 65
+  offset: 0, 0
+  index: -1
 btnCloseG
   rotate: false
-  xy: 803, 561
+  xy: 337, 75
   size: 222, 72
   orig: 222, 72
   offset: 0, 0
   index: -1
 btnCloseR
   rotate: false
-  xy: 1027, 562
+  xy: 304, 2
   size: 222, 71
   orig: 222, 71
   offset: 0, 0
   index: -1
 btnDone
   rotate: false
-  xy: 1560, 679
+  xy: 1149, 353
   size: 208, 83
   orig: 208, 83
   offset: 0, 0
   index: -1
 btnExit
   rotate: false
-  xy: 1560, 764
+  xy: 1183, 532
   size: 208, 83
   orig: 208, 83
   offset: 0, 0
   index: -1
 btnReplay
   rotate: false
-  xy: 177, 169
+  xy: 337, 149
   size: 238, 94
   orig: 238, 94
   offset: 0, 0
   index: -1
 btnReset
   rotate: false
-  xy: 1586, 1364
+  xy: 2, 4
   size: 300, 104
   orig: 300, 104
   offset: 0, 0
   index: -1
 btnSetting
   rotate: false
-  xy: 512, 435
+  xy: 1712, 907
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
   index: -1
-btnStart
+btnX2
   rotate: false
-  xy: 1284, 1335
-  size: 300, 203
-  orig: 300, 203
+  xy: 1883, 1438
+  size: 158, 83
+  orig: 158, 83
   offset: 0, 0
   index: -1
 btnXepbai
   rotate: false
-  xy: 1888, 1353
+  xy: 1762, 990
   size: 100, 115
   orig: 100, 115
   offset: 0, 0
   index: -1
 btnXong
   rotate: false
-  xy: 465, 272
+  xy: 1874, 1281
   size: 100, 108
   orig: 100, 108
   offset: 0, 0
   index: -1
 chi1
   rotate: false
-  xy: 601, 519
+  xy: 1560, 737
   size: 200, 98
   orig: 200, 98
   offset: 0, 0
   index: -1
 chi2
   rotate: false
-  xy: 1560, 849
+  xy: 1560, 644
   size: 200, 91
   orig: 200, 91
   offset: 0, 0
   index: -1
 chi3
   rotate: false
-  xy: 1560, 942
+  xy: 1149, 438
   size: 200, 92
   orig: 200, 92
   offset: 0, 0
   index: -1
 chi4
   rotate: false
-  xy: 177, 265
+  xy: 1284, 1304
   size: 286, 115
   orig: 286, 115
   offset: 0, 0
   index: -1
 frameLose
   rotate: false
-  xy: 781, 691
+  xy: 781, 674
   size: 777, 628
   orig: 777, 628
   offset: 0, 0
   index: -1
+frameMonney
+  rotate: false
+  xy: 1183, 617
+  size: 304, 55
+  orig: 304, 55
+  offset: 0, 0
+  index: -1
 frameResult
   rotate: false
-  xy: 2, 517
+  xy: 1284, 1421
   size: 597, 100
   orig: 597, 100
   offset: 0, 0
   index: -1
 frameSetting
   rotate: false
-  xy: 1284, 1540
+  xy: 1284, 1523
   size: 750, 501
   orig: 750, 501
   offset: 0, 0
   index: -1
 frameWin
   rotate: false
-  xy: 2, 619
+  xy: 2, 602
   size: 777, 700
   orig: 777, 700
   offset: 0, 0
   index: -1
 frm
   rotate: false
-  xy: 1586, 1470
+  xy: 781, 604
   size: 400, 68
   orig: 400, 68
   offset: 0, 0
   index: -1
 nameBot
   rotate: false
-  xy: 1556, 647
+  xy: 1874, 1249
   size: 120, 30
   orig: 120, 30
   offset: 0, 0
   index: -1
 namePlayer
   rotate: false
-  xy: 2, 2
+  xy: 822, 174
   size: 153, 37
   orig: 153, 37
   offset: 0, 0
   index: -1
 nameRankG
   rotate: false
-  xy: 2, 193
+  xy: 816, 280
   size: 173, 322
   orig: 173, 322
   offset: 0, 0
   index: -1
 nameRankR
   rotate: false
-  xy: 1560, 1036
+  xy: 991, 305
   size: 156, 297
   orig: 156, 297
   offset: 0, 0
   index: -1
+playOff
+  rotate: false
+  xy: 1572, 1264
+  size: 300, 155
+  orig: 300, 155
+  offset: 0, 0
+  index: -1
+playOn
+  rotate: false
+  xy: 1560, 1107
+  size: 300, 155
+  orig: 300, 155
+  offset: 0, 0
+  index: -1
 resultMe
   rotate: false
-  xy: 781, 635
+  xy: 2, 245
   size: 616, 54
   orig: 616, 54
   offset: 0, 0
   index: -1
 sap3chi
   rotate: false
-  xy: 1399, 644
+  xy: 1883, 1391
   size: 155, 45
   orig: 155, 45
   offset: 0, 0
   index: -1
 sapcalang
   rotate: false
-  xy: 154, 51
+  xy: 1560, 989
   size: 200, 116
   orig: 200, 116
   offset: 0, 0
   index: -1
 swap
   rotate: false
-  xy: 1718, 1066
+  xy: 1794, 912
   size: 100, 76
   orig: 100, 76
   offset: 0, 0
   index: -1
 table2
   rotate: false
-  xy: 2, 1321
+  xy: 2, 1304
   size: 1280, 720
   orig: 1280, 720
   offset: 0, 0
   index: -1
 turnOff
   rotate: false
-  xy: 601, 461
+  xy: 620, 202
   size: 200, 56
   orig: 200, 56
   offset: 0, 0
   index: -1
 turnOn
   rotate: false
-  xy: 803, 503
+  xy: 1149, 295
   size: 200, 56
   orig: 200, 56
   offset: 0, 0

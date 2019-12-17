@@ -509,12 +509,11 @@ public class boardGame {
       for (int i =1;i<4;i++){
         if(ArrSpecial.size!=0){
           if(ArrSpecial.size==1){
-            if(ArrSpecial.get(0)!=i){
+            if(ArrSpecial.get(0)!=i&& i!=0){
               ArrCompare.add(i);
-
             }
           }else if(ArrSpecial.size==2){
-            if(ArrSpecial.get(0)!=i&&ArrSpecial.get(1)!=i){
+            if(ArrSpecial.get(0)!=i&&ArrSpecial.get(1)!=i&& i!=0){
               ArrCompare.add(i);
             }
           }
@@ -549,7 +548,7 @@ public class boardGame {
       LabelMonney.get(0).setText(FortmartPrice(ArrMonney.get(0)));
       resultBranch.set(0,(-9));
 
-      for (int i=0;i<3;i++){
+      for (int i=0;i<ArrCompare.size;i++){
           rlt = new Label("ăn "+3+" chi",new Label.LabelStyle(font,null));
           rltMonney = new Label(""+FortmartPrice(3*boardConfig.monneyStart)+" $",new Label.LabelStyle(font,null));
           rlt.setPosition( gamePlay.positionCards.get(ArrCompare.get(i)).x,gamePlay.positionCards.get(ArrCompare.get(i)).y,Align.center);
@@ -802,7 +801,7 @@ public class boardGame {
         if(resultBranch.get(i)>=0){
           rlt = new Label("ăn "+resultBranch.get(i)+" chi",new Label.LabelStyle(font,null));
           rltMonney = new Label("+"+FortmartPrice(resultBranch.get(i)*boardConfig.monneyStart)+" $",new Label.LabelStyle(font,null));
-          if (mode=="game"){
+          if (mode == "game"){
             ArrMonney.set(i, (long) (ArrMonney.get(i) + resultBranch.get(i) * (boardConfig.monneyStart)));
             LabelMonney.get(i).setText(FortmartPrice(ArrMonney.get(i)));
 
@@ -810,10 +809,10 @@ public class boardGame {
         }else {
             rlt = new Label("thua "+resultBranch.get(i)*(-1)+" chi",new Label.LabelStyle(font1,null));
             rltMonney = new Label(""+FortmartPrice(resultBranch.get(i)*boardConfig.monneyStart)+" $",new Label.LabelStyle(font1,null));
-          if((resultBranch.get(i)*boardConfig.monneyStart)+ArrMonney.get(i)<0 && mode== "game"){
+          if((resultBranch.get(i)*boardConfig.monneyStart)+ArrMonney.get(i)<0 && mode == "game"){
               ArrMonney.set(i,(long) 0);
               LabelMonney.get(i).setText(FortmartPrice(ArrMonney.get(i)));
-          }else if((resultBranch.get(i)*boardConfig.monneyStart)+ArrMonney.get(i)>=0 && mode== "game"){
+          }else if((resultBranch.get(i)*boardConfig.monneyStart)+ArrMonney.get(i)>=0 && mode == "game"){
               ArrMonney.set(i, (long) (ArrMonney.get(i) + resultBranch.get(i) * (boardConfig.monneyStart)));
               LabelMonney.get(i).setText(FortmartPrice(ArrMonney.get(i)));
           }

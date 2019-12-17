@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
-        "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable_notification_bg.xml.flat",
         "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-anydpi-v26_ic_launcher_foreground.xml.flat",
+        "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/drawable-anydpi-v26/ic_launcher_foreground.xml"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
@@ -16,16 +16,16 @@
         "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/drawable-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/83280c57d50b7eb3b1b0ebaf036e872c/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-mdpi-v4_notification_bg_normal_pressed.9.png.flat",
         "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_standard_color_18.png.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/drawable-xxhdpi-v4/googleg_standard_color_18.png"
+        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-watch-v20_common_google_signin_btn_text_dark_normal.xml.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/83280c57d50b7eb3b1b0ebaf036e872c/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_icon_light_normal_background.9.png.flat",
@@ -128,12 +128,12 @@
         "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
         "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_googleg_disabled_color_18.png.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/drawable-xxhdpi-v4/googleg_disabled_color_18.png"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-mdpi_ic_launcher.png.flat",
@@ -236,12 +236,12 @@
         "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/drawable-hdpi-v4/common_full_open_on_phone.png"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/mipmap-xxhdpi_ic_launcher.png.flat",
         "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-hdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
@@ -352,12 +352,12 @@
         "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/drawable-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
-        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
-    },
-    {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/layout_notification_action.xml.flat",
         "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
+        "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
     },
     {
         "merged": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_text_light_normal.xml.flat",

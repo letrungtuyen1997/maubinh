@@ -2,7 +2,6 @@ package com.ss.scene;
 
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
-import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
 import com.badlogic.gdx.scenes.scene2d.Touchable;
@@ -15,9 +14,6 @@ import com.effect.SoundEffect;
 import com.effect.effectWin;
 import com.ss.GMain;
 import com.ss.commons.Tweens;
-import com.ss.core.transitions.GTransition;
-import com.ss.core.transitions.GTransitionFade;
-import com.ss.core.transitions.GTransitionSlice;
 import com.ss.core.util.GAssetsManager;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GScreen;
@@ -166,7 +162,6 @@ public class gameStart extends GScreen {
         font = GAssetsManager.getBitmapFont("font_white.fnt");
     }
     private String FortmartPrice(Long Price) {
-
         DecimalFormat mDecimalFormat = new DecimalFormat("###,###,###,###");
         String mPrice = mDecimalFormat.format(Price);
         return mPrice;

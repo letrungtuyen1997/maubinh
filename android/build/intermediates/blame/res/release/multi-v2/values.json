@@ -1,0 +1,195 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+            "map": [
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/e1d36008dacc43bc2573240cd484760b/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "16,17,18,19,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,55,92,101,102,106,107,111,120,121",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1187,1256,1319,1377,1594,1664,1732,1804,1874,1935,2009,2082,2143,2204,2266,2330,2392,2453,2521,2621,2681,2747,2820,2889,2946,2998,3060,3132,3208,3243,3278,3328,3389,3446,3480,3515,3618,7467,8001,8118,8319,8429,8630,9157,9229",
+                        "endLines": "16,17,18,19,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,55,92,101,105,106,110,111,120,121",
+                        "endColumns": "68,62,57,73,69,67,71,69,60,73,72,60,60,61,63,61,60,67,99,59,65,72,68,56,51,61,71,75,34,34,49,60,56,33,34,34,69,70,116,12,109,12,128,71,66",
+                        "endOffsets": "1251,1314,1372,1446,1659,1727,1799,1869,1930,2004,2077,2138,2199,2261,2325,2387,2448,2516,2616,2676,2742,2815,2884,2941,2993,3055,3127,3203,3238,3273,3323,3384,3441,3475,3510,3545,3683,7533,8113,8314,8424,8625,8754,9224,9291"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/generated/fabric/res/release/values/com_crashlytics_build_id.xml",
+                    "from": {
+                        "startLines": "8",
+                        "startColumns": "0",
+                        "startOffsets": "303",
+                        "endColumns": "162",
+                        "endOffsets": "465"
+                    },
+                    "to": {
+                        "startLines": "58",
+                        "startColumns": "4",
+                        "startOffsets": "3787",
+                        "endColumns": "164",
+                        "endOffsets": "3947"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/10709132c9cb3cce58bde24e85ecce80/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "85,86,87,88,89,90,91",
+                        "startColumns": "4,4,4,4,4,4,4",
+                        "startOffsets": "7111,7153,7230,7268,7307,7360,7428",
+                        "endColumns": "41,76,37,38,52,67,38",
+                        "endOffsets": "7148,7225,7263,7302,7355,7423,7462"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/19e3b1609fb6e4d15e8236e647535868/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "2,122",
+                        "startColumns": "4,4",
+                        "startOffsets": "150,9296",
+                        "endLines": "2,124",
+                        "endColumns": "60,12",
+                        "endOffsets": "206,9436"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/4bb53a2f622742689f479c9bc61546b1/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,59,60,61,62,63,64,65,66,68,69,70,71,72,73,74,75,76",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "460,550,630,720,810,890,971,1051,3952,4057,4238,4363,4470,4650,4773,4889,5159,5347,5452,5633,5758,5933,6081,6144,6206",
+                        "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78",
+                        "endOffsets": "545,625,715,805,885,966,1046,1126,4052,4233,4358,4465,4645,4768,4884,4987,5342,5447,5628,5753,5928,6076,6139,6201,6280"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/build/generated/res/google-services/release/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "77,78,79,80,81,82,83,84",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "6285,6429,6533,6615,6719,6828,6948,7041",
+                        "endColumns": "143,103,81,103,108,119,92,69",
+                        "endOffsets": "6424,6528,6610,6714,6823,6943,7036,7106"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/values/color.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1131",
+                        "endColumns": "55",
+                        "endOffsets": "1182"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/53d3ce05d6aecb1a75131eb36c44372a/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "54,67",
+                        "startColumns": "4,4",
+                        "startOffsets": "3550,4992",
+                        "endColumns": "67,166",
+                        "endOffsets": "3613,5154"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/0468bcb524893c9c740ed37941666c71/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1"
+                    },
+                    "to": {
+                        "startLines": "3,4,5,6,20,21",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "211,269,335,398,1451,1522",
+                        "endColumns": "57,65,62,61,70,71",
+                        "endOffsets": "264,330,393,455,1517,1589"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/.gradle/caches/transforms-2/files-2.1/f339322ac8a8199170bd79e596278256/res/values/values.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "112",
+                        "startColumns": "4",
+                        "startOffsets": "8759",
+                        "endLines": "119",
+                        "endColumns": "8",
+                        "endOffsets": "9152"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/values/strings.xml",
+                    "from": {
+                        "startLines": "-1,-1",
+                        "startColumns": "-1,-1",
+                        "startOffsets": "-1,-1"
+                    },
+                    "to": {
+                        "startLines": "56,57",
+                        "startColumns": "4,4",
+                        "startOffsets": "3688,3736",
+                        "endColumns": "47,50",
+                        "endOffsets": "3731,3782"
+                    }
+                },
+                {
+                    "source": "/Users/dungle/Desktop/libgdx/maubinh2/maubinh/android/res/values/styles.xml",
+                    "from": {
+                        "startLines": "-1",
+                        "startColumns": "-1",
+                        "startOffsets": "-1"
+                    },
+                    "to": {
+                        "startLines": "93",
+                        "startColumns": "4",
+                        "startOffsets": "7538",
+                        "endLines": "100",
+                        "endColumns": "12",
+                        "endOffsets": "7996"
+                    }
+                }
+            ]
+        }
+    ]
+}

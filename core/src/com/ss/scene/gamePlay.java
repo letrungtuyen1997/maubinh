@@ -41,8 +41,8 @@ public class gamePlay extends GScreen {
     Array<Image> AvtBotArr = new Array<>();
     Array<Image> frameNameBotArr = new Array<>();
     Array<Label> LabelNameBotArr = new Array<>();
-    Array<Long> arrMonney = new Array<>();
-    Array<Label> arrLabel = new Array<>();
+    public Array<Long> arrMonney = new Array<>();
+    public Array<Label> arrLabel = new Array<>();
     Image btnNewgame;
     int countAds =0;
 
@@ -67,8 +67,6 @@ public class gamePlay extends GScreen {
         loadLabelMoney();
         showframeSetting();
         showMuccuoc();
-
-
     }
     @Override
     public void run() {

@@ -6,6 +6,7 @@ import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.math.Interpolation;
 import com.badlogic.gdx.scenes.scene2d.Group;
 import com.badlogic.gdx.scenes.scene2d.InputEvent;
+import com.badlogic.gdx.scenes.scene2d.Touchable;
 import com.badlogic.gdx.scenes.scene2d.actions.Actions;
 import com.badlogic.gdx.scenes.scene2d.ui.Image;
 import com.badlogic.gdx.scenes.scene2d.ui.Label;
@@ -14,6 +15,8 @@ import com.badlogic.gdx.utils.Align;
 import com.badlogic.gdx.utils.Array;
 import com.effect.SoundEffect;
 import com.effect.effectWin;
+import com.ss.GMain;
+import com.ss.commons.Tweens;
 import com.ss.core.action.exAction.GSimpleAction;
 import com.ss.core.exSprite.GShapeSprite;
 import com.ss.core.util.GAssetsManager;
@@ -50,6 +53,7 @@ public class GameOver {
         group.addAction(Actions.scaleTo(1,1,0.5f, Interpolation.swingOut));
         showbtnDone();
         particleOver();
+
 
 
     }
@@ -107,6 +111,9 @@ public class GameOver {
                 frm.setHeight(frm.getHeight()*1.5f);
                 frm.setPosition(0,yy+((i-3)*(-1))*frm.getHeight()-20,Align.center);
                 group.addActor(frm);
+                if((resultBranch.get(0)*boardConfig.monneyStart)>0){
+                    DonateX2(250,yy+((i-3)*(-1))*frm.getHeight()-20);
+                }
             }else {
                 if(result.get(i)>=0){
                     label = new Label("+"+FortmartPrice(result.get(i)),new Label.LabelStyle(font, null));
@@ -159,6 +166,7 @@ public class GameOver {
             @Override
             public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
                 SoundEffect.Play(SoundEffect.click);
+                GMain.platform.ReportScore( GMain.prefs.getLong("mymonney"));
                 btn.addAction(Actions.sequence(
                         Actions.scaleTo(0.8f,0.8f,0.1f),
                         Actions.scaleTo(1f,1f,0.1f),
@@ -173,6 +181,56 @@ public class GameOver {
                 return super.touchDown(event, x, y, pointer, button);
             }
         });
+    }
+    void DonateX2(float x,float y){
+        Image x2 = GUI.createImage(atlas,"btnX2");
+        x2.setPosition(x,y,Align.center);
+        group.addActor(x2);
+        x2.addListener(new ClickListener(){
+            @Override
+            public boolean touchDown(InputEvent event, float x, float y, int pointer, int button) {
+                showAds(x2);
+                return super.touchDown(event, x, y, pointer, button);
+            }
+        });
+    }
+    void showAds(Image btn){
+        if(GMain.platform.isVideoRewardReady()) {
+            GMain.platform.ShowVideoReward((boolean success) -> {
+                if (success) {
+                    long monney_donate = (resultBranch.get(0)*boardConfig.monneyStart);
+                    boardConfig.Mymonney+=monney_donate;
+                    GMain.prefs.putLong("mymonney",boardConfig.Mymonney);
+                    GMain.prefs.flush();
+                    gamePlay.arrMonney.set(0,boardConfig.Mymonney);
+                    gamePlay.arrLabel.get(0).setText(FortmartPrice(gamePlay.arrMonney.get(0)));
+                    Label text = new Label("+"+FortmartPrice(monney_donate),new Label.LabelStyle(font,null));
+                    text.setPosition(0,0,Align.center);
+                    group.addActor(text);
+                    text.addAction(Actions.moveBy(0,-100,1.5f));
+                    Tweens.setTimeout(group,1.5f,()->{
+                        text.clear();
+                        text.remove();
+                    });
+                }else {
+                    btn.setTouchable(Touchable.enabled);
+                }
+            });
+        }else {
+            Label notice = new Label("Kiểm tra kết nối",new Label.LabelStyle(font, Color.RED));
+            notice.setPosition(0,0,Align.center);
+            group.addActor(notice);
+            notice.addAction(Actions.sequence(
+                    Actions.moveBy(0,-50,0.5f),
+                    GSimpleAction.simpleAction((d, a)->{
+                        notice.clear();
+                        notice.remove();
+                        btn.setTouchable(Touchable.enabled);
+                        return true;
+                    })
+            ));
+
+        }
     }
     void initFont(){
         font = GAssetsManager.getBitmapFont("fontYellow.fnt");

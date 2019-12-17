@@ -4,7 +4,6 @@ import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.graphics.g2d.Batch;
 import com.badlogic.gdx.graphics.g2d.TextureAtlas;
 import com.badlogic.gdx.scenes.scene2d.Actor;
-import com.ss.GMain;
 import com.ss.core.util.GStage;
 
 import ze.spineactor.esotericsoftware.spine.AnimationState;

@@ -60,7 +60,7 @@ public class AndroidLauncher extends AndroidApplication {
 	private IPlatform.OnVideoRewardClosed videoRewardCallback = null;
 	boolean bannerVisible = false;
 	//--begin leaderboard
-	private static final String LEADERBOARD_ID = "CgkIm7CnlaEREAIQAA";
+	private static final String LEADERBOARD_ID = "CgkIwrH63M4FEAIQAA";
 	private GoogleSignInClient mGoogleSignInClient;
 	private LeaderboardsClient mLeaderboardsClient;
 	private static final int RC_LEADERBOARD_UI = 9004;
