@@ -204,5 +204,10 @@
     <orderEntry type="library" name="Gradle: com.google.android.gms:play-services-auth-base:17.0.0@aar" level="project" />
     <orderEntry type="module" module-name="core" />
     <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="core" />
+    <orderEntry type="module" module-name="core" />
   </component>
 </module>

@@ -20,28 +20,28 @@ CAIDAT 1
   index: 4
 avtBot1
   rotate: false
-  xy: 1024, 195
+  xy: 1874, 1303
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot2
   rotate: false
-  xy: 1134, 185
+  xy: 1393, 507
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot3
   rotate: false
-  xy: 1393, 507
+  xy: 1883, 1413
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
   index: -1
 avtBot4
   rotate: false
-  xy: 1244, 185
+  xy: 1024, 195
   size: 108, 108
   orig: 108, 108
   offset: 0, 0
@@ -111,16 +111,9 @@ btnReset
   index: -1
 btnSetting
   rotate: false
-  xy: 1712, 907
+  xy: 1814, 908
   size: 80, 80
   orig: 80, 80
-  offset: 0, 0
-  index: -1
-btnX2
-  rotate: false
-  xy: 1883, 1438
-  size: 158, 83
-  orig: 158, 83
   offset: 0, 0
   index: -1
 btnXepbai
@@ -132,7 +125,7 @@ btnXepbai
   index: -1
 btnXong
   rotate: false
-  xy: 1874, 1281
+  xy: 1712, 879
   size: 100, 108
   orig: 100, 108
   offset: 0, 0
@@ -209,14 +202,14 @@ frm
   index: -1
 nameBot
   rotate: false
-  xy: 1874, 1249
+  xy: 1874, 1271
   size: 120, 30
   orig: 120, 30
   offset: 0, 0
   index: -1
 namePlayer
   rotate: false
-  xy: 822, 174
+  xy: 1134, 209
   size: 153, 37
   orig: 153, 37
   offset: 0, 0
@@ -258,7 +251,7 @@ resultMe
   index: -1
 sap3chi
   rotate: false
-  xy: 1883, 1391
+  xy: 1134, 248
   size: 155, 45
   orig: 155, 45
   offset: 0, 0
@@ -272,7 +265,7 @@ sapcalang
   index: -1
 swap
   rotate: false
-  xy: 1794, 912
+  xy: 1134, 131
   size: 100, 76
   orig: 100, 76
   offset: 0, 0
