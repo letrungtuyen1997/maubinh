@@ -86,9 +86,12 @@ public class GMain
 
   public void create()
   {
-    prefs = Gdx.app.getPreferences("MyData");
+    prefs = Gdx.app.getPreferences("Maubinh");
+//    prefs = Gdx.app.getPreferences("MyData");
     mymonney = prefs.getLong("mymonney");
     checkFrist = prefs.getInteger("checkFirst");
+    GMain.prefs.putLong("mymonney",100000000);
+    GMain.prefs.flush();
     SoundEffect.initSound();
     this.init();
     this.setScreen(new gameStart());

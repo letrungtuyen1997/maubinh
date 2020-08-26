@@ -14,6 +14,7 @@ import com.effect.SoundEffect;
 import com.effect.effectWin;
 import com.ss.GMain;
 import com.ss.commons.Tweens;
+import com.ss.core.action.exAction.GSimpleAction;
 import com.ss.core.util.GAssetsManager;
 import com.ss.core.util.GLayer;
 import com.ss.core.util.GScreen;
@@ -47,6 +48,7 @@ public class gameStart extends GScreen {
         initAtlas();
         showBg();
         loadInfo();
+        //test();
     }
 
     @Override
@@ -64,6 +66,7 @@ public class gameStart extends GScreen {
             monney= boardConfig.Mymonney;
         }else {
             monney= boardConfig.Mymonney;
+            System.out.println("monney: "+monney);
         }
         Image bg = GUI.createImage(uiAtlas,"bg");
         bg.setWidth(GStage.getWorldWidth());
@@ -153,10 +156,10 @@ public class gameStart extends GScreen {
                     GMain.platform.ShowLeaderboard();
                 });
                 return super.touchDown(event, x, y, pointer, button);
-
             }
         });
     }
+
     void initAtlas(){
         uiAtlas = GAssetsManager.getTextureAtlas("uiStart.atlas");
         font = GAssetsManager.getBitmapFont("font_white.fnt");
@@ -165,5 +168,38 @@ public class gameStart extends GScreen {
         DecimalFormat mDecimalFormat = new DecimalFormat("###,###,###,###");
         String mPrice = mDecimalFormat.format(Price);
         return mPrice;
+    }
+//    private void test(){
+//        TextureAtlas atlas = GAssetsManager.getTextureAtlas("test.atlas");
+//        Group group = new Group();
+//        GStage.addToLayer(GLayer.top,group);
+//        Image cogai = GUI.createImage(atlas,"bdM");
+//        cogai.setPosition(0,0,Align.center);
+//        group.addActor(cogai);
+//        group.setPosition(-cogai.getWidth()/2,GStage.getWorldHeight()/2,Align.center);
+//        moveAction(group,3,GStage.getWorldWidth()-200,()->{
+//            System.out.println("toi noi");
+//        });
+//
+//    }
+    private void moveAction(Group group,float duration, float x, Runnable runnable){
+        float x1 = (x-group.getX())/8;
+        float dr = duration/8;
+        group.addAction(Actions.sequence(
+                Actions.moveBy(x1,20,dr),
+                Actions.moveBy(x1,-20,dr),
+                Actions.moveBy(x1,20,dr),
+                Actions.moveBy(x1,-20,dr),
+                Actions.moveBy(x1,20,dr),
+                Actions.moveBy(x1,-20,dr),
+                Actions.moveBy(x1,20,dr),
+                Actions.moveBy(x1,-20,dr),
+                GSimpleAction.simpleAction((d,a)->{
+                    group.addAction(Actions.run(runnable));
+                    return true;
+                })
+
+        ));
+
     }
 }

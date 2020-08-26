@@ -1,0 +1,13 @@
+
+test.png
+size: 256,256
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+bdM
+  rotate: false
+  xy: 2, 2
+  size: 137, 196
+  orig: 137, 196
+  offset: 0, 0
+  index: -1

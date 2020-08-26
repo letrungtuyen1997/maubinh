@@ -140,7 +140,6 @@ public class setting implements  ToggleHandler {
             if(str=="music"){
                 if(SoundEffect.music==false){
                     SoundEffect.Stopmusic();
-
                 }
                 if(SoundEffect.music2==false){
                     SoundEffect.Stopmusic2();
@@ -157,7 +156,6 @@ public class setting implements  ToggleHandler {
         if(str=="music"){
             if(SoundEffect.music==true){
                 SoundEffect.Playmusic();
-
             }
             if(SoundEffect.music2==true){
                 SoundEffect.Playmusic2();
